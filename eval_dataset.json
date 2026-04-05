@@ -1,0 +1,364 @@
+{
+    "audit_questions": [
+        {
+            "id": 1,
+            "family": "Access Control",
+            "control_id": "AC-1",
+            "question": "Does the organization’s access control policy and procedures demonstrate active collaboration between the security and privacy programs to ensure that safeguards protect both organizational assets and the welfare of individuals? [1-3]"
+        },
+        {
+            "id": 2,
+            "family": "Access Control",
+            "control_id": "AC-2",
+            "question": "When system accounts involve access to personally identifiable information (PII), does the security program collaborate with the senior agency official for privacy to establish specific conditions for group and role membership? [4, 5]"
+        },
+        {
+            "id": 3,
+            "family": "Access Control",
+            "control_id": "AC-2(12)",
+            "question": "When monitoring system accounts for atypical usage, has the organization assessed and documented the privacy risks associated with collecting this behavioral data within its privacy impact assessment? [6]"
+        },
+        {
+            "id": 4,
+            "family": "Access Control",
+            "control_id": "AC-3(14)",
+            "question": "What technical mechanisms are provided to enable individuals to access and review their own PII held within organizational records to ensure its accuracy? [7]"
+        },
+        {
+            "id": 5,
+            "family": "Access Control",
+            "control_id": "AC-4",
+            "question": "How are information flow control policies enforced to prevent the unauthorized combination of PII datasets or the travel of sensitive data to unauthorized security or privacy domains? [8, 9]"
+        },
+        {
+            "id": 6,
+            "family": "Access Control",
+            "control_id": "AC-6",
+            "question": "How is the principle of least privilege applied to system processes to ensure they operate at the minimum privilege level necessary to reduce the privacy footprint? [10, 11]"
+        },
+        {
+            "id": 7,
+            "family": "Access Control",
+            "control_id": "AC-8",
+            "question": "Does the system display a notification message or banner before login that provides privacy and security notices consistent with applicable laws? [12]"
+        },
+        {
+            "id": 8,
+            "family": "Access Control",
+            "control_id": "AC-16",
+            "question": "Are metadata attributes, such as consent status or job function, bound to information to enable automated access and flow enforcement decisions? [13]"
+        },
+        {
+            "id": 9,
+            "family": "Access Control",
+            "control_id": "AC-20",
+            "question": "What terms, conditions, and verification processes are in place to protect organization-controlled information when it is processed using external systems? [14]"
+        },
+        {
+            "id": 10,
+            "family": "Access Control",
+            "control_id": "AC-23",
+            "question": "What prevention and detection techniques are employed to protect data storage objects against unauthorized data mining that could lead to unanticipated revelations about individuals? [15]"
+        },
+        {
+            "id": 11,
+            "family": "Awareness and Training",
+            "control_id": "AT-2",
+            "question": "Is security and privacy literacy training provided to all users as part of initial training and at the organization-defined frequency thereafter? [16]"
+        },
+        {
+            "id": 12,
+            "family": "Awareness and Training",
+            "control_id": "AT-3",
+            "question": "Are personnel with specialized privacy management responsibilities provided with training before they are authorized to access systems? [17]"
+        },
+        {
+            "id": 13,
+            "family": "Audit and Accountability",
+            "control_id": "AU-2",
+            "question": "Does the system log events that are specifically significant and relevant to the privacy of individuals, such as changes to privacy attributes? [18]"
+        },
+        {
+            "id": 14,
+            "family": "Audit and Accountability",
+            "control_id": "AU-3",
+            "question": "Has the organization considered limiting the content of audit records to ensure they do not include information that could increase the risk to individuals' privacy? [19]"
+        },
+        {
+            "id": 15,
+            "family": "Audit and Accountability",
+            "control_id": "AU-12(4)",
+            "question": "Is the organization capable of auditing the parameters of user query events for datasets that contain PII? [20]"
+        },
+        {
+            "id": 16,
+            "family": "Audit and Accountability",
+            "control_id": "AU-13",
+            "question": "Does the organization monitor open-source information and social networking sites for evidence of unauthorized disclosure of organizational PII? [21]"
+        },
+        {
+            "id": 17,
+            "family": "Assessment, Authorization, and Monitoring",
+            "control_id": "CA-2(2)",
+            "question": "Are specialized assessments, such as data leakage or data loss assessments, conducted to improve the organization's privacy posture? [22]"
+        },
+        {
+            "id": 18,
+            "family": "Assessment, Authorization, and Monitoring",
+            "control_id": "CA-7",
+            "question": "Does the continuous monitoring strategy include reporting the privacy status of the system to designated officials at the required frequency? [23]"
+        },
+        {
+            "id": 19,
+            "family": "Assessment, Authorization, and Monitoring",
+            "control_id": "CA-8",
+            "question": "Does the penetration testing process include an in-depth analysis of privacy-related weaknesses and deficiencies? [24]"
+        },
+        {
+            "id": 20,
+            "family": "Configuration Management",
+            "control_id": "CM-3",
+            "question": "Does the Senior Agency Official for Privacy review and update privacy impact assessments when configuration changes affect privacy risk? [25]"
+        },
+        {
+            "id": 21,
+            "family": "Configuration Management",
+            "control_id": "CM-13",
+            "question": "Has the organization developed a map of system data actions to understand how PII is processed throughout its full life cycle? [26]"
+        },
+        {
+            "id": 22,
+            "family": "Contingency Planning",
+            "control_id": "CP-9",
+            "question": "Are backups of security- and privacy-related documentation conducted at a frequency consistent with recovery objectives? [27, 28]"
+        },
+        {
+            "id": 23,
+            "family": "Identification and Authentication",
+            "control_id": "IA-2(1)",
+            "question": "Is multi-factor authentication strictly implemented for any privileged accounts that have access to PII? [29, 30]"
+        },
+        {
+            "id": 24,
+            "family": "Identification and Authentication",
+            "control_id": "IA-4(8)",
+            "question": "Does the organization use pairwise pseudonymous identifiers to discourage the unauthorized tracking and profiling of individuals? [31]"
+        },
+        {
+            "id": 25,
+            "family": "Incident Response",
+            "control_id": "IR-2(3)",
+            "question": "Are users trained to identify and report confirmed or suspected breaches involving PII in any medium or form? [32-34]"
+        },
+        {
+            "id": 26,
+            "family": "Incident Response",
+            "control_id": "IR-4(7)",
+            "question": "Is the senior agency official for privacy included in the coordination of incident handling for potential insider threat events? [32, 35]"
+        },
+        {
+            "id": 27,
+            "family": "Incident Response",
+            "control_id": "IR-8(1)",
+            "question": "Does the incident response plan include an assessment process to determine the extent of harm or unfairness caused to affected individuals? [7, 36]"
+        },
+        {
+            "id": 28,
+            "family": "Media Protection",
+            "control_id": "MP-4",
+            "question": "Is digital and non-digital media containing PII physically controlled and securely stored within authorized controlled areas? [37]"
+        },
+        {
+            "id": 29,
+            "family": "Media Protection",
+            "control_id": "MP-6",
+            "question": "Are there verified procedures to sanitize media containing non-public PII before the media is disposed of? [22, 38, 39]"
+        },
+        {
+            "id": 30,
+            "family": "Maintenance",
+            "control_id": "MA-3",
+            "question": "Are maintenance tools such as packet sniffers reviewed and approved for use only by authorized personnel? [40, 41]"
+        },
+        {
+            "id": 31,
+            "family": "Physical and Environmental Protection",
+            "control_id": "PE-17",
+            "question": "Does the organization assess the effectiveness of privacy and security controls at alternate work sites used by employees? [42]"
+        },
+        {
+            "id": 32,
+            "family": "Physical and Environmental Protection",
+            "control_id": "PE-20",
+            "question": "Has the organization consulted with privacy officials regarding the potential concerns associated with using asset location technologies? [43]"
+        },
+        {
+            "id": 33,
+            "family": "Planning",
+            "control_id": "PL-2",
+            "question": "Do the system security and privacy plans provide the results of a privacy risk assessment for all systems processing PII? [44, 45]"
+        },
+        {
+            "id": 34,
+            "family": "Planning",
+            "control_id": "PL-4(1)",
+            "question": "Do the rules of behavior explicitly restrict the posting of organizational PII on social media or other public websites? [46, 47]"
+        },
+        {
+            "id": 35,
+            "family": "Planning",
+            "control_id": "PL-8",
+            "question": "Does the system architecture describe the approach taken to minimize privacy risk to individuals during PII processing? [45, 48]"
+        },
+        {
+            "id": 36,
+            "family": "Program Management",
+            "control_id": "PM-5(1)",
+            "question": "Does the organization maintain an inventory of all systems and applications that process PII to support transparency? [49, 50]"
+        },
+        {
+            "id": 37,
+            "family": "Program Management",
+            "control_id": "PM-21",
+            "question": "Is there an accurate accounting of PII disclosures that is made available to the related individual upon request? [49, 51]"
+        },
+        {
+            "id": 38,
+            "family": "Program Management",
+            "control_id": "PM-22",
+            "question": "Are there organization-wide policies for reviewing and correcting inaccurate PII across the information life cycle? [49, 52, 53]"
+        },
+        {
+            "id": 39,
+            "family": "Program Management",
+            "control_id": "PM-25",
+            "question": "Does the organization use placeholder data or de-identification techniques to minimize the use of PII in testing? [54, 55]"
+        },
+        {
+            "id": 40,
+            "family": "Program Management",
+            "control_id": "PM-26",
+            "question": "Is there a readily accessible mechanism for the public to file complaints regarding organizational privacy practices? [56, 57]"
+        },
+        {
+            "id": 41,
+            "family": "PII Processing and Transparency",
+            "control_id": "PT-2",
+            "question": "Has the organization determined and documented the legal authority that permits the specific processing of PII? [15, 58]"
+        },
+        {
+            "id": 42,
+            "family": "PII Processing and Transparency",
+            "control_id": "PT-3",
+            "question": "Is PII processing restricted to purposes that are compatible with those identified in public privacy notices? [58, 59]"
+        },
+        {
+            "id": 43,
+            "family": "PII Processing and Transparency",
+            "control_id": "PT-4",
+            "question": "Are tools provided for individuals to consent to PII processing in a manner that facilitates informed decision-making? [60, 61]"
+        },
+        {
+            "id": 44,
+            "family": "PII Processing and Transparency",
+            "control_id": "PT-5",
+            "question": "Are privacy notices available to individuals at the time of their first interaction with the organization? [62-64]"
+        },
+        {
+            "id": 45,
+            "family": "Risk Assessment",
+            "control_id": "RA-8",
+            "question": "Are privacy impact assessments conducted before developing or procuring information technology that processes PII? [65-67]"
+        },
+        {
+            "id": 46,
+            "family": "System and Information Integrity",
+            "control_id": "SI-18",
+            "question": "Does the organization check the accuracy and completeness of PII at defined frequencies to prevent adverse decisions? [53, 68, 69]"
+        },
+        {
+            "id": 47,
+            "family": "System and Information Integrity",
+            "control_id": "SI-19",
+            "question": "When de-identifying datasets, does the organization perform motivated intruder tests to ensure data cannot be re-identified? [68, 70, 71]"
+        },
+        {
+            "id": 48,
+            "family": "Access Control",
+            "control_id": "AC-2",
+            "question": "Are temporary and emergency accounts automatically disabled or removed after the organization-defined time period? [4, 72]"
+        },
+        {
+            "id": 49,
+            "family": "Access Control",
+            "control_id": "AC-2",
+            "question": "Does the system automatically disable accounts that have been inactive for an organization-defined duration? [72]"
+        },
+        {
+            "id": 50,
+            "family": "Access Control",
+            "control_id": "AC-3",
+            "question": "Is dual authorization (two-person control) enforced for the execution of critical privileged commands? [73, 74]"
+        },
+        {
+            "id": 51,
+            "family": "Access Control",
+            "control_id": "AC-3",
+            "question": "Under what specific conditions is an audited override of automated access control mechanisms permitted? [73]"
+        },
+        {
+            "id": 52,
+            "family": "Access Control",
+            "control_id": "AC-3",
+            "question": "Are applications required to assert the specific system functions they need to access during installation? [75]"
+        },
+        {
+            "id": 53,
+            "family": "Access Control",
+            "control_id": "AC-4",
+            "question": "Does the system prevent encrypted information from bypassing flow control mechanisms by blocking or decrypting it for inspection? [8]"
+        },
+        {
+            "id": 54,
+            "family": "Access Control",
+            "control_id": "AC-4",
+            "question": "Are security and privacy policy filters used to strip or quarantine data that fails an automated check? [76, 77]"
+        },
+        {
+            "id": 55,
+            "family": "Access Control",
+            "control_id": "AC-4",
+            "question": "Does the organization use linear filter pipelines to ensure that filtering processes are always invoked and cannot be bypassed? [78]"
+        },
+        {
+            "id": 56,
+            "family": "Access Control",
+            "control_id": "AC-5",
+            "question": "How is the principle of separation of duties applied to prevent malevolent activity through collusion? [5, 74]"
+        },
+        {
+            "id": 57,
+            "family": "Access Control",
+            "control_id": "AC-6",
+            "question": "Are privileged users required to use non-privileged accounts when performing non-security-related functions? [79]"
+        },
+        {
+            "id": 58,
+            "family": "Access Control",
+            "control_id": "AC-9",
+            "question": "Does the system notify the user of the date, time, and location of their last successful logon to help detect unauthorized access? [80]"
+        },
+        {
+            "id": 59,
+            "family": "Access Control",
+            "control_id": "AC-12",
+            "question": "Does the system automatically terminate user sessions after a period of inactivity or specific trigger events? [81]"
+        },
+        {
+            "id": 60,
+            "family": "Access Control",
+            "control_id": "AC-22",
+            "question": "What rigorous review process is implemented to ensure that nonpublic PII is not inadvertently disclosed on public systems? [82]"
+        }
+    ]
+}
