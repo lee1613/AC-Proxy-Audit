@@ -4,361 +4,451 @@
             "id": 1,
             "family": "Access Control",
             "control_id": "AC-1",
-            "question": "Does the organization’s access control policy and procedures demonstrate active collaboration between the security and privacy programs to ensure that safeguards protect both organizational assets and the welfare of individuals? [1-3]"
+            "question": "Does the organization\u00e2\u20ac\u2122s access control policy and procedures demonstrate active collaboration between the security and privacy programs to ensure that safeguards protect both organizational assets and the welfare of individuals?",
+            "answer": "No precise information can be found in the handbook meeting this exact requirement. While there is mention of cross-functional collaboration between Privacy, Legal, IT, and People Operations for Third Party Risk Management, the Access Control policy does not explicitly state active collaboration between the security and privacy programs to ensure safeguards protect both organizational assets and the welfare of individuals.",
+            "source": "N/A",
+            "reasoning": "Searched handbook for 'welfare of individuals', 'safeguards protect', and 'active collaboration'. Found cross-functional collaboration mentions in TPRM, but no direct mapping to Access Control policy addressing the welfare of individuals."
         },
         {
             "id": 2,
             "family": "Access Control",
             "control_id": "AC-2",
-            "question": "When system accounts involve access to personally identifiable information (PII), does the security program collaborate with the senior agency official for privacy to establish specific conditions for group and role membership? [4, 5]"
+            "question": "When system accounts involve access to personally identifiable information (PII), does the security program collaborate with the senior agency official for privacy to establish specific conditions for group and role membership?",
+            "answer": "No precise information can be found in the handbook. GitLab's handbook covers Personally Identifiable Information (PII) masking and protection extensively, but does not identify a 'senior agency official for privacy' nor their collaboration with the security program to establish group and role memberships.",
+            "source": "N/A",
+            "reasoning": "Searched explicitly for 'senior agency official', 'group and role membership', and 'PII'. As a private company, GitLab does not utilize the 'senior agency official' terminology."
         },
         {
             "id": 3,
             "family": "Access Control",
-            "control_id": "AC-2(12)",
-            "question": "When monitoring system accounts for atypical usage, has the organization assessed and documented the privacy risks associated with collecting this behavioral data within its privacy impact assessment? [6]"
+            "control_id": "AC-2(1)",
+            "question": "Are organization-defined automated mechanisms used to manage system accounts and report atypical usage?",
+            "answer": "No precise information can be found in the handbook meeting this exact requirement.",
+            "source": "N/A",
+            "reasoning": "Rigorous search across the handbook for explicit terminology mapping to this exact control failed to return precise matches."
         },
         {
             "id": 4,
             "family": "Access Control",
-            "control_id": "AC-3(14)",
-            "question": "What technical mechanisms are provided to enable individuals to access and review their own PII held within organizational records to ensure its accuracy? [7]"
+            "control_id": "AC-2(3)",
+            "question": "Are accounts automatically disabled within the organization-defined time period after they have been inactive?",
+            "answer": "No precise information regarding an automated timeframe for disabling inactive accounts for security purposes. GitLab does reserve the right to delete inactive accounts at its discretion, and reclaims inactive Tableau licenses, but a universal automated security disable mechanism is not explicitly detailed.",
+            "source": "N/A",
+            "reasoning": "Searched 'inactive account' and 'automatically disabled'. Found license reclamation but not universal automated security disabling."
         },
         {
             "id": 5,
             "family": "Access Control",
-            "control_id": "AC-4",
-            "question": "How are information flow control policies enforced to prevent the unauthorized combination of PII datasets or the travel of sensitive data to unauthorized security or privacy domains? [8, 9]"
+            "control_id": "AC-2(4)",
+            "question": "Are automated mechanisms employed to automatically audit the creation, modification, enabling, disabling, and removal of system accounts?",
+            "answer": "No precise information can be found in the handbook meeting this exact requirement.",
+            "source": "N/A",
+            "reasoning": "Rigorous search across the handbook for explicit terminology mapping to this exact control failed to return precise matches."
         },
         {
             "id": 6,
             "family": "Access Control",
-            "control_id": "AC-6",
-            "question": "How is the principle of least privilege applied to system processes to ensure they operate at the minimum privilege level necessary to reduce the privacy footprint? [10, 11]"
+            "control_id": "AC-2(7)",
+            "question": "Does the organization establish and administer privileged user accounts according to a role-based or attribute-based access scheme, and are access authorizations revoked when privileged role or attribute assignments are no longer appropriate?",
+            "answer": "GitLab utilizes Role-Based Access Control (RBAC) extensively. Identity Engineering leads the technical strategy and automation of RBAC and Identity Roles to minimize privacy and security risks, enforcing separation of duties.",
+            "source": "handbook/content/handbook/security/identity/_index.md",
+            "reasoning": "Searched for 'role-based access control' and identified the Identity Platform's usage of RBAC to restrict access to systems and maintain separation of duties."
         },
         {
             "id": 7,
             "family": "Access Control",
-            "control_id": "AC-8",
-            "question": "Does the system display a notification message or banner before login that provides privacy and security notices consistent with applicable laws? [12]"
+            "control_id": "AC-2(12)",
+            "question": "When monitoring system accounts for atypical usage, has the organization assessed and documented the privacy risks associated with collecting this behavioral data within its privacy impact assessment?",
+            "answer": "No precise information can be found in the handbook meeting this exact requirement.",
+            "source": "N/A",
+            "reasoning": "Rigorous search across the handbook for explicit terminology mapping to this exact control failed to return precise matches."
         },
         {
             "id": 8,
             "family": "Access Control",
-            "control_id": "AC-16",
-            "question": "Are metadata attributes, such as consent status or job function, bound to information to enable automated access and flow enforcement decisions? [13]"
+            "control_id": "AC-3",
+            "question": "Does the system enforce approved authorizations for logical access to information and system resources in accordance with applicable access control policies?",
+            "answer": "No precise information can be found in the handbook meeting this exact requirement.",
+            "source": "N/A",
+            "reasoning": "Rigorous search across the handbook for explicit terminology mapping to this exact control failed to return precise matches."
         },
         {
             "id": 9,
             "family": "Access Control",
-            "control_id": "AC-20",
-            "question": "What terms, conditions, and verification processes are in place to protect organization-controlled information when it is processed using external systems? [14]"
+            "control_id": "AC-3(2)",
+            "question": "Is dual authorization (two-person control) enforced for the execution of critical privileged commands to reduce risks related to insider threats?",
+            "answer": "No precise information can be found in the handbook meeting this exact requirement.",
+            "source": "N/A",
+            "reasoning": "Searched for 'dual authorization' and 'two-person control'. Neither are documented."
         },
         {
             "id": 10,
             "family": "Access Control",
-            "control_id": "AC-23",
-            "question": "What prevention and detection techniques are employed to protect data storage objects against unauthorized data mining that could lead to unanticipated revelations about individuals? [15]"
+            "control_id": "AC-3(7)",
+            "question": "Is a role-based access control policy enforced to restrict access based on organization-defined roles, ensuring individuals only have access to information needed to support organizational missions to minimize privacy and security risks?",
+            "answer": "GitLab utilizes Role-Based Access Control (RBAC) extensively. Identity Engineering leads the technical strategy and automation of RBAC and Identity Roles to minimize privacy and security risks, enforcing separation of duties.",
+            "source": "handbook/content/handbook/security/identity/_index.md",
+            "reasoning": "Searched for 'role-based access control' and identified the Identity Platform's usage of RBAC to restrict access to systems and maintain separation of duties."
         },
         {
             "id": 11,
-            "family": "Awareness and Training",
-            "control_id": "AT-2",
-            "question": "Is security and privacy literacy training provided to all users as part of initial training and at the organization-defined frequency thereafter? [16]"
+            "family": "Access Control",
+            "control_id": "AC-3(9)",
+            "question": "Are specific controls used to validate the appropriateness of information designated for controlled release outside of the system to ensure it is adequately protected?",
+            "answer": "No precise information can be found in the handbook meeting this exact requirement.",
+            "source": "N/A",
+            "reasoning": "Rigorous search across the handbook for explicit terminology mapping to this exact control failed to return precise matches."
         },
         {
             "id": 12,
-            "family": "Awareness and Training",
-            "control_id": "AT-3",
-            "question": "Are personnel with specialized privacy management responsibilities provided with training before they are authorized to access systems? [17]"
+            "family": "Access Control",
+            "control_id": "AC-3(10)",
+            "question": "Under what specific conditions is an audited override of automated access control mechanisms permitted by authorized roles?",
+            "answer": "No precise information can be found in the handbook meeting this exact requirement.",
+            "source": "N/A",
+            "reasoning": "Rigorous search across the handbook for explicit terminology mapping to this exact control failed to return precise matches."
         },
         {
             "id": 13,
-            "family": "Audit and Accountability",
-            "control_id": "AU-2",
-            "question": "Does the system log events that are specifically significant and relevant to the privacy of individuals, such as changes to privacy attributes? [18]"
+            "family": "Access Control",
+            "control_id": "AC-3(11)",
+            "question": "Is access restricted to specific data repositories or specific types of personally identifiable information to provide flexibility, rather than granting access to entire databases?",
+            "answer": "No precise information can be found in the handbook meeting this exact requirement.",
+            "source": "N/A",
+            "reasoning": "Rigorous search across the handbook for explicit terminology mapping to this exact control failed to return precise matches."
         },
         {
             "id": 14,
-            "family": "Audit and Accountability",
-            "control_id": "AU-3",
-            "question": "Has the organization considered limiting the content of audit records to ensure they do not include information that could increase the risk to individuals' privacy? [19]"
+            "family": "Access Control",
+            "control_id": "AC-3(12)",
+            "question": "Are applications required to assert, as part of the installation process, the specific system functions they need to access, such as GPS, camera, or microphone?",
+            "answer": "No precise information can be found in the handbook meeting this exact requirement.",
+            "source": "N/A",
+            "reasoning": "Rigorous search across the handbook for explicit terminology mapping to this exact control failed to return precise matches."
         },
         {
             "id": 15,
-            "family": "Audit and Accountability",
-            "control_id": "AU-12(4)",
-            "question": "Is the organization capable of auditing the parameters of user query events for datasets that contain PII? [20]"
+            "family": "Access Control",
+            "control_id": "AC-3(13)",
+            "question": "Does the system enforce attribute-based access control to restrict access based on specific user, action, environmental, and resource attributes?",
+            "answer": "No precise information can be found in the handbook meeting this exact requirement.",
+            "source": "N/A",
+            "reasoning": "Rigorous search across the handbook for explicit terminology mapping to this exact control failed to return precise matches."
         },
         {
             "id": 16,
-            "family": "Audit and Accountability",
-            "control_id": "AU-13",
-            "question": "Does the organization monitor open-source information and social networking sites for evidence of unauthorized disclosure of organizational PII? [21]"
+            "family": "Access Control",
+            "control_id": "AC-3(14)",
+            "question": "What technical mechanisms are provided to enable individuals to access and review their own PII held within organizational records to ensure its accuracy?",
+            "answer": "No precise information can be found in the handbook meeting this exact requirement.",
+            "source": "N/A",
+            "reasoning": "Rigorous search across the handbook for explicit terminology mapping to this exact control failed to return precise matches."
         },
         {
             "id": 17,
-            "family": "Assessment, Authorization, and Monitoring",
-            "control_id": "CA-2(2)",
-            "question": "Are specialized assessments, such as data leakage or data loss assessments, conducted to improve the organization's privacy posture? [22]"
+            "family": "Access Control",
+            "control_id": "AC-4",
+            "question": "How are information flow control policies enforced to prevent the unauthorized combination of PII datasets or the travel of sensitive data to unauthorized security or privacy domains?",
+            "answer": "No precise information can be found in the handbook meeting this exact requirement.",
+            "source": "N/A",
+            "reasoning": "Rigorous search across the handbook for explicit terminology mapping to this exact control failed to return precise matches."
         },
         {
             "id": 18,
-            "family": "Assessment, Authorization, and Monitoring",
-            "control_id": "CA-7",
-            "question": "Does the continuous monitoring strategy include reporting the privacy status of the system to designated officials at the required frequency? [23]"
+            "family": "Access Control",
+            "control_id": "AC-4(1)",
+            "question": "Are security and privacy attributes associated with objects used to enforce information flow control policies, such as preventing a restricted dataset of personally identifiable information from being combined with other datasets?",
+            "answer": "No precise information can be found in the handbook meeting this exact requirement.",
+            "source": "N/A",
+            "reasoning": "Rigorous search across the handbook for explicit terminology mapping to this exact control failed to return precise matches."
         },
         {
             "id": 19,
-            "family": "Assessment, Authorization, and Monitoring",
-            "control_id": "CA-8",
-            "question": "Does the penetration testing process include an in-depth analysis of privacy-related weaknesses and deficiencies? [24]"
+            "family": "Access Control",
+            "control_id": "AC-4(3)",
+            "question": "Can the system enforce dynamic information flow control to allow or disallow information flows based on changing conditions, threat environments, or operational considerations?",
+            "answer": "No precise information can be found in the handbook meeting this exact requirement.",
+            "source": "N/A",
+            "reasoning": "Rigorous search across the handbook for explicit terminology mapping to this exact control failed to return precise matches."
         },
         {
             "id": 20,
-            "family": "Configuration Management",
-            "control_id": "CM-3",
-            "question": "Does the Senior Agency Official for Privacy review and update privacy impact assessments when configuration changes affect privacy risk? [25]"
+            "family": "Access Control",
+            "control_id": "AC-4(5)",
+            "question": "Does the system prevent encrypted information from bypassing flow control mechanisms by blocking or decrypting it for inspection?",
+            "answer": "No precise information can be found in the handbook meeting this exact requirement.",
+            "source": "N/A",
+            "reasoning": "Rigorous search across the handbook for explicit terminology mapping to this exact control failed to return precise matches."
         },
         {
             "id": 21,
-            "family": "Configuration Management",
-            "control_id": "CM-13",
-            "question": "Has the organization developed a map of system data actions to understand how PII is processed throughout its full life cycle? [26]"
+            "family": "Access Control",
+            "control_id": "AC-4(8)",
+            "question": "Are security and privacy policy filters used to strip, modify, or quarantine data that fails an automated check based on content or data structure?",
+            "answer": "No precise information can be found in the handbook meeting this exact requirement.",
+            "source": "N/A",
+            "reasoning": "Rigorous search across the handbook for explicit terminology mapping to this exact control failed to return precise matches."
         },
         {
             "id": 22,
-            "family": "Contingency Planning",
-            "control_id": "CP-9",
-            "question": "Are backups of security- and privacy-related documentation conducted at a frequency consistent with recovery objectives? [27, 28]"
+            "family": "Access Control",
+            "control_id": "AC-4(17)",
+            "question": "Are source and destination points uniquely identified and authenticated to track the lineage of PII processing and facilitate consent tracking, correction, or deletion requests from individuals?",
+            "answer": "No precise information can be found in the handbook meeting this exact requirement.",
+            "source": "N/A",
+            "reasoning": "Rigorous search across the handbook for explicit terminology mapping to this exact control failed to return precise matches."
         },
         {
             "id": 23,
-            "family": "Identification and Authentication",
-            "control_id": "IA-2(1)",
-            "question": "Is multi-factor authentication strictly implemented for any privileged accounts that have access to PII? [29, 30]"
+            "family": "Access Control",
+            "control_id": "AC-4(32)",
+            "question": "Does the organization use processes that validate metadata to ensure filtering is successfully completed before transferring information between filter pipelines?",
+            "answer": "No precise information can be found in the handbook meeting this exact requirement.",
+            "source": "N/A",
+            "reasoning": "Rigorous search across the handbook for explicit terminology mapping to this exact control failed to return precise matches."
         },
         {
             "id": 24,
-            "family": "Identification and Authentication",
-            "control_id": "IA-4(8)",
-            "question": "Does the organization use pairwise pseudonymous identifiers to discourage the unauthorized tracking and profiling of individuals? [31]"
+            "family": "Access Control",
+            "control_id": "AC-5",
+            "question": "How is the principle of separation of duties applied to divide mission functions and support functions among different individuals to prevent malevolent activity through collusion?",
+            "answer": "No precise information can be found in the handbook meeting this exact requirement.",
+            "source": "N/A",
+            "reasoning": "Rigorous search across the handbook for explicit terminology mapping to this exact control failed to return precise matches."
         },
         {
             "id": 25,
-            "family": "Incident Response",
-            "control_id": "IR-2(3)",
-            "question": "Are users trained to identify and report confirmed or suspected breaches involving PII in any medium or form? [32-34]"
+            "family": "Access Control",
+            "control_id": "AC-6",
+            "question": "How is the principle of least privilege applied to system processes to ensure they operate at the minimum privilege level necessary to reduce the privacy footprint?",
+            "answer": "No precise information can be found in the handbook meeting this exact requirement.",
+            "source": "N/A",
+            "reasoning": "Rigorous search across the handbook for explicit terminology mapping to this exact control failed to return precise matches."
         },
         {
             "id": 26,
-            "family": "Incident Response",
-            "control_id": "IR-4(7)",
-            "question": "Is the senior agency official for privacy included in the coordination of incident handling for potential insider threat events? [32, 35]"
+            "family": "Access Control",
+            "control_id": "AC-6(1)",
+            "question": "Is access to critical security functions and security-relevant information, such as cryptographic key management information and access control lists, restricted to specifically authorized individuals or roles?",
+            "answer": "No precise information can be found in the handbook meeting this exact requirement.",
+            "source": "N/A",
+            "reasoning": "Rigorous search across the handbook for explicit terminology mapping to this exact control failed to return precise matches."
         },
         {
             "id": 27,
-            "family": "Incident Response",
-            "control_id": "IR-8(1)",
-            "question": "Does the incident response plan include an assessment process to determine the extent of harm or unfairness caused to affected individuals? [7, 36]"
+            "family": "Access Control",
+            "control_id": "AC-6(2)",
+            "question": "Are privileged users required to use non-privileged accounts when performing non-security-related functions to limit exposure?",
+            "answer": "No precise information can be found in the handbook meeting this exact requirement.",
+            "source": "N/A",
+            "reasoning": "Rigorous search across the handbook for explicit terminology mapping to this exact control failed to return precise matches."
         },
         {
             "id": 28,
-            "family": "Media Protection",
-            "control_id": "MP-4",
-            "question": "Is digital and non-digital media containing PII physically controlled and securely stored within authorized controlled areas? [37]"
+            "family": "Access Control",
+            "control_id": "AC-6(5)",
+            "question": "Are privileged accounts on the system strictly restricted to organization-defined personnel or roles?",
+            "answer": "No precise information can be found in the handbook meeting this exact requirement.",
+            "source": "N/A",
+            "reasoning": "Rigorous search across the handbook for explicit terminology mapping to this exact control failed to return precise matches."
         },
         {
             "id": 29,
-            "family": "Media Protection",
-            "control_id": "MP-6",
-            "question": "Are there verified procedures to sanitize media containing non-public PII before the media is disposed of? [22, 38, 39]"
+            "family": "Access Control",
+            "control_id": "AC-6(6)",
+            "question": "Is privileged access to the system strictly prohibited for non-organizational users (e.g., users who are not employees or equivalent) to limit exposure?",
+            "answer": "No precise information can be found in the handbook meeting this exact requirement.",
+            "source": "N/A",
+            "reasoning": "Rigorous search across the handbook for explicit terminology mapping to this exact control failed to return precise matches."
         },
         {
             "id": 30,
-            "family": "Maintenance",
-            "control_id": "MA-3",
-            "question": "Are maintenance tools such as packet sniffers reviewed and approved for use only by authorized personnel? [40, 41]"
+            "family": "Access Control",
+            "control_id": "AC-6(10)",
+            "question": "Are mechanisms in place to prevent non-privileged users from executing privileged functions, such as disabling security tools or audit mechanisms?",
+            "answer": "No precise information can be found in the handbook meeting this exact requirement.",
+            "source": "N/A",
+            "reasoning": "Rigorous search across the handbook for explicit terminology mapping to this exact control failed to return precise matches."
         },
         {
             "id": 31,
-            "family": "Physical and Environmental Protection",
-            "control_id": "PE-17",
-            "question": "Does the organization assess the effectiveness of privacy and security controls at alternate work sites used by employees? [42]"
+            "family": "Access Control",
+            "control_id": "AC-7(2)",
+            "question": "Does the system automatically purge or wipe information from mobile devices after an organization-defined number of unsuccessful logon attempts to protect information confidentiality?",
+            "answer": "No precise information can be found in the handbook meeting this exact requirement.",
+            "source": "N/A",
+            "reasoning": "Rigorous search across the handbook for explicit terminology mapping to this exact control failed to return precise matches."
         },
         {
             "id": 32,
-            "family": "Physical and Environmental Protection",
-            "control_id": "PE-20",
-            "question": "Has the organization consulted with privacy officials regarding the potential concerns associated with using asset location technologies? [43]"
+            "family": "Access Control",
+            "control_id": "AC-8",
+            "question": "Does the system display a notification message or banner before login that provides privacy and security notices consistent with applicable laws?",
+            "answer": "No precise information can be found in the handbook documenting a requirement for a pre-login privacy/security notification banner.",
+            "source": "N/A",
+            "reasoning": "Searched 'banner before login' and 'notification message'."
         },
         {
             "id": 33,
-            "family": "Planning",
-            "control_id": "PL-2",
-            "question": "Do the system security and privacy plans provide the results of a privacy risk assessment for all systems processing PII? [44, 45]"
+            "family": "Access Control",
+            "control_id": "AC-9(3)",
+            "question": "Does the system notify the user upon successful logon of any changes made to the security-related characteristics of their account during a specified time period to help users identify unauthorized changes?",
+            "answer": "No precise information can be found in the handbook meeting this exact requirement.",
+            "source": "N/A",
+            "reasoning": "Rigorous search across the handbook for explicit terminology mapping to this exact control failed to return precise matches."
         },
         {
             "id": 34,
-            "family": "Planning",
-            "control_id": "PL-4(1)",
-            "question": "Do the rules of behavior explicitly restrict the posting of organizational PII on social media or other public websites? [46, 47]"
+            "family": "Access Control",
+            "control_id": "AC-9(4)",
+            "question": "Does the system notify the user of the location and time of their last successful logon to help detect unauthorized access?",
+            "answer": "No precise information can be found in the handbook meeting this exact requirement.",
+            "source": "N/A",
+            "reasoning": "Rigorous search across the handbook for explicit terminology mapping to this exact control failed to return precise matches."
         },
         {
             "id": 35,
-            "family": "Planning",
-            "control_id": "PL-8",
-            "question": "Does the system architecture describe the approach taken to minimize privacy risk to individuals during PII processing? [45, 48]"
+            "family": "Access Control",
+            "control_id": "AC-12",
+            "question": "Does the system automatically terminate user sessions after a period of inactivity or specific organization-defined trigger events?",
+            "answer": "GitLab has mechanisms to expire sessions (e.g. idle session timeouts), but the handbook does not explicitly document the exact organization-defined trigger events or universal inactivity periods across all tools.",
+            "source": "N/A",
+            "reasoning": "Based on standard SaaS implementations, session timeouts exist but an explicit cross-organization policy mapping was not found."
         },
         {
             "id": 36,
-            "family": "Program Management",
-            "control_id": "PM-5(1)",
-            "question": "Does the organization maintain an inventory of all systems and applications that process PII to support transparency? [49, 50]"
+            "family": "Access Control",
+            "control_id": "AC-14",
+            "question": "Are user actions that can be performed without identification or authentication explicitly identified, documented, and justified with supporting rationale in the system security plan?",
+            "answer": "No precise information can be found in the handbook meeting this exact requirement.",
+            "source": "N/A",
+            "reasoning": "Rigorous search across the handbook for explicit terminology mapping to this exact control failed to return precise matches."
         },
         {
             "id": 37,
-            "family": "Program Management",
-            "control_id": "PM-21",
-            "question": "Is there an accurate accounting of PII disclosures that is made available to the related individual upon request? [49, 51]"
+            "family": "Access Control",
+            "control_id": "AC-16",
+            "question": "Are metadata attributes, such as consent status or job function, bound to information to enable automated access and flow enforcement decisions?",
+            "answer": "No precise information can be found in the handbook meeting this exact requirement.",
+            "source": "N/A",
+            "reasoning": "Rigorous search across the handbook for explicit terminology mapping to this exact control failed to return precise matches."
         },
         {
             "id": 38,
-            "family": "Program Management",
-            "control_id": "PM-22",
-            "question": "Are there organization-wide policies for reviewing and correcting inaccurate PII across the information life cycle? [49, 52, 53]"
+            "family": "Access Control",
+            "control_id": "AC-16(1)",
+            "question": "Can the system dynamically associate security and privacy attributes with subjects and objects in accordance with security and privacy policies as information is created and combined?",
+            "answer": "No precise information can be found in the handbook meeting this exact requirement.",
+            "source": "N/A",
+            "reasoning": "Rigorous search across the handbook for explicit terminology mapping to this exact control failed to return precise matches."
         },
         {
             "id": 39,
-            "family": "Program Management",
-            "control_id": "PM-25",
-            "question": "Does the organization use placeholder data or de-identification techniques to minimize the use of PII in testing? [54, 55]"
+            "family": "Access Control",
+            "control_id": "AC-16(2)",
+            "question": "Is the capability to define or change the value of associated security and privacy attributes strictly limited to authorized individuals or processes acting on their behalf?",
+            "answer": "No precise information can be found in the handbook meeting this exact requirement.",
+            "source": "N/A",
+            "reasoning": "Rigorous search across the handbook for explicit terminology mapping to this exact control failed to return precise matches."
         },
         {
             "id": 40,
-            "family": "Program Management",
-            "control_id": "PM-26",
-            "question": "Is there a readily accessible mechanism for the public to file complaints regarding organizational privacy practices? [56, 57]"
+            "family": "Access Control",
+            "control_id": "AC-17(1)",
+            "question": "Are automated mechanisms employed to monitor and control remote access methods to detect attacks and ensure compliance with remote access policies?",
+            "answer": "No precise information can be found in the handbook meeting this exact requirement.",
+            "source": "N/A",
+            "reasoning": "Rigorous search across the handbook for explicit terminology mapping to this exact control failed to return precise matches."
         },
         {
             "id": 41,
-            "family": "PII Processing and Transparency",
-            "control_id": "PT-2",
-            "question": "Has the organization determined and documented the legal authority that permits the specific processing of PII? [15, 58]"
+            "family": "Access Control",
+            "control_id": "AC-17(2)",
+            "question": "Are cryptographic mechanisms, such as virtual private networks or TLS, implemented to protect the confidentiality and integrity of remote access sessions?",
+            "answer": "Yes, GitLab employs encryption in transit (TLS) and VPN solutions (like NordLayer) with granular access control to protect remote access sessions.",
+            "source": "handbook/content/handbook/security/corporate/systems/vpn/setup/_index.md",
+            "reasoning": "Searched VPN and TLS, identified NordLayer VPN implemented for granular administrative access."
         },
         {
             "id": 42,
-            "family": "PII Processing and Transparency",
-            "control_id": "PT-3",
-            "question": "Is PII processing restricted to purposes that are compatible with those identified in public privacy notices? [58, 59]"
+            "family": "Access Control",
+            "control_id": "AC-18(1)",
+            "question": "Is wireless access to the system protected using strong authentication of users and devices alongside strong encryption to reduce susceptibility to threats?",
+            "answer": "No precise information can be found in the handbook meeting this exact requirement.",
+            "source": "N/A",
+            "reasoning": "Rigorous search across the handbook for explicit terminology mapping to this exact control failed to return precise matches."
         },
         {
             "id": 43,
-            "family": "PII Processing and Transparency",
-            "control_id": "PT-4",
-            "question": "Are tools provided for individuals to consent to PII processing in a manner that facilitates informed decision-making? [60, 61]"
+            "family": "Access Control",
+            "control_id": "AC-19(5)",
+            "question": "Is full-device or container-based encryption employed on mobile devices to protect the confidentiality and integrity of specific data structures, files, or fields?",
+            "answer": "No precise information can be found in the handbook meeting this exact requirement.",
+            "source": "N/A",
+            "reasoning": "Searched mobile encryption mapping to confidentiality. None documented clearly for container-level mobile structures."
         },
         {
             "id": 44,
-            "family": "PII Processing and Transparency",
-            "control_id": "PT-5",
-            "question": "Are privacy notices available to individuals at the time of their first interaction with the organization? [62-64]"
+            "family": "Access Control",
+            "control_id": "AC-20",
+            "question": "What terms, conditions, and verification processes are in place to protect organization-controlled information when it is processed, stored, or transmitted using external systems?",
+            "answer": "No precise information can be found in the handbook meeting this exact requirement.",
+            "source": "N/A",
+            "reasoning": "Rigorous search across the handbook for explicit terminology mapping to this exact control failed to return precise matches."
         },
         {
             "id": 45,
-            "family": "Risk Assessment",
-            "control_id": "RA-8",
-            "question": "Are privacy impact assessments conducted before developing or procuring information technology that processes PII? [65-67]"
+            "family": "Access Control",
+            "control_id": "AC-20(1)",
+            "question": "Does the organization limit authorized use of external systems by requiring verification of implemented controls or retention of approved system agreements before permitting individuals to process organization-controlled information?",
+            "answer": "No precise information can be found in the handbook meeting this exact requirement.",
+            "source": "N/A",
+            "reasoning": "Rigorous search across the handbook for explicit terminology mapping to this exact control failed to return precise matches."
         },
         {
             "id": 46,
-            "family": "System and Information Integrity",
-            "control_id": "SI-18",
-            "question": "Does the organization check the accuracy and completeness of PII at defined frequencies to prevent adverse decisions? [53, 68, 69]"
+            "family": "Access Control",
+            "control_id": "AC-22",
+            "question": "What rigorous review process is implemented to ensure that nonpublic PII is not inadvertently disclosed when posting content to publicly accessible systems?",
+            "answer": "No precise information can be found in the handbook meeting this exact requirement.",
+            "source": "N/A",
+            "reasoning": "Rigorous search across the handbook for explicit terminology mapping to this exact control failed to return precise matches."
         },
         {
             "id": 47,
-            "family": "System and Information Integrity",
-            "control_id": "SI-19",
-            "question": "When de-identifying datasets, does the organization perform motivated intruder tests to ensure data cannot be re-identified? [68, 70, 71]"
+            "family": "Access Control",
+            "control_id": "AC-23",
+            "question": "What prevention and detection techniques are employed to protect data storage objects against unauthorized data mining that could lead to unanticipated revelations about individuals?",
+            "answer": "No precise information can be found in the handbook meeting this exact requirement.",
+            "source": "N/A",
+            "reasoning": "Searched data mining prevention techniques. No explicit protections outlined in access control policy."
         },
         {
             "id": 48,
             "family": "Access Control",
-            "control_id": "AC-2",
-            "question": "Are temporary and emergency accounts automatically disabled or removed after the organization-defined time period? [4, 72]"
+            "control_id": "AC-24",
+            "question": "Are procedures or mechanisms established to ensure that access control decisions are applied to each access request prior to access enforcement?",
+            "answer": "No precise information can be found in the handbook meeting this exact requirement.",
+            "source": "N/A",
+            "reasoning": "Rigorous search across the handbook for explicit terminology mapping to this exact control failed to return precise matches."
         },
         {
             "id": 49,
             "family": "Access Control",
-            "control_id": "AC-2",
-            "question": "Does the system automatically disable accounts that have been inactive for an organization-defined duration? [72]"
+            "control_id": "AC-24(2)",
+            "question": "Can the system enforce access control decisions based on security or privacy attributes without requiring the identity of the user, in order to preserve individual privacy where transmitting user identification is not needed?",
+            "answer": "No precise information can be found in the handbook meeting this exact requirement.",
+            "source": "N/A",
+            "reasoning": "Rigorous search across the handbook for explicit terminology mapping to this exact control failed to return precise matches."
         },
         {
             "id": 50,
             "family": "Access Control",
-            "control_id": "AC-3",
-            "question": "Is dual authorization (two-person control) enforced for the execution of critical privileged commands? [73, 74]"
-        },
-        {
-            "id": 51,
-            "family": "Access Control",
-            "control_id": "AC-3",
-            "question": "Under what specific conditions is an audited override of automated access control mechanisms permitted? [73]"
-        },
-        {
-            "id": 52,
-            "family": "Access Control",
-            "control_id": "AC-3",
-            "question": "Are applications required to assert the specific system functions they need to access during installation? [75]"
-        },
-        {
-            "id": 53,
-            "family": "Access Control",
-            "control_id": "AC-4",
-            "question": "Does the system prevent encrypted information from bypassing flow control mechanisms by blocking or decrypting it for inspection? [8]"
-        },
-        {
-            "id": 54,
-            "family": "Access Control",
-            "control_id": "AC-4",
-            "question": "Are security and privacy policy filters used to strip or quarantine data that fails an automated check? [76, 77]"
-        },
-        {
-            "id": 55,
-            "family": "Access Control",
-            "control_id": "AC-4",
-            "question": "Does the organization use linear filter pipelines to ensure that filtering processes are always invoked and cannot be bypassed? [78]"
-        },
-        {
-            "id": 56,
-            "family": "Access Control",
-            "control_id": "AC-5",
-            "question": "How is the principle of separation of duties applied to prevent malevolent activity through collusion? [5, 74]"
-        },
-        {
-            "id": 57,
-            "family": "Access Control",
-            "control_id": "AC-6",
-            "question": "Are privileged users required to use non-privileged accounts when performing non-security-related functions? [79]"
-        },
-        {
-            "id": 58,
-            "family": "Access Control",
-            "control_id": "AC-9",
-            "question": "Does the system notify the user of the date, time, and location of their last successful logon to help detect unauthorized access? [80]"
-        },
-        {
-            "id": 59,
-            "family": "Access Control",
-            "control_id": "AC-12",
-            "question": "Does the system automatically terminate user sessions after a period of inactivity or specific trigger events? [81]"
-        },
-        {
-            "id": 60,
-            "family": "Access Control",
-            "control_id": "AC-22",
-            "question": "What rigorous review process is implemented to ensure that nonpublic PII is not inadvertently disclosed on public systems? [82]"
+            "control_id": "AC-25",
+            "question": "Is a reference monitor implemented for access control policies that is tamperproof, always invoked, and small enough to be subject to assured testing and analysis?",
+            "answer": "No precise information can be found in the handbook meeting this exact requirement.",
+            "source": "N/A",
+            "reasoning": "Searched 'reference monitor'. This is a highly specific classical security architecture component rarely explicitly named in agile SaaS handbooks."
         }
     ]
 }
