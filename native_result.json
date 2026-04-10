@@ -1,0 +1,404 @@
+{
+    "audit_questions": [
+        {
+            "id": 1,
+            "family": "Access Control",
+            "control_id": "AC-1",
+            "question": "Does the organization\u00e2\u20ac\u2122s access control policy and procedures demonstrate active collaboration between the security and privacy programs to ensure that safeguards protect both organizational assets and the welfare of individuals?",
+            "answer": "No documentation directly address the question.",
+            "source": "N/A"
+        },
+        {
+            "id": 2,
+            "family": "Access Control",
+            "control_id": "AC-2",
+            "question": "When system accounts involve access to personally identifiable information (PII), does the security program collaborate with the senior agency official for privacy to establish specific conditions for group and role membership?",
+            "answer": "No information found.",
+            "source": "N/A"
+        },
+        {
+            "id": 3,
+            "family": "Access Control",
+            "control_id": "AC-2(1)",
+            "question": "Are organization-defined automated mechanisms used to manage system accounts and report atypical usage?",
+            "answer": "No documentation directly address the question.",
+            "source": "N/A"
+        },
+        {
+            "id": 4,
+            "family": "Access Control",
+            "control_id": "AC-2(3)",
+            "question": "Are accounts automatically disabled within the organization-defined time period after they have been inactive?",
+            "answer": "Yes, accounts are automatically disabled within the organization-defined time period after they have been inactive.",
+            "source": "enterprise-data/data-governance/data-management.md"
+        },
+        {
+            "id": 5,
+            "family": "Access Control",
+            "control_id": "AC-2(4)",
+            "question": "Are automated mechanisms employed to automatically audit the creation, modification, enabling, disabling, and removal of system accounts?",
+            "answer": "No information found.",
+            "source": "N/A"
+        },
+        {
+            "id": 6,
+            "family": "Access Control",
+            "control_id": "AC-2(7)",
+            "question": "Does the organization establish and administer privileged user accounts according to a role-based or attribute-based access scheme, and are access authorizations revoked when privileged role or attribute assignments are no longer appropriate?",
+            "answer": "Yes, the organization establishes and administers privileged user accounts according to a role-based access scheme, and access authorizations are revoked when privileged role assignments are no longer appropriate.",
+            "source": "N/A"
+        },
+        {
+            "id": 7,
+            "family": "Access Control",
+            "control_id": "AC-2(12)",
+            "question": "When monitoring system accounts for atypical usage, has the organization assessed and documented the privacy risks associated with collecting this behavioral data within its privacy impact assessment?",
+            "answer": "No information found.",
+            "source": "N/A"
+        },
+        {
+            "id": 8,
+            "family": "Access Control",
+            "control_id": "AC-3",
+            "question": "Does the system enforce approved authorizations for logical access to information and system resources in accordance with applicable access control policies?",
+            "answer": "Yes, the system enforces approved authorizations for logical access to information and system resources in accordance with applicable access control policies.",
+            "source": "N/A"
+        },
+        {
+            "id": 9,
+            "family": "Access Control",
+            "control_id": "AC-3(2)",
+            "question": "Is dual authorization (two-person control) enforced for the execution of critical privileged commands to reduce risks related to insider threats?",
+            "answer": "No documentation directly address the question.",
+            "source": "security/identity/gitops/okta/_index.md"
+        },
+        {
+            "id": 10,
+            "family": "Access Control",
+            "control_id": "AC-3(7)",
+            "question": "Is a role-based access control policy enforced to restrict access based on organization-defined roles, ensuring individuals only have access to information needed to support organizational missions to minimize privacy and security risks?",
+            "answer": "Yes, a role-based access control policy is enforced to restrict access based on organization-defined roles.",
+            "source": "marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/devsecops/_index.md"
+        },
+        {
+            "id": 11,
+            "family": "Access Control",
+            "control_id": "AC-3(9)",
+            "question": "Are specific controls used to validate the appropriateness of information designated for controlled release outside of the system to ensure it is adequately protected?",
+            "answer": "No information found.",
+            "source": "N/A"
+        },
+        {
+            "id": 12,
+            "family": "Access Control",
+            "control_id": "AC-3(10)",
+            "question": "Under what specific conditions is an audited override of automated access control mechanisms permitted by authorized roles?",
+            "answer": "No documentation directly address the question.",
+            "source": "engineering/architecture/design-documents/approval_policies_bypass/_index.md"
+        },
+        {
+            "id": 13,
+            "family": "Access Control",
+            "control_id": "AC-3(11)",
+            "question": "Is access restricted to specific data repositories or specific types of personally identifiable information to provide flexibility, rather than granting access to entire databases?",
+            "answer": "Yes, access is restricted to specific data repositories and specific types of personally identifiable information to provide flexibility, rather than granting access to entire databases.",
+            "source": "enterprise-data/platform/tableau/_index.md"
+        },
+        {
+            "id": 14,
+            "family": "Access Control",
+            "control_id": "AC-3(12)",
+            "question": "Are applications required to assert, as part of the installation process, the specific system functions they need to access, such as GPS, camera, or microphone?",
+            "answer": "No information found.",
+            "source": "N/A"
+        },
+        {
+            "id": 15,
+            "family": "Access Control",
+            "control_id": "AC-3(13)",
+            "question": "Does the system enforce attribute-based access control to restrict access based on specific user, action, environmental, and resource attributes?",
+            "answer": "No documentation directly address the question.",
+            "source": "N/A"
+        },
+        {
+            "id": 16,
+            "family": "Access Control",
+            "control_id": "AC-3(14)",
+            "question": "What technical mechanisms are provided to enable individuals to access and review their own PII held within organizational records to ensure its accuracy?",
+            "answer": "No information found.",
+            "source": "N/A"
+        },
+        {
+            "id": 17,
+            "family": "Access Control",
+            "control_id": "AC-4",
+            "question": "How are information flow control policies enforced to prevent the unauthorized combination of PII datasets or the travel of sensitive data to unauthorized security or privacy domains?",
+            "answer": "No information found.",
+            "source": "security/planning/security-development-deployment-requirements.md"
+        },
+        {
+            "id": 18,
+            "family": "Access Control",
+            "control_id": "AC-4(1)",
+            "question": "Are security and privacy attributes associated with objects used to enforce information flow control policies, such as preventing a restricted dataset of personally identifiable information from being combined with other datasets?",
+            "answer": "No information found.",
+            "source": "N/A"
+        },
+        {
+            "id": 19,
+            "family": "Access Control",
+            "control_id": "AC-4(3)",
+            "question": "Can the system enforce dynamic information flow control to allow or disallow information flows based on changing conditions, threat environments, or operational considerations?",
+            "answer": "No information found.",
+            "source": "N/A"
+        },
+        {
+            "id": 20,
+            "family": "Access Control",
+            "control_id": "AC-4(5)",
+            "question": "Does the system prevent encrypted information from bypassing flow control mechanisms by blocking or decrypting it for inspection?",
+            "answer": "No information found.",
+            "source": "N/A"
+        },
+        {
+            "id": 21,
+            "family": "Access Control",
+            "control_id": "AC-4(8)",
+            "question": "Are security and privacy policy filters used to strip, modify, or quarantine data that fails an automated check based on content or data structure?",
+            "answer": "No information found.",
+            "source": "N/A"
+        },
+        {
+            "id": 22,
+            "family": "Access Control",
+            "control_id": "AC-4(17)",
+            "question": "Are source and destination points uniquely identified and authenticated to track the lineage of PII processing and facilitate consent tracking, correction, or deletion requests from individuals?",
+            "answer": "No information found.",
+            "source": "N/A"
+        },
+        {
+            "id": 23,
+            "family": "Access Control",
+            "control_id": "AC-4(32)",
+            "question": "Does the organization use processes that validate metadata to ensure filtering is successfully completed before transferring information between filter pipelines?",
+            "answer": "No information found.",
+            "source": "engineering/architecture/design-documents/gitlab_messaging_layer/_index.md"
+        },
+        {
+            "id": 24,
+            "family": "Access Control",
+            "control_id": "AC-5",
+            "question": "How is the principle of separation of duties applied to divide mission functions and support functions among different individuals to prevent malevolent activity through collusion?",
+            "answer": "No information found.",
+            "source": "N/A"
+        },
+        {
+            "id": 25,
+            "family": "Access Control",
+            "control_id": "AC-6",
+            "question": "How is the principle of least privilege applied to system processes to ensure they operate at the minimum privilege level necessary to reduce the privacy footprint?",
+            "answer": "No documentation directly address the question.",
+            "source": "security/product-security/security-platforms-architecture/security-architecture/_index.md"
+        },
+        {
+            "id": 26,
+            "family": "Access Control",
+            "control_id": "AC-6(1)",
+            "question": "Is access to critical security functions and security-relevant information, such as cryptographic key management information and access control lists, restricted to specifically authorized individuals or roles?",
+            "answer": "Yes, access to critical security functions and security-relevant information is restricted to specifically authorized individuals or roles.",
+            "source": "security/security-assurance/technical-and-organizational-measures.md"
+        },
+        {
+            "id": 27,
+            "family": "Access Control",
+            "control_id": "AC-6(2)",
+            "question": "Are privileged users required to use non-privileged accounts when performing non-security-related functions to limit exposure?",
+            "answer": "No documentation directly address the question.",
+            "source": "N/A"
+        },
+        {
+            "id": 28,
+            "family": "Access Control",
+            "control_id": "AC-6(5)",
+            "question": "Are privileged accounts on the system strictly restricted to organization-defined personnel or roles?",
+            "answer": "Yes, privileged accounts on the system are strictly restricted to organization-defined personnel or roles.",
+            "source": "enterprise-data/platform/_index.md"
+        },
+        {
+            "id": 29,
+            "family": "Access Control",
+            "control_id": "AC-6(6)",
+            "question": "Is privileged access to the system strictly prohibited for non-organizational users (e.g., users who are not employees or equivalent) to limit exposure?",
+            "answer": "No information found.",
+            "source": "N/A"
+        },
+        {
+            "id": 30,
+            "family": "Access Control",
+            "control_id": "AC-6(10)",
+            "question": "Are mechanisms in place to prevent non-privileged users from executing privileged functions, such as disabling security tools or audit mechanisms?",
+            "answer": "No information found.",
+            "source": "N/A"
+        },
+        {
+            "id": 31,
+            "family": "Access Control",
+            "control_id": "AC-7(2)",
+            "question": "Does the system automatically purge or wipe information from mobile devices after an organization-defined number of unsuccessful logon attempts to protect information confidentiality?",
+            "answer": "No information found.",
+            "source": "security/policies_and_standards/password-standard.md"
+        },
+        {
+            "id": 32,
+            "family": "Access Control",
+            "control_id": "AC-8",
+            "question": "Does the system display a notification message or banner before login that provides privacy and security notices consistent with applicable laws?",
+            "answer": "No information found.",
+            "source": "N/A"
+        },
+        {
+            "id": 33,
+            "family": "Access Control",
+            "control_id": "AC-9(3)",
+            "question": "Does the system notify the user upon successful logon of any changes made to the security-related characteristics of their account during a specified time period to help users identify unauthorized changes?",
+            "answer": "No information found.",
+            "source": "N/A"
+        },
+        {
+            "id": 34,
+            "family": "Access Control",
+            "control_id": "AC-9(4)",
+            "question": "Does the system notify the user of the location and time of their last successful logon to help detect unauthorized access?",
+            "answer": "No information found.",
+            "source": "security/identity/gitops/okta/_index.md"
+        },
+        {
+            "id": 35,
+            "family": "Access Control",
+            "control_id": "AC-12",
+            "question": "Does the system automatically terminate user sessions after a period of inactivity or specific organization-defined trigger events?",
+            "answer": "No information found.",
+            "source": "engineering/architecture/design-documents/workspaces/decisions/006_automatic_termination_of_workspace.md"
+        },
+        {
+            "id": 36,
+            "family": "Access Control",
+            "control_id": "AC-14",
+            "question": "Are user actions that can be performed without identification or authentication explicitly identified, documented, and justified with supporting rationale in the system security plan?",
+            "answer": "No information found.",
+            "source": "N/A"
+        },
+        {
+            "id": 37,
+            "family": "Access Control",
+            "control_id": "AC-16",
+            "question": "Are metadata attributes, such as consent status or job function, bound to information to enable automated access and flow enforcement decisions?",
+            "answer": "No information found.",
+            "source": "N/A"
+        },
+        {
+            "id": 38,
+            "family": "Access Control",
+            "control_id": "AC-16(1)",
+            "question": "Can the system dynamically associate security and privacy attributes with subjects and objects in accordance with security and privacy policies as information is created and combined?",
+            "answer": "No information found.",
+            "source": "N/A"
+        },
+        {
+            "id": 39,
+            "family": "Access Control",
+            "control_id": "AC-16(2)",
+            "question": "Is the capability to define or change the value of associated security and privacy attributes strictly limited to authorized individuals or processes acting on their behalf?",
+            "answer": "No information found.",
+            "source": "N/A"
+        },
+        {
+            "id": 40,
+            "family": "Access Control",
+            "control_id": "AC-17(1)",
+            "question": "Are automated mechanisms employed to monitor and control remote access methods to detect attacks and ensure compliance with remote access policies?",
+            "answer": "No information found.",
+            "source": "N/A"
+        },
+        {
+            "id": 41,
+            "family": "Access Control",
+            "control_id": "AC-17(2)",
+            "question": "Are cryptographic mechanisms, such as virtual private networks or TLS, implemented to protect the confidentiality and integrity of remote access sessions?",
+            "answer": "Yes, cryptographic mechanisms, such as TLS, are implemented to protect the confidentiality and integrity of remote access sessions.",
+            "source": "security/product-security/security-platforms-architecture/security-architecture/zero-trust.md"
+        },
+        {
+            "id": 42,
+            "family": "Access Control",
+            "control_id": "AC-18(1)",
+            "question": "Is wireless access to the system protected using strong authentication of users and devices alongside strong encryption to reduce susceptibility to threats?",
+            "answer": "No information found.",
+            "source": "security/planning/security-development-deployment-requirements.md"
+        },
+        {
+            "id": 43,
+            "family": "Access Control",
+            "control_id": "AC-19(5)",
+            "question": "Is full-device or container-based encryption employed on mobile devices to protect the confidentiality and integrity of specific data structures, files, or fields?",
+            "answer": "No information found.",
+            "source": "security/corporate/systems/_index.md"
+        },
+        {
+            "id": 44,
+            "family": "Access Control",
+            "control_id": "AC-20",
+            "question": "What terms, conditions, and verification processes are in place to protect organization-controlled information when it is processed, stored, or transmitted using external systems?",
+            "answer": "No documentation directly address the question.",
+            "source": "finance/procurement/vendor-guidelines/vendor-security-addendum.md"
+        },
+        {
+            "id": 45,
+            "family": "Access Control",
+            "control_id": "AC-20(1)",
+            "question": "Does the organization limit authorized use of external systems by requiring verification of implemented controls or retention of approved system agreements before permitting individuals to process organization-controlled information?",
+            "answer": "No information found.",
+            "source": "finance/procurement/vendor-guidelines/vendor-security-addendum.md"
+        },
+        {
+            "id": 46,
+            "family": "Access Control",
+            "control_id": "AC-22",
+            "question": "What rigorous review process is implemented to ensure that nonpublic PII is not inadvertently disclosed when posting content to publicly accessible systems?",
+            "answer": "No information found.",
+            "source": "legal/privacy/_index.md"
+        },
+        {
+            "id": 47,
+            "family": "Access Control",
+            "control_id": "AC-23",
+            "question": "What prevention and detection techniques are employed to protect data storage objects against unauthorized data mining that could lead to unanticipated revelations about individuals?",
+            "answer": "No information found.",
+            "source": "enterprise-data/data-governance/data-management.md"
+        },
+        {
+            "id": 48,
+            "family": "Access Control",
+            "control_id": "AC-24",
+            "question": "Are procedures or mechanisms established to ensure that access control decisions are applied to each access request prior to access enforcement?",
+            "answer": "Yes, access requests are approved prior to making access changes.",
+            "source": "security/security-and-technology-policies/access-management-policy.md"
+        },
+        {
+            "id": 49,
+            "family": "Access Control",
+            "control_id": "AC-24(2)",
+            "question": "Can the system enforce access control decisions based on security or privacy attributes without requiring the identity of the user, in order to preserve individual privacy where transmitting user identification is not needed?",
+            "answer": "No documentation directly address the question.",
+            "source": "N/A"
+        },
+        {
+            "id": 50,
+            "family": "Access Control",
+            "control_id": "AC-25",
+            "question": "Is a reference monitor implemented for access control policies that is tamperproof, always invoked, and small enough to be subject to assured testing and analysis?",
+            "answer": "No information found.",
+            "source": "N/A"
+        }
+    ]
+}

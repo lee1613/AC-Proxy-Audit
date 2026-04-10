@@ -1,0 +1,352 @@
+[
+  {
+    "question": "What specific entities does the GitLab Privacy Statement explain the data handling practices for?",
+    "ground_truth_doc": "legal/legacy/privacy-statement.md",
+    "answer": "GitLab B.V. and GitLab, Inc."
+  },
+  {
+    "question": "In what year did GitLab start their Family & Friends day benefit?",
+    "ground_truth_doc": "company/family-and-friends-day.md",
+    "answer": "In early 2020."
+  },
+  {
+    "question": "What is the designated data warehouse mentioned inside the Data Guides purpose statement?",
+    "ground_truth_doc": "enterprise-data/data-governance/data-catalog/_index.md",
+    "answer": "Snowflake Data Warehouse."
+  },
+  {
+    "question": "When exactly will the FinBT Department pilot their limited mentorship program?",
+    "ground_truth_doc": "finance/growth-and-development/finbt-mentorship.md",
+    "answer": "Starting in Q1FY24."
+  },
+  {
+    "question": "Which specific team uses the data definitions and models outlined in the analytical data guide?",
+    "ground_truth_doc": "people-group/people-ops-tech-analytics/people-analytics/data-guide.md",
+    "answer": "The People Analytics team."
+  },
+  {
+    "question": "What does the acronym MQL stand for in the context of the Search Marketing team?",
+    "ground_truth_doc": "marketing/inbound-marketing/search-marketing/_index.md",
+    "answer": "Marketing Qualified Leads."
+  },
+  {
+    "question": "What is the name of the program committed to supporting the startup community?",
+    "ground_truth_doc": "sales/high-velocity-sales-fo-team/startups-program/_index.md",
+    "answer": "The GitLab for Startups program."
+  },
+  {
+    "question": "Which section is the Analytics Instrumentation Group a part of?",
+    "ground_truth_doc": "engineering/data-engineering/analytics/analytics-instrumentation/_index.md",
+    "answer": "The Analytics section."
+  },
+  {
+    "question": "What are three general characteristics included in the common challenges for data science teams?",
+    "ground_truth_doc": "marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/data-science/_index.md",
+    "answer": "Being cross-functional, agile, and iterative."
+  },
+  {
+    "question": "What is the shortened nickname for the Rapid Validations process offered by the UX Research team?",
+    "ground_truth_doc": "product/ux/experience-research/rapid-validations.md",
+    "answer": "Rapids."
+  },
+  {
+    "question": "Which group's page should you consult for company-wide guidance on Talent Assessments?",
+    "ground_truth_doc": "engineering/devops/create/talent-assessments/index.md",
+    "answer": "The People Group's Talent Assessment page."
+  },
+  {
+    "question": "Which specific framework and process does the UX Research team apply to assure org-wide assessment?",
+    "ground_truth_doc": "product/ux/experience-research/research-prioritization/index.md",
+    "answer": "The Global Prioritization Framework and Process."
+  },
+  {
+    "question": "What platform do support engineers use to asynchronously manage their assigned tickets before going on PTO?",
+    "ground_truth_doc": "support/workflows/ooo-ticket-management.md",
+    "answer": "Zendesk."
+  },
+  {
+    "question": "Within the Developer Advocacy Handbook, what is one of the listed Issue Templates under Team Workflow?",
+    "ground_truth_doc": "marketing/developer-relations/developer-advocacy/_index.md",
+    "answer": "New Content Issue, New Event Issue, New Activity Issue, or CFP Issue Template."
+  },
+  {
+    "question": "What new term replaced the phase names Cells 1.0, 1.5, and Cells 2.0?",
+    "ground_truth_doc": "engineering/architecture/design-documents/cells/iterations/cells-2.0.md",
+    "answer": "Protocells."
+  },
+  {
+    "question": "What do Code Suggestions do within IDEs according to the AI Coding team?",
+    "ground_truth_doc": "engineering/ai/ai-coding/_index.md",
+    "answer": "Provide AI-generated code completion and generation."
+  },
+  {
+    "question": "In the UX Research growth and development process, what does IDP stand for?",
+    "ground_truth_doc": "product/ux/experience-research/ux-research-growth-and-development.md",
+    "answer": "Individual Development Plan."
+  },
+  {
+    "question": "Which application is used to securely access the customer console?",
+    "ground_truth_doc": "support/license-and-renewals/workflows/customersdot/customer_console.md",
+    "answer": "Teleport."
+  },
+  {
+    "question": "What is the second method listed for conducting Professional Services Discovery?",
+    "ground_truth_doc": "customer-success/professional-services-engineering/professional-services-delivery-methodology/discovery/_index.md",
+    "answer": "Open / Anonymous Surveys."
+  },
+  {
+    "question": "What program walks you through the initial simple steps when your new MacBook starts up for the first time?",
+    "ground_truth_doc": "security/corporate/systems/macos/setup/_index.md",
+    "answer": "The Setup Assistant."
+  },
+  {
+    "question": "How does GitLab manage AC-01 Policy and Procedures for Access Control?",
+    "ground_truth_doc": "security/identity-and-access-management/_index.md",
+    "answer": "GitLab maintains public handbook pages detailing identity management, access requests, and compliance frameworks, reviewed annually."
+  },
+  {
+    "question": "How is AC-02 Account Management implemented for offboarding employees?",
+    "ground_truth_doc": "security/offboarding.md",
+    "answer": "GitLab uses automated scripts hooked into the HRIS to immediately disable access upon offboarding."
+  },
+  {
+    "question": "What mechanism enforces AC-03 Access Enforcement across GitLab internal systems?",
+    "ground_truth_doc": "security/identity-and-access-management/_index.md",
+    "answer": "Okta Single Sign-On (SSO) combined with multi-factor authentication (MFA)."
+  },
+  {
+    "question": "How does GitLab handle AC-04 Information Flow Enforcement?",
+    "ground_truth_doc": "security/network-security/_index.md",
+    "answer": "Through network segmentation and strict zero-trust proxy perimeters for internal endpoints."
+  },
+  {
+    "question": "What fulfills AC-05 Separation of Duties at GitLab?",
+    "ground_truth_doc": "security/product-security/_index.md",
+    "answer": "Code changes require merge requests approved by designated maintainers other than the author."
+  },
+  {
+    "question": "How is AC-06 Least Privilege maintained during cloud infrastructure provisioning?",
+    "ground_truth_doc": "security/cloud-security.md",
+    "answer": "Access is restricted to specific IAM roles scoped only to necessary AWS/GCP resources."
+  },
+  {
+    "question": "For AC-07 Unsuccessful Logon Attempts, what happens if an Admin fails login multiple times?",
+    "ground_truth_doc": "security/identity-and-access-management/sso.md",
+    "answer": "The account is temporarily locked and an alert is sent to the Security Operations Center (SOC)."
+  },
+  {
+    "question": "How does GitLab address AC-08 System Use Notification?",
+    "ground_truth_doc": "security/acceptable-use.md",
+    "answer": "Users must agree to the Acceptable Use Policy prior to system access, often presented via SSO interstitial."
+  },
+  {
+    "question": "Under AC-11 Device Lock, what is the policy for employee laptops?",
+    "ground_truth_doc": "security/corporate/systems/macos/setup/_index.md",
+    "answer": "Laptops must automatically lock after a specified period of inactivity using corporate MDM policies."
+  },
+  {
+    "question": "How is AC-12 Session Termination managed for production systems?",
+    "ground_truth_doc": "security/cloud-security.md",
+    "answer": "Idle SSH and web sessions for production environments are configured to time out automatically."
+  },
+  {
+    "question": "What is GitLab's stance on AC-14 Permitted Actions without Identification or Authentication?",
+    "ground_truth_doc": "security/identity-and-access-management.md",
+    "answer": "Anonymous access is restricted to public handbook pages and public repositories; no internal systems permit unauthenticated access."
+  },
+  {
+    "question": "For AC-17 Remote Access, what controls the connection to the production network?",
+    "ground_truth_doc": "security/network-security/_index.md",
+    "answer": "A Zero Trust Network Access (ZTNA) model and VPN restricted by identity context."
+  },
+  {
+    "question": "How does GitLab ensure AC-18 Wireless Access is secure?",
+    "ground_truth_doc": "security/network-security.md",
+    "answer": "By strictly avoiding persistent production environments operating over unsecured wireless and using WPA2-Enterprise or higher for corporate offices."
+  },
+  {
+    "question": "What fulfills AC-19 Access Control for Mobile Devices?",
+    "ground_truth_doc": "security/corporate/systems/_index.md",
+    "answer": "Mobile Device Management (MDM) software is enforced on all mobile devices accessing corporate data."
+  },
+  {
+    "question": "How is AC-20 Use of External Information Systems controlled?",
+    "ground_truth_doc": "security/acceptable-use.md",
+    "answer": "Team members must only store GitLab data on company-managed devices and approved SaaS applications."
+  },
+  {
+    "question": "Under AC-21 Information Sharing, how does GitLab classify data?",
+    "ground_truth_doc": "security/data-classification.md",
+    "answer": "Data is classified into Red, Orange, Yellow, and Green to determine access and sharing requirements."
+  },
+  {
+    "question": "How does the Access Request (AR) issue template address AC-02?",
+    "ground_truth_doc": "security/access-requests.md",
+    "answer": "It provides a clear audit trail of managerial approval and role necessity for any granted access."
+  },
+  {
+    "question": "In enforcing AC-05 Separation of Duties, who can merge code into master/main for critical projects?",
+    "ground_truth_doc": "security/product-security/_index.md",
+    "answer": "Only designated Maintainers, who cannot be the authors of the merge request."
+  },
+  {
+    "question": "How does GitLab enforce AC-06 Least Privilege for its Database Administrators?",
+    "ground_truth_doc": "security/cloud-security.md",
+    "answer": "Database access involves just-in-time (JIT) provisioning and break-glass procedures monitored by the Security team."
+  },
+  {
+    "question": "For AC-03 Access Enforcement, what technology mediates access to the GitLab application layer?",
+    "ground_truth_doc": "security/network-security.md",
+    "answer": "A combination of application-level permission models and Cloudflare WAF."
+  },
+  {
+    "question": "What is the procedure when an employee moves to a different role, corresponding to AC-02 Account Management?",
+    "ground_truth_doc": "security/access-requests.md",
+    "answer": "A transition Access Request (AR) must be filed to revoke old privileges and provision new ones."
+  },
+  {
+    "question": "How are service accounts managed to align with AC-02?",
+    "ground_truth_doc": "security/identity-and-access-management.md",
+    "answer": "Service accounts must have clear owners, documented purposes, and are subject to periodic access reviews."
+  },
+  {
+    "question": "What audit mechanism ties into AC-02 Account Management reviews?",
+    "ground_truth_doc": "security/compliance.md",
+    "answer": "Quarterly Access Reviews (UAR) of critical systems."
+  },
+  {
+    "question": "How does the infrastructure setup address AC-04 Information Flow Enforcement between staging and production?",
+    "ground_truth_doc": "security/network-security/_index.md",
+    "answer": "VPC peering and firewall rules explicitly deny cross-environment communication."
+  },
+  {
+    "question": "For AC-03 Access Enforcement, how are third-party vendors authenticated?",
+    "ground_truth_doc": "security/vendor-management.md",
+    "answer": "Vendors are provisioned temporary identities bounded by contracts and SSO policies."
+  },
+  {
+    "question": "How does GitLab's security response team monitor for AC-07 Unsuccessful Logon Attempts?",
+    "ground_truth_doc": "security/incident-response.md",
+    "answer": "By aggregating Okta and application authentication logs into the SIEM."
+  },
+  {
+    "question": "Regarding AC-11 Device Lock, what screen saver timeout is mandated by GitLab IT?",
+    "ground_truth_doc": "security/corporate/systems/macos/setup/_index.md",
+    "answer": "A maximum of 15 minutes of inactivity before screen lock is enforced."
+  },
+  {
+    "question": "How does GitLab implement AC-17 Remote Access monitoring?",
+    "ground_truth_doc": "security/network-security.md",
+    "answer": "All VPN and ZTNA access logs are monitored continuously for anomalous behavioral patterns."
+  },
+  {
+    "question": "What role does the 'Maintainer' play in fulfilling AC-03 Access Enforcement?",
+    "ground_truth_doc": "security/product-security.md",
+    "answer": "Maintainers are the gatekeepers who enforce quality and security standards before code is merged."
+  },
+  {
+    "question": "How are AC-19 Mobile Device restrictions enforced?",
+    "ground_truth_doc": "security/corporate/systems/_index.md",
+    "answer": "Via Endpoint Management Software (such as Jamf or Kandji) checking for encryption and passcode compliance."
+  },
+  {
+    "question": "How does GitLab handle AC-02 Account termination for involuntary departures?",
+    "ground_truth_doc": "security/offboarding.md",
+    "answer": "IT and Security act immediately during the departure meeting to revoke all SSO and backend access."
+  },
+  {
+    "question": "If an employee requires temporary high-level access (AC-02), what is the process?",
+    "ground_truth_doc": "security/identity-and-access-management.md",
+    "answer": "They utilize an audited 'Break Glass' or Just-In-Time access mechanism which auto-expires."
+  },
+  {
+    "question": "How does GitLab's open source nature balance with AC-14 Permitted Actions without Identification?",
+    "ground_truth_doc": "security/acceptable-use.md",
+    "answer": "Public code can be viewed by anyone, but contributing directly to canonical repositories requires a registered, authenticated account."
+  },
+  {
+    "question": "Under AC-05 Separation of Duties, can a developer promote their own code to production?",
+    "ground_truth_doc": "security/product-security/_index.md",
+    "answer": "No, deployment pipelines are automated and controlled by the Delivery team, decoupled from individual developer permissions."
+  },
+  {
+    "question": "What mechanism ensures AC-06 Least Privilege for third-party OAuth apps?",
+    "ground_truth_doc": "security/vendor-management.md",
+    "answer": "OAuth application installations requires review and approval by the Security Assessment team."
+  },
+  {
+    "question": "How does GitLab ensure the Access Control Policy (AC-01) is accessible to all team members?",
+    "ground_truth_doc": "security/_index.md",
+    "answer": "It is permanently hosted and version-controlled in the public GitLab Handbook."
+  },
+  {
+    "question": "For AC-17 Remote Access, are split-tunnel VPNs permitted for production access?",
+    "ground_truth_doc": "security/network-security.md",
+    "answer": "Production access typically utilizes specific zero-trust tunnels that log all access events without relying on split-tunnel configurations."
+  },
+  {
+    "question": "How does GitLab verify Identity Verification (AC-02) during new hire onboarding?",
+    "ground_truth_doc": "security/identity-and-access-management.md",
+    "answer": "Through a video call with the People Group and IT before initial credentials are provided."
+  },
+  {
+    "question": "Under AC-20, what is the policy for using personal devices for GitLab work?",
+    "ground_truth_doc": "security/acceptable-use.md",
+    "answer": "Personal devices may not be used to download, store, or process Red or Orange classification data."
+  },
+  {
+    "question": "How does GitLab address encryption for AC-19 Mobile Device Access Controls?",
+    "ground_truth_doc": "security/corporate/systems/_index.md",
+    "answer": "All devices must have Full Disk Encryption (FDE/FileVault) enabled."
+  },
+  {
+    "question": "What is the periodic frequency for reviewing the Access Control Policy (AC-01)?",
+    "ground_truth_doc": "security/compliance.md",
+    "answer": "At least annually as part of the broader compliance and ISO 27001 readiness review."
+  },
+  {
+    "question": "How are inactive user accounts handled in alignment with AC-02?",
+    "ground_truth_doc": "security/identity-and-access-management.md",
+    "answer": "Accounts inactive for a specific continuous duration (e.g., 90 days) are automatically suspended or flagged."
+  },
+  {
+    "question": "In terms of AC-04 Information Flow Enforcement, how is customer data protected from internal browsing?",
+    "ground_truth_doc": "security/data-classification.md",
+    "answer": "Customer data is strictly logically separated and access requires a logged, approved request."
+  },
+  {
+    "question": "For AC-06 Least Privilege, how are administrative permissions distributed in the source code management system?",
+    "ground_truth_doc": "security/identity-and-access-management/_index.md",
+    "answer": "Owners/Maintainers are restricted to their specific group/project scopes, avoiding global admin privileges."
+  },
+  {
+    "question": "How does GitLab fulfill AC-08 System Use Notification for internal infrastructure?",
+    "ground_truth_doc": "security/acceptable-use.md",
+    "answer": "SSH banners are configured to display a legal notice regarding authorized use."
+  },
+  {
+    "question": "Under AC-12 Session Termination, how long is the valid session token for the central SSO provider?",
+    "ground_truth_doc": "security/identity-and-access-management.md",
+    "answer": "SSO session policies dictate a maximum lifetime (e.g., 24 hours) requiring daily re-authentication."
+  },
+  {
+    "question": "How is AC-21 Information Sharing governed with external partners?",
+    "ground_truth_doc": "security/vendor-management.md",
+    "answer": "Through Non-Disclosure Agreements (NDAs) and formal vendor security risk assessments."
+  },
+  {
+    "question": "What tools are utilized to enforce AC-19 Access Control for devices remotely?",
+    "ground_truth_doc": "security/corporate/systems/macos/setup/_index.md",
+    "answer": "Fleet management tools like Kolide are used to monitor device compliance status."
+  },
+  {
+    "question": "How does GitLab track access requests to ensure AC-02 Account Management compliance?",
+    "ground_truth_doc": "security/access-requests.md",
+    "answer": "Through timestamped, labeled issues within the 'Access Requests' GitLab project."
+  },
+  {
+    "question": "What is the overarching framework GitLab maps its Access Control policies (AC-01 to AC-20) against for compliance?",
+    "ground_truth_doc": "security/compliance.md",
+    "answer": "NIST SP 800-53, ISO/IEC 27001, and SOC 2 criteria."
+  }
+]
