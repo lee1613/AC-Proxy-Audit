@@ -1,0 +1,1252 @@
+{
+    "1": {
+        "question": "What teams are structured under the Database Excellence Stage?",
+        "contexts": [
+            {
+                "source": "enterprise-data/organization/_index.md",
+                "content": "1. **Data Science Team:** **Center of Excellence** for advanced analytics, including delivery of data science projects to the business\n1. **Data Governance and Data Quality Team:** Help build robust data governance practices and establish data quality frameworks for data quality monitoring and data quality improvement."
+            },
+            {
+                "source": "engineering/data-engineering/database-excellence/database-operations/_index.md",
+                "content": "The team is focused on owning the reliability, scalability, performance & security of the database engine and its supporting services. The team should be seeking to build their services on top of Runway services and cloud vendor managed products, where appropriate, to reduce complexity, improve efficiency and deliver new capabilities quicker."
+            },
+            {
+                "source": "engineering/development/principles.md",
+                "content": "ensure that teams have the tools and training required to build reliable software. The Infrastructure Platforms, Application Security, Database and Developer Experience teams are the Subject Matter Experts supporting product development teams."
+            },
+            {
+                "source": "engineering/data-engineering/database-excellence/_index.md",
+                "content": "## Mission\n\nKeep GitLab's databases running reliably through proactive health management, operational excellence, and strategic enablement. We maintain operational runway by identifying and mitigating saturation points, operate infrastructure with automated and scalable processes, and provide tools and frameworks that help teams build features sustainably.\n\n## Groups\n\nThis stage consists of the following group:\n\n### Database Frameworks"
+            },
+            {
+                "source": "engineering/architecture/design-documents/cells/infrastructure/_index.md",
+                "content": "| Databases                        | team::Database Reliability        | Blueprint                                                | \ud83d\udc4d         |\n| Deployments                      | group::Delivery                   | Blueprint                                               | \ud83d\udc4d         |\n| Observability                    | team::Scalability-Observability   | Blueprint                                             | \ud83d\udc4e         |"
+            }
+        ]
+    },
+    "2": {
+        "question": "Which teams r in Database Excellence Stage?",
+        "contexts": [
+            {
+                "source": "enterprise-data/organization/_index.md",
+                "content": "1. **Data Science Team:** **Center of Excellence** for advanced analytics, including delivery of data science projects to the business\n1. **Data Governance and Data Quality Team:** Help build robust data governance practices and establish data quality frameworks for data quality monitoring and data quality improvement."
+            },
+            {
+                "source": "security/responding-to-ransomware.md",
+                "content": "- Database: Disaster Recovery Team - responsible for disaster recovery strategy for the PostgreSQL database.\n- Infrastructure Team - availability, reliability, performance, and scalability of GitLab SaaS software\n- Infrastructure Security Team - infrastructure teams stable counterpart focused on cloud infrastructure security, best practices, and vulnerability management\n- Business Technology Engineering - endpoint and systems access management"
+            },
+            {
+                "source": "engineering/data-engineering/database-excellence/_index.md",
+                "content": "## Mission\n\nKeep GitLab's databases running reliably through proactive health management, operational excellence, and strategic enablement. We maintain operational runway by identifying and mitigating saturation points, operate infrastructure with automated and scalable processes, and provide tools and frameworks that help teams build features sustainably.\n\n## Groups\n\nThis stage consists of the following group:\n\n### Database Frameworks"
+            },
+            {
+                "source": "engineering/development/database.md",
+                "content": "This page is dedicated to database application engineering and provides an entry-point for resources on this topic.\n\nAlso see Database Team in Enablement.\n\n## GitLab development\n\nPlease refer to the development documentation for database guidelines.\n\n### Database Roles at GitLab\n\nWe have two primary job roles that are focused on the database aspect:\n\n1. Backend Engineer, Database - in Development\n2. Database Reliability Engineer - in Infrastructure"
+            },
+            {
+                "source": "product/groups/product-analysis/crash-course.md",
+                "content": "Supports enterprise-grade operational experience of GitLab products from streamlined deployment and maintenance, disaster recovery, secure search and discoverability, to high availability, scalability, and performance. The Systems Stage includes Distribution, Gitaly and Geo Groups.\n\nClick to expand\n\n**Top dashboards referenced by this team**\n\n- All Tableau Dashboards are organized in Collections, specifically Core & SaaS Platforms General Collection and Core & SaaS Platforms SAFE Collection"
+            }
+        ]
+    },
+    "3": {
+        "question": "What teans are structured under the Databse Excellence Stage?",
+        "contexts": [
+            {
+                "source": "enterprise-data/organization/data-steering.md",
+                "content": "1. Data Strategy\n1. Data Quality Management\n1. Data Security\n1. Data Lifecycle Management\n1. Data Architecture and Modeling\n1. Data Discovery/Metadata Management\n1. Data Mastery and Reference Data\n1. Data Adoption/Data Literacy\n1. Data as value driver and outcome oriented\n\n### Responsibilities"
+            },
+            {
+                "source": "enterprise-data/organization/analytics-engineering.md",
+                "content": "- Integrating and conforming data from 50+ sources into a single analytics platform\n- Encoding business logic into dbt data models that support enterprise-grade reporting and analytics\n\nAdditionally, the **Analytics Engineering Team** supports the following responsibilities"
+            },
+            {
+                "source": "engineering/data-engineering/_index.md",
+                "content": "DE --> DBF[Database Frameworks]\n    click DBF \"/handbook/engineering/data-engineering/database-excellence/database-frameworks\"\n    DE --> DBO[Database Operations]\n    click DBO \"/handbook/engineering/data-engineering/database-excellence/database-operations\"\n    DE --> DBH[Database Health]\n```"
+            },
+            {
+                "source": "enterprise-data/_index.md",
+                "content": "* Data Quality\n  * dbt Guide\n  * Enterprise Data Warehouse\n  * Jupyter Guide\n  * Permifrost\n  * Python Guide\n  * RStudio Guide\n  * SQL Style Guide\n  * Snowplow\n  * Tableau\n  * Tableau Style Guide\n  * Trusted Data Framework"
+            },
+            {
+                "source": "enterprise-data/platform/edw/index.md",
+                "content": "| Staging     | Column Name and Data Type StandardizationFiltering and Deduplication (Cleansing)                          | _prep.salesforce_          |\n| Preparation | Steps and Transformations in MotionApplication of Generic Business Logic                                  | _prod.common_prep_         |\n| Model       | Polished ProductEnterprise Dimensional ModelFunction Data ModelsTrusted, Validated, and Supported | _prod.common_              |"
+            }
+        ]
+    },
+    "4": {
+        "question": "What distinct strategies are outlined for mitigating risk in customer accounts by Customer Success Managers?",
+        "contexts": [
+            {
+                "source": "solutions-architects/processes/commercial.md",
+                "content": "##### Accounts with a Customer Success Manager"
+            },
+            {
+                "source": "customer-success/account-team.md",
+                "content": "- Customer Success Managers own:\n    1. Post-sales customer relationship:\n        - Demos and other product workshops when not associated to a new opportunity\n    2. License expansion within an existing customer\n    3. Update and engage with SA to maintain alignment and uncover new opportunities\n    4. Conduct regular assessments of account health to ensure ongoing customer success"
+            },
+            {
+                "source": "customer-success/csm/engagement/_index.md",
+                "content": "Customer Success Managers will typically manage customer engagements via a GitLab project in the `account-management` group. This project will be based off the Enterprise or the Commercial Customer Success Plan Template and customized to match the customer's needs as outlined above. The project is pre-loaded with milestones, issues, labels, and a README template to help kick off the project and outline a proof of concept, implementation, and customer onboarding. The following is a short"
+            },
+            {
+                "source": "sales/field-operations/customer-success-operations/renewal-ops.md",
+                "content": "- **Mitigate Risk - Customer Segmentation**\n    1. Create a scalable risk management system, to allow Account Teams to monitor, investigate, and intervene on upcoming opportunities at risk.\n    1. Establish an Early Warning System (EWS) to segment customers based on Customer Health and Growth metrics.\n- **Growth & Engagement**"
+            },
+            {
+                "source": "sales/sales-operating-procedures/deal-closure.md",
+                "content": "to follow the steps to create a Customer Success Plan."
+            }
+        ]
+    },
+    "5": {
+        "question": "What are the specific stages of the Professional Services delivery methodology?",
+        "contexts": [
+            {
+                "source": "customer-success/professional-services-engineering/professional-services-presale-methodology/_index.md",
+                "content": "## PS Process & Methodology Mapped to the Customer Journey\n\nThe Professional Services process and methodology fits within the Customer journey that is supported by Customer Success.Professional Services contributes to the customer journey from the point of **SOW Close** through the **Project Close** phase.\n\n!PS Delivery Customer Journey Flow\n\nSource, GitLab Team Members Only\n\n## PS Process Methodology Stages"
+            },
+            {
+                "source": "sales/sales-operating-procedures/retain-and-expand.md",
+                "content": "1. Professional Services Implementation kick-off. CSM manages the kick-off and implementation plan catered to the customer."
+            },
+            {
+                "source": "customer-success/professional-services-engineering/_index.md",
+                "content": "1. Measure benefits of Professional Services' contributions to product growth, adoption, retention, and time-to-value to drive internal stakeholders (Sales, Product, CS), external customers and partner success\n1. Predictably meet or exceed company financial performance goals for Professional Services through services delivery by overachieving project goals while maintaining project profitability targets"
+            },
+            {
+                "source": "customer-success/professional-services-engineering/professional-services-delivery-methodology/_index.md",
+                "content": "The Professional Services Delivery Methodology (PSDM) is the guiding framework for Program and Project Delivery within GitLab. The goal is to ensure the PS Delivery team operates within a predictable timeframe against the Project scope while prioritizing Customer Success. This is achieved through:"
+            },
+            {
+                "source": "customer-success/professional-services-engineering/professional-services-delivery-methodology/_index.md",
+                "content": "- What is the Professional Services Delivery Methodology (PSDM)\n- Managing a Project in GitLab\n- Project Velocity and Iteration Scheduling\n- Status Planning\n- Status and Burndown Reporting\n- Mitigating Risk via RAID Board\n- Internal Retrospective Guidelines\n- Customer Retrospective Guidelines\n- Guidelines for Iteration based PSDM\n\n## What is the Professional Services Delivery Methodology (PSDM)"
+            }
+        ]
+    },
+    "6": {
+        "question": "Which teams are classified under the Create Stage for source code?",
+        "contexts": [
+            {
+                "source": "engineering/devops/create/_index.md",
+                "content": "## How we work across teams\n\nThe Create Stage teams work together and play together. We are fortunate to be able to rely on each other to support and complement our features. Some examples of Cross Team Collaboration:\n\n- The Source Code and Gitaly Teams often collaborate together on issues\n- Gitaly Team Members have mentored Source Code team members on the Go Programming language\n\nEvery quarter we participate in a cross team bonding activity, Create Team Day.\n\n## How we live our values"
+            },
+            {
+                "source": "engineering/devops/create/_index.md",
+                "content": "## Hello\n\nWe're the Create Stage and we are a group of teams within the DevOps Department. We're comprised of three areas within the GitLab product.\n\n| Team | Engineering Managers |\n| ---- | -------------------- |\n| Create Stage | Andr\u00e9 Lu\u00eds (Frontend) |\n| Create:Code Review | Fran\u00e7ois Ros\u00e9 (Backend) Andr\u00e9 Lu\u00eds (Frontend) |\n| Create:Source Code | Andre Richards (Backend) Andr\u00e9 Lu\u00eds (Frontend) |\n| Create:Import | Thiago Figueir\u00f3 (Fullstack) \u2014 Reports to {{}} |\n| Create:Remote Development | \u2014 |"
+            },
+            {
+                "source": "marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/delivery-automation.md",
+                "content": "- SCM: Source Code Walk Through, January 2020 by James Ramsey, Group Product Manager for the Create Stage\n- SCM: GitLab Flow pattern\n- SCM: Design Management Walkthrough, January 2020 by Christen Dybenko, PM Knowledge Group\n- SCM: Web IDE walkthrough, January 2020 by Kai Armstrong, PM Editor Group\n- SCM: Merge Request and Source Control as part of the Software Development Life Cycle by William Chia sPMM CI/CD"
+            },
+            {
+                "source": "engineering/devops/create/source-code/backend/index.md",
+                "content": "The Create:Source Code BE team focuses on GitLab's Source Code Management (SCM) tools and is responsible for all backend aspects of the Source Code group's product categories in the Create stage of the DevOps lifecycle. For information on our product direction, visit the Category Direction - Source Code Management page."
+            },
+            {
+                "source": "product/categories/_index.md",
+                "content": "Plan stage\n\n#### Project Management group\n\nProject Management group\n\n- assignees\n- milestones\n- due dates\n- labels\n- issue weights\n- quick actions\n- email notifications\n- to-do list\n- Real-time features\n\n#### Knowledge group\n\nKnowledge group\n\n- markdown functionality\n- rich text editor\n\n### Other functionality in Create stage\n\nCreate stage\n\n#### Code Review group\n\nCode Review group\n\n- Merge Requests\n- GitLab CLI\n\n#### Remote Development group\n\nRemote Development group"
+            }
+        ]
+    },
+    "7": {
+        "question": "What functional roles are associated with the Dev Career Framework for Frontend Engineers?",
+        "contexts": [
+            {
+                "source": "engineering/careers/matrix/development/dev/_index.md",
+                "content": "## Dev Career Framework\n\n{{% include \"includes/engineering-careers/dev-career-matrix-nav.md\" %}}\n\nThese are the expected competencies of the Dev Sub Department team members at GitLab by Job Title.\n\n## Intermediate\n\n- Backend\n- Frontend\n\n## Senior\n\n- Backend\n- Frontend\n\n## Staff\n\n- Backend\n- Frontend\n\n## Principal\n\n- Principal Engineer"
+            },
+            {
+                "source": "people-group/promotions-transfers.md",
+                "content": "- Team members changing functional roles should complete onboarding for the new function. For example, a Backend Engineer who transferring to become or work on Frontend work should do Frontend Engineer onboarding."
+            },
+            {
+                "source": "engineering/careers/matrix/development/dev/frontend/staff.md",
+                "content": "## Dev Staff Frontend Engineer\n\n{{% include \"includes/engineering-careers/dev-be-career-matrix-nav.md\" %}}\n\n**Dev Staff Frontend Engineers at GitLab are expected to exhibit the following competencies:**\n\n- Leadership Competencies\n- Technical Competencies\n- Values Alignment\n\n---\n\n### Leadership Competencies\n\n{{% include \"includes/engineering-careers/staff-leadership-competency.md\" %}}\n{{% include \"includes/engineering-careers/development-staff-leadership-competency.md\" %}}"
+            },
+            {
+                "source": "company/working-groups/maintainership.md",
+                "content": "| Functional Lead (Dev)                      | Max Woolf                              | Senior Backend Engineer, Govern:Compliance |\n| Functional Lead (Sec, Data Science, Growth)   | Thomas Woodham                         | Sr. Engineering Manager, Secure Analyzers |\n| Functional Lead (Maintainer - Frontend)         | Natalia Tepluhina | Staff Frontend Engineer |\n| Functional Lead (Non-Maintainer - Backend)      | Manoj M J | Senior Backend Engineer |"
+            },
+            {
+                "source": "security/secure-coding-training.md",
+                "content": "- `development_staff_frontend_engineer`\n- `development_staff_fullstack_engineer`\n- `development_staff_vulnerability_research_engineer`\n- `digital_experience_fullstack_engineer`\n- `digital_experience_manager_engineering`\n- `digital_experience_manager_engineering_marketing`\n- `digital_experience_marketing_frontend_engineer`\n- `digital_experience_senior_frontend_engineer`\n- `digital_experience_senior_marketing_frontend_engineer`\n- `enterprise_applications_integrations_engineer`"
+            }
+        ]
+    },
+    "8": {
+        "question": "What components are included in the Production Engineering Networking and Incident Management team's procedures?",
+        "contexts": [
+            {
+                "source": "engineering/infrastructure-platforms/production-engineering/_index.md",
+                "content": "## Teams\n\nProduction Engineering consists of:\n\n1. Cloud Cost Utilization\n1. Networking & Incident Management\n1. Observability\n1. Runners Platform\n1. Runway and Fleet Management\n\n## How We Work\n\nWe default to working inline with the GitLab values and by following the processes of the wider Infrastructure Platforms section. In addition to this, listed below are some processes that are specific, or particularly important, to how we work in Production Engineering.\n\n### Operating Model"
+            },
+            {
+                "source": "engineering/infrastructure-platforms/incident-management/_index.md",
+                "content": "1. on-call arrangements for response teams to make sure that there are team members available to resolve incidents,\n1. well-defined roles and responsibilities and workflow for members of the incident team,\n1. control points to manage the flow information and the resolution path,\n1. an incident review where lessons and techniques are extracted and shared"
+            },
+            {
+                "source": "engineering/devops/_index.md",
+                "content": "### Incident Management\n\n1. Engineering Managers and Staff+ contribute to incident management directly as Tier 1 (product-wide) Incident Leads (also known as Incident Managers).\n1. All engineers who meet eligibility criteria contribute to incident management through the Core DevOps Tier 2 on-call process.\n1. Some Engineering Managers are Rotation Leaders for the Core DevOps Tier 2 on-call process.\n\nWe **do not** expect individuals to participate in multiple rotations.\n\n### Availability"
+            },
+            {
+                "source": "engineering/infrastructure-platforms/incident-management/incident-follow-ups.md",
+                "content": "## References\n\n- Engineering Workflow - InfraDev\n- Product Processes - InfraDev\n- Incident Management - Corrective Actions"
+            },
+            {
+                "source": "engineering/infrastructure-platforms/production-engineering/networking-and-incident-management/_index.md",
+                "content": "## Ownership and Responsibilities\n\nThe Networking and Incident Management team focuses on:"
+            }
+        ]
+    },
+    "9": {
+        "question": "What specific data guides are maintained by the Enterprise Data Team?",
+        "contexts": [
+            {
+                "source": "enterprise-data/_index.md",
+                "content": "* Data Quality\n  * dbt Guide\n  * Enterprise Data Warehouse\n  * Jupyter Guide\n  * Permifrost\n  * Python Guide\n  * RStudio Guide\n  * SQL Style Guide\n  * Snowplow\n  * Tableau\n  * Tableau Style Guide\n  * Trusted Data Framework"
+            },
+            {
+                "source": "product/groups/product-analysis/engineering/data-guide.md",
+                "content": "- Data Guides managed by the Data team.\n- Documentation on data pipelines for the technically curious analyst. This page goes into each data source and extraction details.Contact\n- Tableau Developer Guide - Date handling, handbook embedding, general tips and tricks\n- Tableau Style Guide"
+            },
+            {
+                "source": "product/groups/product-analysis/engineering/data-guide.md",
+                "content": "- Data governance\n- Data quality\n- Data Team Handbook\n- DBT Docs - This resource contains comprehensive documentation on all available dbt models. This is a great starting point to understanding our models. For specific Engineering Analytics Models, please reference the Commonly Used Data Models section for a starting point.\n- Data Guides managed by the Data team."
+            },
+            {
+                "source": "enterprise-data/platform/_index.md",
+                "content": "## Standards\n\n## Quick Links\n\n* Data Infrastructure\n* Data Pipelines\n* Data CI Jobs\n* dbt Guide\n* Enterprise Data Warehouse\n* Data Pump\n* Incident Management\n* Jupyter Guide\n* Permifrost\n* Python Guide\n* Python/Tools package management and inventory\n* Snowflake\n* Snowplow\n* SQL Style Guide\n* Meltano\n* R/RStudio\n* Tableau\n\n## Our Data Stack\n\n!Enterprise Data Platform"
+            },
+            {
+                "source": "enterprise-data/_index.md",
+                "content": "* The **Data Team** reports into Marketing office and is the Center of Excellence for enterprise insights & analytics (not operational), data science, data platform & infrastructure, BI technologies, master data, data governance and data quality. The Data Team is also responsible for the enterprise data strategy, building enterprise-wide data models, providing Self-Service Data capabilities, maintaining the data platform, developing Data Pumps, and monitoring and measuring Data Quality. The"
+            }
+        ]
+    },
+    "10": {
+        "question": "What metrics and processes are managed by Financial Planning & Analysis?",
+        "contexts": [
+            {
+                "source": "finance/financial-planning-and-analysis/_index.md",
+                "content": "Financial Planning & Analysis (FP&A) team is the owner of SSOT for GitLab's **Hiring Plan** which contributes to our Headcount Forecast.\n\n- Headcount Forecast is a live forecast in Workday Adaptive (a financial planning software)"
+            },
+            {
+                "source": "customer-success/customer-success-vision/index.md",
+                "content": "- **Product / Engineering**: Product analytics and data insights, UX journey map alignment, in-app adoption (e.g., product-led onboarding), application/stage/use case/feature adoption, \"voice of customer\" reporting, escalations and defect and enhancement requests\n    - **Support**: Customer health, escalation processes\n    - **Finance**: Financial metrics and targets (e.g., margins), budget and forecasting\n    - **People Operations**: Job types, grades and families"
+            },
+            {
+                "source": "finance/financial-planning-and-analysis/corporate-finance.md",
+                "content": "### Key Processes\n\n- Quarterly & Monthly Cycle (incl. close, variance, forecast, guidance)\n- Plan\n- Long Range Outlook\n- Headcount\n- Adaptive Insights"
+            },
+            {
+                "source": "marketing/marketing-strategy-and-platforms.md",
+                "content": "| **Team**                          | **Interdependencies**                                                                                   |\n| --------------------------------- | ------------------------------------------------------------------------------------------------------- |\n| **Finance & Business Technology** | - Financial Planning & Budget- Data Engineering                                                     |"
+            },
+            {
+                "source": "finance/investor-relations.md",
+                "content": "1. Financials and metrics close\n1. Accounting and FP&A provide summaries of quarterly results for inclusion into all deliverables\n1. CFO, IR, FP&A, and Accounting discuss key financial & metrics trends for inclusion into the script and Q&A. FP&A ships CFO metrics briefing pack\n1. Corporate Communications team issues the press release announcing the earnings date and webcast information"
+            }
+        ]
+    },
+    "11": {
+        "question": "Which regions have specific entity-specific employment policies documented?",
+        "contexts": [
+            {
+                "source": "entity/israel-ltd.md",
+                "content": "## Employment Policies\n\nThe People Policies page of the Handbook serves as a directory of relevant policies and also lists entity specific employment policies where they are applicable.\n\n## Legal Policies\n\nThe Legal Policies page of the Handbook serves as a directory of relevant policies.\n\n## Timekeeping\n\nIt is mandatory to record the working day of team members employed in Israel and team members undertake to report their actual working hours, as may be required by the company."
+            },
+            {
+                "source": "entity/india-pvt-ltd.md",
+                "content": "### Employment Contracts\n\nGitLab's employment contract templates are listed here (for internal reference only), viewable by anyone in GitLab. The India templates will be added shortly.\n\n### People and Employment Policies\n\nThe People Policies page of the Handbook serves as a directory of relevant policies and also lists entity specific employment policies where they are applicable. Any India-specific policies will be added here in due course.\n\n### Legal Policies"
+            },
+            {
+                "source": "people-policies/_index.md",
+                "content": "## Other People Policies\n\n- Backgound Screenings\n- Contracts, Background Screenings, Probation Periods, and PIAA\n- Outside Employment and Activities\n- Paid Time Off\n- General Benefits\n- Leave of Absence\n- Return of Property\n\n## GitLab Legal Policies\n\nThere are a number of GitLab Legal Policies which are important for GitLab team members to read and understand, and they are listed here.\n\n## Entity-Specific Employment Policies\n\n{{% details summary=\"GitLab BV (Belgium)\" %}}\n\n### Belgium"
+            },
+            {
+                "source": "entity/entity-specific-employment-policies.md",
+                "content": "## Introduction\n\nThere is a directory for team members employed through a GitLab entity to locate employment-related policies specific to their country of residence included with the team member policies listed on the 'People Policies' page of the handbook. These policies do not supersede GitLab Inc.'s Code of Business Conduct & Ethics."
+            },
+            {
+                "source": "total-rewards/benefits/general-and-entity-benefits/_index.md",
+                "content": "## Entity-Specific Benefits\n\nAdditional benefits are available based on your employment location. Select your entity below for detailed information:"
+            }
+        ]
+    },
+    "12": {
+        "question": "What are the core topics included in the Channel Partner Program for developing a GitLab practice?",
+        "contexts": [
+            {
+                "source": "resellers/channel-program-guide/_index.md",
+                "content": "For complete details, additional resources, and step-by-step guides, visit the GitLab Channel Program page on the GitLab Handbook.\n\n### Partner Program Tracks & Designations\n\nPartners in the GitLab Partner Program are included in one of two tracks; Select and Open. Additionally, partners can earn a separate services designation for developing a GitLab professional services practice.\n\n#### GitLab Open and Select Partner Requirements & Benefits\n\n#### Open Track"
+            },
+            {
+                "source": "resellers/training.md",
+                "content": "This comprehensive training covers:\n\n- Core GitLab platform fundamentals and architecture\n- GitLab's Integrated AI assistant-GitLab Duo\n- DevSecOps methodology and implementation best practices\n- Security and compliance features and frameworks\n- GitLab deployment, integration, and migration strategies\n- Sales methodologies and value proposition articulation\n\n## For Channel Partners"
+            },
+            {
+                "source": "customer-success/partners/capabilities-journey.md",
+                "content": "- Teams are engaged with GitLab Partner Portal and familiar with content\n- Plan to and Learn how to register deals, work through quoting & transaction processes, and accept leads\n- Get sales ready\n  - Understand GitLab licensing and pricing model\n  - Understand how to get Channel Partner support\n  - Understand how to qualify opportunities within existing customer base\n  - Get certified\n    - Select Partners\n      - Sales Core (4)\n      - Sales Pro (1)\n      - SA Core (2)\n      - PSE (1)"
+            },
+            {
+                "source": "resellers/_index.md",
+                "content": "| In this section, you will learn how the GitLab Partner Enablement Program is designed to provide our partners with similar training as GitLab employees. Specifically developing core training, accreditation, and certification for sales, solution architects (pre-sales engineers), and post-sales engineers and consultants.                                                                                                                           |"
+            },
+            {
+                "source": "sales/field-operations/channel-operations/_index.md",
+                "content": "- A key goal of the GitLab Channel Program is the success of our authorized partners, which means whenever possible, we should work deals with them. We are developing our channel to provide coverage across geos, customer segments and vertical markets. However, there are some situations where customer requires a deal be transacted by a partner that is not willing to join the GitLab Partner Program. Only in those situations should we transact with an unauthorized partner, and only with the"
+            }
+        ]
+    },
+    "13": {
+        "question": "What areas of specialization exist within the Developer Relations Engineering team?",
+        "contexts": [
+            {
+                "source": "marketing/developer-relations/_index.md",
+                "content": "Developer Relations (short: DevRel) operates at the intersection of technology, community, and advocacy, serving as the voice and ears of GitLab in the wider tech world. Their core mission revolves around nurturing and sustaining a vibrant, engaged community of developers, contributors, and users. This involves a multifaceted approach that includes creating educational content, organizing events and workshops, developing programs, and providing platforms for knowledge exchange and"
+            },
+            {
+                "source": "marketing/developer-relations/contributors-program.md",
+                "content": "The Developer Relations Engineering team implements targeted outreach strategies to existing GitLab users, customers, learners, and partners to funnel top contributors into the program on the Contributors platform.\nThe program's dual focus on code and non-code contributions ensures comprehensive platform enhancement, from technical improvements to documentation, translation, design and user experience.\n\n## Key Objectives"
+            },
+            {
+                "source": "company/working-groups/contributor-growth.md",
+                "content": "Following exit criteria will be owned by the Developer Relations Engineering team as it is being built out\n\n1. Deliver 3 key iterations to our contribution guidelines\n1. Fully implement MR Coach specialties (Development, Test, Docs & etc)\n1. Experiment with defining contributor specialties based on MR coaches\n\n### Roles and Responsibilities"
+            },
+            {
+                "source": "marketing/developer-relations/engineering/_index.md",
+                "content": "Developer Relations Engineering DRI is responsible for digesting the feedback and selecting one, after votes, issue to take into the new quarter.\n\n## Developer Relations Engineering stand-up\n\nThe purpose of this stand-up is to collaborate between team members of Developer Relations Engineering. This is a team-specific\nmeeting to check in on blockers, progress and ways to think differently & iterate towards our goals.\n\n- Agenda: \n\n## Developer Relations Engineering reading list"
+            },
+            {
+                "source": "marketing/developer-relations/_index.md",
+                "content": "##  How we work\n\n###  Developer Relations Team resources\n\n- Programs resources\n- Meetup checklist\n\n###  Our handbooks\n\n- Developer Relations Engineering\n  - Contributors Program\n- Developer Advocacy\n- Developer Relations Programs\n  - Open Source Program\n  - Education Program\n- Leading Organizations\n\n###  Our workflows\n\nCommunity engagement:\n\n-  Code of Conduct Enforcement\n-  Community Response Process\n-  Events\n\nCommunity platforms:"
+            }
+        ]
+    },
+    "14": {
+        "question": "What specific email processes are governed under Lifecycle Marketing?",
+        "contexts": [
+            {
+                "source": "marketing/lifecycle-marketing/_index.md",
+                "content": "## Lifecycle Marketing\n\n## Overview\n\n\nLifecycle Marketing is responsible for strategizing, executing, and optimizing a data-driven user lifecycle communications strategy and overall email marketing plan, including ongoing nurture email campaigns."
+            },
+            {
+                "source": "marketing/lifecycle-marketing/email-processes-requests.md",
+                "content": "## Overview\n\n\nThis page focuses on emails processes, owned and managed by Lifecycle Marketing, Marketing Campaigns, and Marketing Operations.\n\n**Related Handbook: Email Management**\n\n## GitLab Email Calendar"
+            },
+            {
+                "source": "marketing/lifecycle-marketing/email-processes-requests.md",
+                "content": "**FY23-Q4**: Lifecycle Marketing will be running a Q4 trial of reviewing **all** emails prior to send to ensure compliance with email best practices. Team members are responsible fo reviewing and optimizing their own emails, following the latest email best practices from lifecycle marketing. Lifecycle will be partnering will email stakeholders to improve email performance and drive the best results for our campaigns, as well as maintain brand consistency across all email touchpoints."
+            },
+            {
+                "source": "marketing/lifecycle-marketing/email-processes-requests.md",
+                "content": "1. They have a GitLab specific CTA (can be our own landing page, book a meeting link, activation registration page)\n2. When we have a blind list account list or previous attendee audience to send the email to.\n\nFor more information on why we do this, please visit this issue.\n\n#### Corporate Marketing QA process\n\n*Request for Lifecycle to determine promotional content*\n\nUpon request, we will work with the Corporate Events team to promote and follow-up from our sponsored corporate conferences."
+            },
+            {
+                "source": "marketing/demand-generation/campaigns/_index.md",
+                "content": "- Support email marketing initiatives with Lifecycle Marketing focused on email marketing\n  - Campaigns DRI for localization (translation of assets with Smartling)\n  - Campaigns DRI for UTM strategy\n  - Campaigns DRI for Weekly tech demo series"
+            }
+        ]
+    },
+    "15": {
+        "question": "What are the designated tiers in the Marketing Technology Tiering System?",
+        "contexts": [
+            {
+                "source": "product-development/how-we-work/r-and-d-interlock/_index.md",
+                "content": "| Go-to-market tier        | {{}}  {{}}   {{}}  | GTM tier labels apply to a subset of Product-driven initiatives that will be communicated externally to customers and stakeholders. They represent Go-To-Market priority and visibility:  - Tier 1: Requires GA of capability, customer references and tells a story of differentiation; Need the highest confidence of delivery and is externally communicated commitments   - Tier 2: includes key feature updates that help tie together a story. These are"
+            },
+            {
+                "source": "marketing/marketing-operations/marketing-technology-tiering-system.md",
+                "content": "## Scope\n\nThe Marketing Technology Tiering System is applicable to any software, tool, or technology that is, at least partially, paid for by the Marketing department.\n\n## Tiers\n\nThere are four tiers of technology within the Marketing Technology Tiering System:\n\n- Business Critical Technology - Tier 1\n- Operational Technology - Tier 2\n- Management Technology - Tier 3\n- Functional Technology - Tier 4\n\n## Criteria Categories"
+            },
+            {
+                "source": "marketing/marketing-operations/marketing-technology-tiering-system.md",
+                "content": "## Purpose\n\nThe purpose of the Marketing Technology Tiering System is to support the Marketing organization in identifying and understanding the technology utilized across the department in order to build a best-in-class, integrated, and efficient marketing tech stack. Additionally, by classifying marketing technology into tiers, GitLab's Marketing Operations team will be in a better position to prioritize requests, provide support, and optimize processes.\n\n## Scope"
+            },
+            {
+                "source": "marketing/marketing-operations/_index.md",
+                "content": "As a compliment to the Tech Stack, we created a visual of the Tier 1 and 2 tools in Marketing Technology stack, aligned to our customer journey.\n\n\n\n\n\nBelow are tools in the Marketing Technology stack, organized by tier.\n\n#### Business Critical Technology - Tier 1\n\n- 6sense\n- Bizible / Marketo Measure\n- Cognism\n- Iterable\n- Marketo\n- Outreach\n- Goldcast\n- PathFactory\n- Qualified\n- Traction\n- ZoomInfo\n- Impartner - MDF and Lead Sharing\n\n#### Operational Technology - Tier 2"
+            },
+            {
+                "source": "marketing/marketing-operations/_index.md",
+                "content": "#### Operational Technology - Tier 2\n\n- Allocadia\n- Hightouch\n- LinkedIn Sales Navigator\n- OneTrust\n- RingLead\n- Integrate DAP (Digital Strategy - Campaigns)\n- Mutiny\n- JiffleNow\n\n#### Management Technology - Tier 3\n\n- Litmus\n- Brilliant Gifts\n- Google Analytics (Search Discovery/Further)\n- OpenSense\n- BeeFree\n\n#### Functional Technology - Tier 4"
+            }
+        ]
+    },
+    "16": {
+        "question": "What onboarding structures are available for new hires via the People Group?",
+        "contexts": [
+            {
+                "source": "solutions-architects/sa-enablement/sa-onboarding.md",
+                "content": "- Schedule recurring 1:1s\n- Provide guidance on who the new hire should schedule coffee chats with during their onboarding journey\n- Review and discuss company policies\n  - PTO policy\n  - Family and Friends first culture\n  - CREDIT Values\n  - Growth and Development Budget\n- Discuss any team specific expectations\n- Review organizational structure\n- Ensure new hire has access to all role-specific tools and appropriate Slack channels"
+            },
+            {
+                "source": "customer-success/csm/segment/cse/cse-tm-onboarding.md",
+                "content": "- Schedule recurring 1:1s and check in calls\n- Provide guidance on who the new hire should schedule coffee chats with during their onboarding journey\n- Review and discuss company policies\n  - PTO policy\n  - Family and Friends first culture\n  - CREDIT Values\n- Discuss any team specific expectations\n- Review organizational structure\n- Ensure new hire has access to all role-specific tools and appropriate Slack channels"
+            },
+            {
+                "source": "acquisitions/acquisition-process/_index.md",
+                "content": "| People Group | 1. Maintain SSOT for team member data 2. Lead the compensation review 3. Lead the interview process during the early and due diligence stages to completion 3. Lead and assess successful team member integration in partnership with business                                                                    | 1. Team Member Offers of employment2. Onboarding experience 3. Post acquisition survey and action planning                                             |"
+            },
+            {
+                "source": "company/culture/all-remote/onboarding.md",
+                "content": "1. **Assign an onboarding buddy.** This individual can be a friendly point of contact for a new team member and also introduce them to others. Onboarding buddies often set the expectation for how to build relationships with other team members, so new hires and onboarding buddies should communicate in a variety of ways, such as video calls, check-ins on Slack, and coffee chats. At GitLab, we take this kind of role seriously and have an entire handbook page dedicated to onboarding buddies."
+            },
+            {
+                "source": "people-group/people-ops-tech-analytics/_index.md",
+                "content": "- The **People Operations Team** is responsible for onboarding, career mobility, offboarding, bonus processing, People Operations, personal information oversight, new hire/anniversary swag, and more. This team is also responsible for job changes (promotions and transfers), relocations, basic People data reporting, and process liaisons during new policy and program implementations."
+            }
+        ]
+    },
+    "17": {
+        "question": "What specialized capabilities are required for the UX Department's Experience Research methods?",
+        "contexts": [
+            {
+                "source": "marketing/brand-and-product-marketing/product-and-solution-marketing/market-insights.md",
+                "content": "1. Develop the survey research instrument. Review with stakeholders and the UX team to validate. If feasible, test externally in a small setting and iterate based on feedback. Use Qualtrics as the survey tool.\n1. Field the survey with internal and externally obtained target audiences. Use third party vendors to provide a blind experience, if possible.\n1. Perform analysis and synthesis of the survey responses."
+            },
+            {
+                "source": "product/ux/experience-research/research-prioritization/index.md",
+                "content": "on UX Researcher's level) **Examples:**  - The UX Researcher and Product Manager or Product Designer collaborate on the research methodology, craft a script, or review an analysis.   - The UX Researcher provides dedicated support for specific tasks that take less than a few days to execute.|"
+            },
+            {
+                "source": "upstream-studios/_index.md",
+                "content": "The Experience Research team consists of Research, Service Design, and Research Operations. Collectively, we provide end-to-end insights and service experiences across all touchpoints, from Brand to Product. We validate hypotheses before teams commit to direction, not after they've started building. Through continuous discovery and strategic insight, working closely with cross-functional partners, Experience Research informs our brand positioning, market messaging, and what we build, shaping"
+            },
+            {
+                "source": "product/ux/experience-research/_index.md",
+                "content": "#### Who we research\n\nThe Experience Research team researches customers, end users, potential users, stakeholders, competitor users, and specialized user groups to ensure the product meets diverse needs and expectations.\n\n#### How we research\n\nUsing a range of research methodologies (including user interviews, surveys, usability testing, diary studies, and card sorting) we collect raw data on user behaviors, needs, and preferences."
+            },
+            {
+                "source": "product/ux/learning-and-development/_index.md",
+                "content": "- UX Research: Lean Experimentation - This is a great overview of Lean UX and discusses business impact, iteration, hypothesis writing, experiment design, lean interviewing and more.\n- Surveys and Questionnaires for UX Projects - This one might be a review for some of you but it's a good overview of what to know about surveys.\n- UX Deep Dive: Analyzing Data - This one isn't about quantitative research, but it is about how to properly analyze your qualitative data to get to good insights."
+            }
+        ]
+    },
+    "18": {
+        "question": "What types of sales plays are utilized for CI/CD Go-To-Market strategies?",
+        "contexts": [
+            {
+                "source": "sales/field-communications/field-flash-newsletter/edition-2021-05-03.md",
+                "content": "1. **What is a Sales Play?** A Sales Play is a prescriptive set of actionable steps to guide reps through one of our key GTM motions: CI/CD, DevOps Platform, and GitOps. Sometimes it is also tied to a Marketing campaign.\n1. **What is included in a Sales Play?** In this Sales Play, you'll find:\n   1. Detailed Background Information: Ideal customer profile, target buyer personas, common pain points, discovery questions, elevator pitch, value positioning, objection handling and more."
+            },
+            {
+                "source": "marketing/sales-plays-cicd/_index.md",
+                "content": "## CI/CD GTM Motion\n\n### Sales plays\n\n1. Sales Playbook for Upsell Premium => Ultimate\n   - Message house\n   - Planner doc for visibility\n\nAdditional sales plays will be added as they're available\n\n#### Other resources"
+            },
+            {
+                "source": "marketing/sales-plays-cicd/planner-premium-to-ultimate.md",
+                "content": "### **Sales play planner and strategy page**\n\n**_content subject to change as we iterate and source feedback! All feedback is welcome- everyone can contribute._**\n\n#### **Sales play name**  {#sales-play-name}\n\nPremium => Ultimate CI/CD: find and use the sales playbook here.\n\n#### **Description**  {#description}\n\n_Convert accounts from premium to ultimate that are using GitLab CI_\n\n#### **Type**  {#type}\n\nUpsell and expand\n\n#### **Supporting marketing campaign**  {#supporting-marketing-campaign}"
+            },
+            {
+                "source": "marketing/sales-plays/_index.md",
+                "content": "## Why Sales Plays\n\nSales plays are designed to improve the quantity of opportunities and closed business with defined Land and Expand sales motions to ultimately generate more ARR for GitLab. More specifically, codified sales plays help to ensure that the sales team is trained and capable of executing either (or both) of the following:"
+            },
+            {
+                "source": "marketing/sales-plays-cicd/playbook-premium-to-ultimate.md",
+                "content": "## Sales Play Tactics {#sales-play-tactics}\n\nThese are Sales prescriptive actions to initiate engagement with target audience for Premium to Ultimate upgrade of existing GitLab CI users. **Strategy and actions differ by market segment** with SMB relying on marketing to drive inbound contacts initiated by the customer and ENT/MM primarily using the play to guide conversations initiated by sales.\n\n### Enterprise and Mid-market Accounts\n\n**Strategy**"
+            }
+        ]
+    },
+    "19": {
+        "question": "What specific device trust checks are mandated by Okta Security Policies?",
+        "contexts": [
+            {
+                "source": "security/corporate/end-user-services/okta/_index.md",
+                "content": "Important:\n  Follow our IT Onboarding Guide closely to ensure that your Okta account is configured correctly\n\n\nGitLab requires all team members to use either Biometrics or a YubiKey as your Okta authentication\n\n## Device Trust\n\nOkta Device Trust ensures that team members are acccessing Okta applications from a managed device. For additional details and timelines, please see the internal handbook.\n\n## Adding New Applications to Okta"
+            },
+            {
+                "source": "tools-and-tips/slack.md",
+                "content": "## Security\n\n### Sign-in requirements\n\nEvery 90 days, all users will be logged out of Slack and will need to re-authenticate on each of their devices via Okta. This is to ensure that all BYOD devices are registered with a current Okta Verify client and are visible in the Okta Administration dashboard. It will also ensure that there are no indefinite sessions on devices temporarily exempted from Okta Verify Device Trust.\n\n### Profile deletion"
+            },
+            {
+                "source": "security/corporate/systems/okta/user/setup/_index.md",
+                "content": "- **macOS**\n  - \ud83d\udc40 macOS Touch ID Guide\n  - Okta Verify Device Trust for macOS\n  - YubiKey Guide\n- **Linux**\n  - Exception Group \n  - YubiKey Guide\n- **Android 2FA**\n  - Android 2FA Guide\n  - Okta Verify Device Trust for Android\n- **Apple iOS 2FA**\n  - iOS Face ID 2FA Guide\n  - Okta Verify Device Trust for iOS\n\n## Access Applications\n\nYou can access the Okta dashboard by opening your web browser and visiting https://gitlab.okta.com."
+            },
+            {
+                "source": "security/corporate/end-user-services/okta/okta-enduser-faq/index.md",
+                "content": "At this time there is nothing stopping someone from using personal credentials. See the video created about configuring Apps for more details.\n\n## Does Okta have any visibility into MFA?\n\nMFA is strictly enforced on Okta. This acts as a gateway to the services it manages.  So those services, in effect require MFA via Okta login.\n\n## Will Okta be used to prevent logins from particular devices or conditions?\n\nYes, via Okta Device Trust and IP-based controls based on threat intelligence feeds."
+            },
+            {
+                "source": "security/corporate/systems/okta/_index.md",
+                "content": "- Okta Verify (Device Trust)\n  - Android Setup Guide\n  - Apple iOS Setup Guide\n  - Apple macOS Setup Guide\n- Okta Workflows (No Code Automation)\n- Vendor Docs - Okta Documentation"
+            }
+        ]
+    },
+    "20": {
+        "question": "Which support pods specialize in specific GitLab product areas?",
+        "contexts": [
+            {
+                "source": "support/_index.md",
+                "content": "### Support Pods\n\nIn GitLab Support, we use `Support Pods` to organize support engineers as they\nwork. Each Support Pod is a cross-region, single skill group of engineers who\nare interested in their Support Pod's specific product area. They are engineer-\nlead. To join or start a Support Pod you can read more below.\n\n*See the Support Pods handbook page and the Working with Support Pods workflow page.*\n\n### Improving our processes - 'Active Now' issue board"
+            },
+            {
+                "source": "support/support-pods/sec/_index.md",
+                "content": "Sec Pod is a technical interest Support Pod\nfocused on GitLab Sec section features.\n\n## Secure Pod members\n\n- Lead: {{}} (`@katrinleinweber-gtlb`)\n- Lead: {{}} (`@bcarranza`)\n- Lead: {{}} (`@duncan_harris`)\n- Lead: {{}} (`@kategrechishkina`)\n- Lead: {{}} (`@cmutua`)\n- {{}} (`@mmora`)\n- {{}} (`@calebw`)\n- {{}} (`@ralfaro`)\n- {{}} (`@cleveland`)\n\n## Purpose, key results and exit criteria (if any)"
+            },
+            {
+                "source": "support/support-pods/get/_index.md",
+                "content": "## Purpose\n\nA Support Pod for GitLab Environment Toolkit (GET) and GitLab Performance Toolkit (GPT)\n\n## Current Objectives"
+            },
+            {
+                "source": "support/support-pods/_index.md",
+                "content": "Support Pods introduces some form of specialization now, while being flexible enough to adapt to the\ncurrent operational challenges that the Support team faces as we scale to meet GitLab\u2019s increasingly\ncomplex business and customer needs.\n\nFor information on how you can integrate Support Pods into your workflows, visit the\nWorking with Support Pods workflow page.\n\n## Naming"
+            },
+            {
+                "source": "support/support-pods/_index.md",
+                "content": "Support Pods is a flexible framework which any group of team members can use to set up\nself-organizing interest-based groups to work on any set of problems people wish to take on.\n\nGitLab's product feature set and our customer\u2019s use-cases are getting large and complex enough that\nit makes sense to introduce some elements of specialization, but our team size is not yet large\nenough that it makes sense to restructure our work and team around specialization."
+            }
+        ]
+    },
+    "21": {
+        "question": "What are the various components of the laptop security configuration standards mandated during IT onboarding?",
+        "contexts": [
+            {
+                "source": "security/policies_and_standards/physical-security-standard-for-company-assets.md",
+                "content": "- Visitor Management\n  - Premises Protection\n  - Environmental Securities\n  - Access Management\n\n### Physical Devices and Location\n\n- Laptops are protected through Endpoint Management Procedures and secured through system configurations defined in the IT Security - System Configurations handbook page which include, but are not limited to:\n\n  - Passwords\n  - Screen timeout\n  - Encryption\n  - Endpoint detection and response"
+            },
+            {
+                "source": "security/product-security/security-platforms-architecture/security-architecture/zero-trust.md",
+                "content": "For the use case of laptop usage in untrusted environments, such as coffee shops\nand coworking spaces, team members should prioritize a baseline of always-on\nhost protections, such as up-to-date security patching, host firewalls, and\nantivirus, by following the Laptop Software Configuration Standards.\nThat said, a personal VPN may provide additional protections in these\nsituations. For more on personal VPNs see the Personal VPN page."
+            },
+            {
+                "source": "tools-and-tips/linux.md",
+                "content": "## Basic Setup\n\nOutside of the basics listed here for all laptop and desktop systems, there are additional steps required for Linux. The corporate standard is a Dell laptop running **Ubuntu LTS (latest version)** - the only approved Linux distribution. See the Linux onboarding guide for detailed installation instructions and required security tools.\n\n## General Applications\n\n- Enable the firewall with the following command:\n\n`$ sudo ufw enable`"
+            },
+            {
+                "source": "security/security-assurance/security-compliance/sec-controls.md",
+                "content": "- EPM-12: Laptops are configured by default to prevent the use of portable storage devices to mitigate data exfiltration with exceptions documented and approved by management.\n- PSM-6: Security awareness training is required to be completed upon hire and on an annual basis thereafter for team members. The training covers topics including organizational security policies, industry security best practices, and relevant threat landscapes applicable to job responsibilities."
+            },
+            {
+                "source": "security/corporate/end-user-services/onboarding101/linux-onboarding101.md",
+                "content": "## Table of Contents\n\n1. Before You Begin\n1. Security Requirements\n1. Initial Installation and Disk Encryption\n1. Initial Okta Login\n1. Device Management and Endpoint Security\n   1. SentinelOne Installation - Germany, the Netherlands, Italy, and Austria Only\n1. Additional Resources\n\n## Before You Begin\n\nTo get set up on your new Linux laptop, you will need to have the following:"
+            }
+        ]
+    },
+    "22": {
+        "question": "Whats included in laptop sec config standards for IT onboarding?",
+        "contexts": [
+            {
+                "source": "security/product-security/security-platforms-architecture/security-architecture/zero-trust.md",
+                "content": "For the use case of laptop usage in untrusted environments, such as coffee shops\nand coworking spaces, team members should prioritize a baseline of always-on\nhost protections, such as up-to-date security patching, host firewalls, and\nantivirus, by following the Laptop Software Configuration Standards.\nThat said, a personal VPN may provide additional protections in these\nsituations. For more on personal VPNs see the Personal VPN page."
+            },
+            {
+                "source": "security/corporate/end-user-services/laptop-management/laptop-vendors/_index.md",
+                "content": "We work with a limited number of trusted hardware vendors globally to ensure a high level of quality and support. Below are our guidelines for selecting or current vendors and potentially onboarding new ones.\n\n### Laptop Vendor Selection Criteria\n\nWhen selecting laptop vendors, CorpSec weighs factors like privacy, security, availability, and compliance to ensure we choose reliable suppliers for team member devices."
+            },
+            {
+                "source": "people-group/general-onboarding/tanewki-tips.md",
+                "content": "- **Device Configuration**: Our IT team can configure your laptop with standard accessibility settings, or work with TMR for specialized software setup."
+            },
+            {
+                "source": "tools-and-tips/linux.md",
+                "content": "## Basic Setup\n\nOutside of the basics listed here for all laptop and desktop systems, there are additional steps required for Linux. The corporate standard is a Dell laptop running **Ubuntu LTS (latest version)** - the only approved Linux distribution. See the Linux onboarding guide for detailed installation instructions and required security tools.\n\n## General Applications\n\n- Enable the firewall with the following command:\n\n`$ sudo ufw enable`"
+            },
+            {
+                "source": "security/corporate/_index.md",
+                "content": "- Policy and configuration management for organization-wide applications and systems that we manage\n- Role-based access control (RBAC)\n- Shipping laptops to new team members and refreshing older models\n- Tech support for team members and temporary service providers\n- User experience and productivity optimization for internal software and tools\n- Vulnerability and malware risk mitigation\n- Workflow automation for employee lifecycle"
+            }
+        ]
+    },
+    "23": {
+        "question": "What are the varous componets of the laptop secrity configuration standards?",
+        "contexts": [
+            {
+                "source": "security/policies_and_standards/physical-security-standard-for-company-assets.md",
+                "content": "- Visitor Management\n  - Premises Protection\n  - Environmental Securities\n  - Access Management\n\n### Physical Devices and Location\n\n- Laptops are protected through Endpoint Management Procedures and secured through system configurations defined in the IT Security - System Configurations handbook page which include, but are not limited to:\n\n  - Passwords\n  - Screen timeout\n  - Encryption\n  - Endpoint detection and response"
+            },
+            {
+                "source": "security/product-security/security-platforms-architecture/security-architecture/zero-trust.md",
+                "content": "For the use case of laptop usage in untrusted environments, such as coffee shops\nand coworking spaces, team members should prioritize a baseline of always-on\nhost protections, such as up-to-date security patching, host firewalls, and\nantivirus, by following the Laptop Software Configuration Standards.\nThat said, a personal VPN may provide additional protections in these\nsituations. For more on personal VPNs see the Personal VPN page."
+            },
+            {
+                "source": "finance/travel/_index.md",
+                "content": "- Completely power-off laptops and mobile devices before any security checkpoints. This reduces the risk of attacks that may be conducted against machines in a sleep mode, where the disk encryption is not being actively enforced.\n- Prior to the trip, remove any sensitive data from your local machine that is not absolutely required. Refer to the Data Classification Standards for more information."
+            },
+            {
+                "source": "engineering/development/sec/security-risk-management/security-insights/vulnerability_archival_setup.md",
+                "content": "**Secure** > **Security Configuration** > **Vulnerability Management** from the left navigation bar."
+            },
+            {
+                "source": "security/network-isolation.md",
+                "content": "- **Security concerns**. The security of individual devices on your home network might vary. Some are notoriously insecure (like some \"smart\" home devices) or some might simply lack the latest security patches. Isolating devices with poor security from your work laptop (and other sensitive private devices) can increase the security of your work laptop."
+            }
+        ]
+    },
+    "24": {
+        "question": "How is the Snowflake data platform governed and optimized by the Enterprise Data Team?",
+        "contexts": [
+            {
+                "source": "enterprise-data/_index.md",
+                "content": "and monitoring and measuring Data Quality. The Data Team is responsible for data that is defined and accessed on a regular basis by GitLab team members from the Snowflake Enterprise Data Warehouse. The Data Team builds data infrastructure to power approximately 80% of the data that is accessed on a regular basis. The Data Team also provides a Data Science center of excellence to launch new advanced analytics initiatives and provide guidance to other GitLab team members."
+            },
+            {
+                "source": "enterprise-data/platform/snowflake/_index.md",
+                "content": "---\n\n## What and why\n\nSnowflake is our Enterprise Data Warehouse (EDW) and is the core technology in our Enterprise Data Platform.\n\n## What does Snowflake Contain?\n\nSnowflake contains all of our analytical data and Data Sources defines the set of original/raw data available.\n\n## Related Content\n\n- Access\n- Support Portal Access\n- Compute Resources\n- Data Masking\n- Backups\n- AI Function Guide\n\n## Logging In\n\nLogin to Snowflake from Okta.\n\n## Navigating the UI"
+            },
+            {
+                "source": "enterprise-data/_index.md",
+                "content": "* The **Data Team** reports into Marketing office and is the Center of Excellence for enterprise insights & analytics (not operational), data science, data platform & infrastructure, BI technologies, master data, data governance and data quality. The Data Team is also responsible for the enterprise data strategy, building enterprise-wide data models, providing Self-Service Data capabilities, maintaining the data platform, developing Data Pumps, and monitoring and measuring Data Quality. The"
+            },
+            {
+                "source": "enterprise-data/platform/pipelines/_index.md",
+                "content": "- Accessed only by approved parties with special attention to SAFE Framework and Data Classification Standards and governed by Snowflake Object Tagging."
+            },
+            {
+                "source": "enterprise-data/how-we-work/_index.md",
+                "content": "### Work Categorization and Prioritization\n\nThe Data Team strives to spend the majority of its time developing and operating the Enterprise Data Platform and related systems, keeping fresh data flowing through the system, regularly expanding the breadth of data available for analysis, and delivering high-impact strategic projects. We categorize our work using the framework outlined below."
+            }
+        ]
+    },
+    "25": {
+        "question": "What guidelines and rules govern the use and integration of AI functionalities from a legal perspective?",
+        "contexts": [
+            {
+                "source": "security/isms.md",
+                "content": "- Market competitive pressures and business environment changes\n- Applicable legal requirements, including prohibited uses of AI\n- Policies, guidelines and decisions from regulators that have an impact on the interpretation or enforcement of legal requirements in the development and use of AI systems\n- Incentives or consequences associated with the intended purpose and the use of AI systems\n- Culture, traditions, values, norms and ethics with respect to development and use of AI"
+            },
+            {
+                "source": "security/isms.md",
+                "content": "- Organizational context, governance, objectives, policies and procedures\n- Contractual obligations\n- Intended purpose of the AI system to be developed or used."
+            },
+            {
+                "source": "support/workflows/working-on-tickets.md",
+                "content": "Read the General Purpose AI Tool Usage Guidelines for additional guidance."
+            },
+            {
+                "source": "marketing/marketing-operations/learning.md",
+                "content": "1. Build a Governance team to create a guidance that reviews the bias, how it\u2019s used and where it goes (privacy). Involve cross-functional teams\u2014sales, marketing, and IT\u2014to ensure successful AI adoption.\n1. Set up a 3-step AI adoption plan when using GenAI\n   1. Post and edit\n   1. Human oversight\n   1. Fully AI generated"
+            },
+            {
+                "source": "security/security-assurance/security-risk/third-party-risk-management.md",
+                "content": "Usage of Artificial Intelligence (AI) services by GitLab Team Members carries unique Security, Privacy, and Legal implications and is governed by GitLab's Acceptable Use Policy. While TPRM has integrated procedures to gain assurance over the security of AI functionality, we may be unable to make determinations in some scenarios as to whether usage of these services is in alignment with GitLab's AI Acceptable Use Policy. As such, TPRM may engage the Legal and CorpSec teams prior to requisition"
+            }
+        ]
+    },
+    "26": {
+        "question": "What frameworks and tools are utilized by the Corporate Security End User Services for application provisioning?",
+        "contexts": [
+            {
+                "source": "company/infrastructure-standards/realms/sandbox/_index.md",
+                "content": "1. **Automated Access Approval Provisioning:** Supplementing single sign-on (SSO) providers with post-auth provisioning of infrastructure resources in one or more provider APIs.\n1. **GitOps Infrastructure-as-Code Provisioning:** Automatically creating Git projects with Terraform infrastructure-as-code scaffolding with security best practices that use CI/CD automation."
+            },
+            {
+                "source": "security/corporate/systems/okta/_index.md",
+                "content": "- **Application Owners**\n  - Automated user provisioning and group management\n  - Ability to transparently manage shared credentials to web applications without disclosing the credentials to users\n  - Centralized access for users, making it easy to add, remove and change the application profile without the need to update all users.\n- **Business Security Benefits**"
+            },
+            {
+                "source": "security/corporate/services/helpdesk/_index.md",
+                "content": "- Identity and Access Management\n  - Access Requests\n  - Account Password and 2FA Resets\n  - Career Mobility (Mover) and Role Changes Provisioning\n  - External Collaborators (Customers, Partners, Vendors)\n  - Onboarding (Joiner) Provisioning (Baseline Entitlements) and User Support\n  - Offboarding (Leaver) Deprovisioning\n  - Service Accounts\n  - Temporary Service Providers\n- Infrastructure Management\n  - AWS\n  - GCP\n- Laptops and Logistics\n- Tech Support for Team Members"
+            },
+            {
+                "source": "security/security-assurance/_index.md",
+                "content": "### Security Compliance Core Competencies\n\n- Continuous Control Monitoring\n- Security Certifications and Attestations\n- User Access Reviews (non-SOX)\n- Observation management for control failures and Tier 3 (system-level) risks\n- Security Assurance System Intake\n\n##  Core Tools and Systems\n\nThe Security Assurance sub department utilizes a variety of tools to carry out day to day activities. The system admin is responsible for the following:"
+            },
+            {
+                "source": "security/corporate/support/_index.md",
+                "content": "- Identity and Access Management\n  - Access Requests\n  - Career Mobility (Mover) and Role Changes Provisioning\n  - External Collaborators (Customers, Partners, Vendors)\n  - Onboarding (Joiner) Provisioning (Baseline Entitlements) and User Support\n  - Offboarding (Leaver) Deprovisioning\n  - Service Accounts\n  - Temporary Service Providers\n- Infrastructure Management\n  - AWS\n  - GCP\n- Laptops and Logistics\n- Tech Support for Team Members\n  - Account Password and 2FA Resets"
+            }
+        ]
+    },
+    "27": {
+        "question": "What are the required security configuration standards for corporate laptops managed by IT?",
+        "contexts": [
+            {
+                "source": "security/policies_and_standards/physical-security-standard-for-company-assets.md",
+                "content": "- Visitor Management\n  - Premises Protection\n  - Environmental Securities\n  - Access Management\n\n### Physical Devices and Location\n\n- Laptops are protected through Endpoint Management Procedures and secured through system configurations defined in the IT Security - System Configurations handbook page which include, but are not limited to:\n\n  - Passwords\n  - Screen timeout\n  - Encryption\n  - Endpoint detection and response"
+            },
+            {
+                "source": "tools-and-tips/linux.md",
+                "content": "## Basic Setup\n\nOutside of the basics listed here for all laptop and desktop systems, there are additional steps required for Linux. The corporate standard is a Dell laptop running **Ubuntu LTS (latest version)** - the only approved Linux distribution. See the Linux onboarding guide for detailed installation instructions and required security tools.\n\n## General Applications\n\n- Enable the firewall with the following command:\n\n`$ sudo ufw enable`"
+            },
+            {
+                "source": "security/corporate/end-user-services/onboarding101/linux-onboarding101.md",
+                "content": "Before being able to log into Okta, the following security requirements must be met:\n\n1. **Full-Disk Encryption:** LUKS encryption must be enabled\n1. **Hostname:** The laptop's hostname must match our standard naming convention\n1. **Fleet:** Device management must be installed\n1. **EDR:** CrowdStrike Falcon or SentinelOne (Germany, the Netherlands, Italy, and Austria only) must be installed\n\n## Initial Installation and Disk Encryption"
+            },
+            {
+                "source": "security/security-assurance/security-compliance/sec-controls.md",
+                "content": "- EPM-12: Laptops are configured by default to prevent the use of portable storage devices to mitigate data exfiltration with exceptions documented and approved by management.\n- PSM-6: Security awareness training is required to be completed upon hire and on an annual basis thereafter for team members. The training covers topics including organizational security policies, industry security best practices, and relevant threat landscapes applicable to job responsibilities."
+            },
+            {
+                "source": "security/product-security/security-platforms-architecture/security-architecture/zero-trust.md",
+                "content": "For the use case of laptop usage in untrusted environments, such as coffee shops\nand coworking spaces, team members should prioritize a baseline of always-on\nhost protections, such as up-to-date security patching, host firewalls, and\nantivirus, by following the Laptop Software Configuration Standards.\nThat said, a personal VPN may provide additional protections in these\nsituations. For more on personal VPNs see the Personal VPN page."
+            }
+        ]
+    },
+    "28": {
+        "question": "What operational responsibilities fall under the Vulnerability Management Team's standard procedures?",
+        "contexts": [
+            {
+                "source": "security/product-security/vulnerability-management/infrastructure-vulnerability-procedure.md",
+                "content": "## Roles & Responsibilities\n\n| Role | Responsibility |\n| -----| -------------|\n| Vulnerability Management Team | Responsible for implementing and maintaining this Vulnerability Management Procedure |\n| Infrastructure |  Responsible for remediating vulnerabilities according to procedure |\n| Security Leadership |  Responsible for making final determination on risk acceptance (exceptions) |\n\n## Procedure\n\nCurrently, we break down vulnerability management into the following steps:"
+            },
+            {
+                "source": "security/product-security/vulnerability-management/_index.md",
+                "content": "| Vulnerability Management | Responsible for implementing and maintaining Vulnerability Management standards. Develop and maintain (VulnMapper). Evaluate severity and priority, analyze the actual impacts, and make risk adjustment for the vulnerabilities which VulnMapper is unable to process automatically. Iterate on data gathering, normalization and correlation automation and work to provide actionable insights on mitigation and remediation to GitLab team members. | |"
+            },
+            {
+                "source": "security/product-security/vulnerability-management/vulnerability-management-team/_index.md",
+                "content": "* Vulnerability Management\n  * Providing automated contextual enrichment for all vulnerabilities\n  * Supplying patch availability information and vendor triage status\n  * Maintaining integration with advisory data sources\n  * Ensuring consistent labeling and workflow routing\n\n* PSIRT\n  * Triaging HackerOne reports and bug bounty submissions\n  * Assessing exploitability and impact for application vulnerabilities"
+            },
+            {
+                "source": "security/security-operations/red-team/opportunistic-attacks/_index.md",
+                "content": "If vulnerabilities are discovered, we exploit them and work to safely demonstrate maximum impact. This may involve establishing persistence, escalating privileges, and other common attack techniques.\n\nWhen immediate action is required, we follow the standard process for reporting an incident. For vulnerabilities that appear wide-spread or recurring, we create an issue inside the Vulnerability Management issue tracker to implement automated scanning capabilities."
+            },
+            {
+                "source": "engineering/architecture/design-documents/kev/_index.md",
+                "content": "vulnerability management."
+            }
+        ]
+    },
+    "29": {
+        "question": "How does the Solutions Architecture Center of Excellence structure its technical discovery and proof of value initiatives?",
+        "contexts": [
+            {
+                "source": "solutions-architects/_index.md",
+                "content": "### Center of Excellence\n\nThe Solutions Architecture Center of Excellence is team comprised of Subject Matter Experts, Demo Architects, and Business Value Managers focused on accelerating GitLab's market leadership and revenue growth by delivering specialized expertise at scale.\n\n### Strategic Field Organization"
+            },
+            {
+                "source": "solutions-architects/processes/_index.md",
+                "content": "Once a technical discovery has been completed, SA will work within the account team to solidify a path forward (will the customer proceed with a purchase, trial, proof of value?) and identify the corresponding metrics that will be used to determine the success of the evaluation.\n\n## Solution Architect Engagement Models\n\n### U.S. Enterprise Account and Opportunity Engagement Model"
+            },
+            {
+                "source": "solutions-architects/processes/_index.md",
+                "content": "Further details can be found here: Overlap Between Solution Architects and Customer Success Managers\n\n#### Technical Discovery and Demo Preparation\n\nThe Solutions Architect, in order to tailor conversations and demos to demonstrate value as well as address current problem areas, will want to understand the following information, and may request further technical discovery[^footnote-01] prior to any demo:\n\n1. **Outcome:**"
+            },
+            {
+                "source": "solutions-architects/processes/_index.md",
+                "content": "Solution Architects should participate in technical discovery after lead qualification is complete and in other activities during the sales process that lead to a technical win, e.g.\n\n- GitLab demos\n- GitLab technical deep dives\n- GitLab hands-on workshops & Labs\n- Whiteboarding sessions\n- Prospect Q&A sessions\n- RFI/RFP completion\n- PoV planning, documentation and execution strategy\n- Security Audits\n- SOW Scoping with Professional Services"
+            },
+            {
+                "source": "sales/sales-operating-procedures/facilitate-the-opportunity.md",
+                "content": "1. **Create a Proof of Value** when necessary which focuses on specific customer business outcomes that cannot be achieved through other technical and/or business interactions.\n1. **Submit a Proof of Value** (PoV/PoC) plan to stakeholders for approval."
+            }
+        ]
+    },
+    "30": {
+        "question": "What processes dictate the handling of software licensing and renewals for Self-Managed environments?",
+        "contexts": [
+            {
+                "source": "legal/privacy/customer-product-usage-information.md",
+                "content": "customer behavior in the areas of provisioning and renewals."
+            },
+            {
+                "source": "sales/field-operations/order-processing.md",
+                "content": "GitLab's Cloud Licensing experience allows for the activation and provisioning of Quarterly Subscription Reconciliation and Auto-Renewals, which apply to both SaaS and Self-Managed Subscription plans. In addition, the Cloud Licensing experience introduces Operational Data.\n\n#### Auto-Renewal, Quarterly Subscription Reconciliation, and Operational Data: Eligibility"
+            },
+            {
+                "source": "sales/field-operations/sales-operations/order-management.md",
+                "content": "#### Background\n\nThe License Delivery Review Process is a new process created to ensure that all self-managed deals result in license fulfillment. The goals of this process are to (1) Improve customer satisfaction by ensuring licenses are delivered in a timely manner, (2) Improve Sales efficiency by reducing time spent by sellers to chase license delivery, and (3) Prevent revenue recognition issues caused by delayed license delivery to customers.\n\n**In Scope:**"
+            },
+            {
+                "source": "legal/privacy/customer-product-usage-information.md",
+                "content": "*Configuration*: License Sync collects Metrics from paid Self-Managed instances and Dedicated to activate Cloud Licensing. Further, License Sync ingests these Metrics for Self-Managed and Dedicated customers and sends it to our Customer Portal for the aforementioned license management and reconciliations. Then the Metrics are sent to our data warehouse."
+            },
+            {
+                "source": "sales/field-operations/sales-operations/deal-desk.md",
+                "content": "#### **B.  Upgrade or Switch Products During the Subscription Term**\n\nFollow this process to change products mid-term. A common use case for this process is migrations from Self-Managed to SaaS or from SaaS to Self-Managed. In such scenarios, once the opportunity becomes Closed Won, the standard licensing process will occur."
+            }
+        ]
+    },
+    "31": {
+        "question": "What are the key stages of the Product Development Flow utilized by Product Management?",
+        "contexts": [
+            {
+                "source": "engineering/development/fulfillment/_index.md",
+                "content": "### Workflow\n\nWe generally follow the Product Development Flow and use the workflow labels as defined there.\n\nGenerally speaking, issues are in one of two states:\n\n- Discovery/refinement: we're still answering questions that prevent us from starting development,\n- Implementation: an issue is waiting for an engineer to work on it, or is actively being built.\n\nBasecamp thinks about these stages in relation to the climb and descent of a hill."
+            },
+            {
+                "source": "engineering/data-engineering/analytics/analytics-instrumentation/_index.md",
+                "content": "### Workflow\n\nOur team use the following workflow stages defined in the Product Development Flow:\n\n#### Validation stage"
+            },
+            {
+                "source": "engineering/data-engineering/analytics/optimize.md",
+                "content": "While individual groups are free to use as many stages in the Product Development Flow workflow as they find useful, we should be somewhat prescriptive on how issues transition from discovery/refinement to implementation.\n\n##### Measuring the value of the team deliverables\n\nTo visualize our flow of value to customers, we're dogfooding Value Stream Analytics to measure the time it takes to go from planning to production.\n\n##### Backlog management"
+            },
+            {
+                "source": "engineering/development/fulfillment/_index.md",
+                "content": "While individual groups are free to use as many stages in the Product Development Flow workflow as they find useful, we should be somewhat prescriptive on how issues transition from discovery/refinement to implementation.\n\n### User Experience\n\nWe strive to provide excellent usability in all of our workflows, creating a balance between user and business needs. Product Designers work closely with Product Managers and Engineers.\n\n#### How we work"
+            },
+            {
+                "source": "product/product-processes/_index.md",
+                "content": "### Product Development Flow\n\nIntroducing changes requires a number of steps, with some overlap, that should be completed in order. GitLab follows a dual-track product development flow spanning product, engineering, UX, and quality. We use GitLab to power product development flow. When changes are released, we follow the release post process to communicate externally about new capabilities.\n\nThis process should be both up front and on an on-going basis when building features."
+            }
+        ]
+    },
+    "32": {
+        "question": "How is Field Operations structured to support Sales strategy and GTM enablement?",
+        "contexts": [
+            {
+                "source": "sales/field-operations/field-enablement/gtm-enablement.md",
+                "content": "**GTM Enablement:** Generally, GTM Enablement leads the land and adopt strategy for net-new product and initiative launches at GitLab. This function works closely with the Field Communications team to land initiatives in the field. This team is responsible for creating effective, timely, and easily consumable communications with the Field team (Sales, Customer Success, Channel, Alliances, Revenue Strategy, Operations & Enablement).\n\n**Key initiative areas are limited to:**"
+            },
+            {
+                "source": "marketing/plan-fy22.md",
+                "content": "- **Digital Marketing:** Responsible for digital strategy and defining ideal marketing channels to reach goals.\n- **Brand:** Responsible for cohesive branded journey across all tactics and between GTM Motions.\n- **Field Enablement:** Sales DRI for sales enablement and training, and collaborating with GTM core teams on launch timeline.\n- **Sales Leadership:** Responsible for providing insight into the prioritization of sales plays."
+            },
+            {
+                "source": "sales/field-operations/field-enablement/gtm-enablement.md",
+                "content": "1. GTM Enablement delivers closed-loop reporting on all enablement activities and engagement aligned to the GTM Enablement Framework.\n2. GTM Enablement participates in retrospectives upstream and downstream (merging where possible) with various working groups and engages in feedback loops to assess the launch's success and identify areas for improvement, ensuring continuous enhancement of the NPI and enablement processes. \u00a0\n3. Field Enablement reinforce & sustain motions begin."
+            },
+            {
+                "source": "sales/field-operations/field-enablement/_index.md",
+                "content": "1. **Operate with Efficiency & Scale**\n   1. Minimize FE team task redundancy, improve program processes & rhythm, and build shared enablement services.\n1. **Field Alignment**\n   1. Establish a field rhythm of business, build feedback loops, build with the field, and respect our global teams.\n1. **GTM Enablement**\n   1. Deliver route-agnostic enablement programs, uniformly upskill field & partners,  drive operational rigor and strengthen strategic selling."
+            },
+            {
+                "source": "marketing/campaigns/_index.md",
+                "content": "- **Field Enablement:** Sales DRI for sales enablement and training, and collaborating with GTM core teams on launch timeline.\n- **Sales Leadership:** Responsible for providing insight into the prioritization of value plays."
+            }
+        ]
+    },
+    "33": {
+        "question": "What are the foundational elements of the Engineering Career Framework across different seniority levels?",
+        "contexts": [
+            {
+                "source": "engineering/careers/matrix/infrastructure/senior.md",
+                "content": "{{% include \"includes/engineering-careers/career-matrix-nav.md\" %}}\n\n## Senior\n\nSenior-level engineers in infrastructure are significantly contributing to their team's results and culture through personal results as well as through mentoring and setting team culture. Beyond this level, engineers can choose to progress into technical leadership (via the Staff Engineer level), or move onto the management track (via the Engineering Manager level).\n\n## Accountability"
+            },
+            {
+                "source": "engineering/careers/matrix/infrastructure/_index.md",
+                "content": "{{% include \"includes/engineering-careers/career-matrix-nav.md\" %}}\n\n## Infrastructure Department Career Framework\n\nThe Infrastructure Department career tracks are visualized on the Engineering career development landing page.\n\nThe Infrastructure Department Career Framework consists of three major components:\n\n1. Company Values Alignment\n1. Engineering Function Leadership Competencies\n1. Infrastructure Department Leadership and Technical Competencies"
+            },
+            {
+                "source": "engineering/careers/matrix/infrastructure/senior.md",
+                "content": "## Engineering alignment\n\n### Senior Leadership Competencies\n\n{{% include \"includes/engineering-careers/senior-leadership-competency.md\" %}}\n  \n### Senior Technical Competencies\n\n{{% include \"includes/engineering-careers/senior-technical-competency.md\" %}}\n\n### Senior Values Alignment\n\n{{% include \"includes/engineering-careers/values-competency.md\" %}}"
+            },
+            {
+                "source": "engineering/careers/matrix/senior.md",
+                "content": "### Senior Technical Competencies\n\nPlease refer to Engineering Job Levels for current competencies.\n\n{{% include \"includes/engineering-careers/senior-technical-competency.md\" %}}\n\n### Senior Values Alignment\n\n{{% include \"includes/engineering-careers/values-competency.md\" %}}"
+            },
+            {
+                "source": "total-rewards/compensation/compensation-calculator/_index.md",
+                "content": "Dual career tracks can be added to each job family (regardless of division) when supported by data. Each individual contributor level above senior (grade 7) will have links to market examples of that level in the relevant section of the job family.\n\n##### Engineering Job Levels\n\nIn January 2026 an Engineering Job Architecture update was shared including details on Engineering job levelling."
+            }
+        ]
+    },
+    "34": {
+        "question": "What strategies are employed by the Threat Management and Security Incident Response teams?",
+        "contexts": [
+            {
+                "source": "security/security-operations/secops-oncall.md",
+                "content": "The Security Operations sub-department is collectively responsible for responding to reports of actual or potential security incidents on a 24/7/365 basis.\n\n- The SIRT (Security Incident Response Team) generally responds to reports of suspicious activities (e.g. Phishing, hacking, social engineering) and security alerts.\n- The Trust & Safety team generally responds to reports of cryptomining, platform SPAM, abuse, bullying and violations of terms of service."
+            },
+            {
+                "source": "security/_index.md",
+                "content": "Threat Management Department teams are cross-functional. They are responsible for collaborating across the Security Division to identify, communicate, and remediate threats or vulnerabilities that may impact GitLab, our Team Members or our users and the community at large.\n\n#### Assure the Customer - The Security Assurance Department"
+            },
+            {
+                "source": "security/product-security/security-platforms-architecture/application-security/_index.md",
+                "content": "#### Security Response\n\nThe Product Security Incident Response Team's accountability is to triage and technically assesses critical and exploitable vulnerabilities, determine company and customer risk, and coordinate external communications regarding these issues.  PSIRT has several partners across the company including:"
+            },
+            {
+                "source": "support/support-incident-response.md",
+                "content": "### Product Team\n\n- Assists with product-specific incidents and bugs\n- Provides product expertise for customer communications\n- Prioritizes fixes based on customer impact data\n- Collaborates on bug-related messaging\n\n### Security Incident Response Team (SIRT)\n\n- Provides security expertise during security-related incidents\n- Determines appropriate information disclosure restrictions\n- Guides support messaging for security incidents\n- Reviews security-related customer communications"
+            },
+            {
+                "source": "communication/confidentiality-levels.md",
+                "content": "1. Security Incident Investigation: In order to avoid exposing team members to MNPI, the Security Incident Response Team (SIRT) will restrict access to only those necessary to assess the materiality of incidents. Once an incident is determined to not have MNPI the access may be changed to internal."
+            }
+        ]
+    },
+    "35": {
+        "question": "What structured learning and development programs are available through the People Group's Talent Development initiatives?",
+        "contexts": [
+            {
+                "source": "people-group/people-business-partners/_index.md",
+                "content": "### Talent Program Execution in your division\n\nPBPs collaborate with Talent Management, Talent Development, Total Rewards,and all People Group teams to execute talent programs in each division.  Where appropriate, PBPs contribute to project teams to ensure talent programs meet specific business needs.\n\n#### For more information\n\n1. Talent Assessment programs including promotion and career development\n1. Succession planning\n\n### Leadership coaching and development"
+            },
+            {
+                "source": "people-group/talent-assessment.md",
+                "content": "- **Learning & Development:** Support Key Talent growth by providing tools and opportunities for personal and professional development.\n- **Growth Opportunities:** Discuss motivation and ambitions with Key Talent. Opportunities include expanding scope within current role, lateral moves, or promotions.\n- **Compensation:** Our market-based approach differentiates pay based on performance through Annual Compensation Review Cycle and Annual Equity Refresh programs."
+            },
+            {
+                "source": "legal/esg/fy23-esg-report.md",
+                "content": "mission by bringing top talent into GitLab and supporting team members to develop and fine tune their skill sets and further their careers. We offer development opportunities through LevelUp, our learning management software, to facilitate and centralize the learning experience for GitLab team members. The People Group also offers resources for team members to connect, share concerns, and seek support\u2014helping to create a safe, transparent working environment."
+            },
+            {
+                "source": "people-group/_index.md",
+                "content": "| Learning and Development | `@gitlab-com/people-group/learning-development` | learning@ gitlab.com | #learninganddevelopment | n/a | L&D Issue Board  |\n| Talent Acquisition | @gl-talent-acquisition | recruiting@ gitlab.com | @talent-acquisition-team | n/a |  |\n| Employer Branding | No alias yet, @mention the Senior Talent Brand Manager | employmentbranding@ gitlab.com | n/a | n/a |  |\n| Candidate Experience Specialist | @gitlab-com/gl-ces | ces@ gitlab.com | @ces | @ces* |  |"
+            },
+            {
+                "source": "company/esg.md",
+                "content": "Our People Group is dedicated to supporting each team member through their career journey at GitLab. They enable GitLab\u2019s strategy through a focus on attracting and retaining diverse talent, creating a high-performance culture with a focus on efficiency and quality results, driving divisional success through talent programs, and cultivating an equitable and inclusive culture. This includes developing and maintaining our talent brand, facilitating ongoing learning and development, and providing"
+            }
+        ]
+    },
+    "36": {
+        "question": "How do the responsibilities of the Database Excellence Stage in Engineering intersect with the Data Governance policies in the Enterprise Data Team?",
+        "contexts": [
+            {
+                "source": "enterprise-data/data-governance/data-stewardship-practices.md",
+                "content": "As the data governance team works towards defining and establishing data stewardship practices, roles and responsbilities, we also recognise the need to create some excitement and gamification around this. We plan to :"
+            },
+            {
+                "source": "enterprise-data/organization/analytics-engineering.md",
+                "content": "- With the **Data Governance and Quality Team**:\n  - Help define and champion Data Quality practices and programs for GitLab data systems\n- With the **Data Science and Enterprise Analytics Team**:\n  - Provide Self-Service Data capabilities to help everyone leverage data and analytics"
+            },
+            {
+                "source": "enterprise-data/organization/analytics-engineering.md",
+                "content": "- With **Data Leadership**:\n  - Define and publish a Data Strategy to help maximize the value of GitLab's Data Assets\n  - Broadcast regular updates about data deliverables, ongoing initiatives, and upcoming plans\n- With the **Data Platform Team**:\n  - Build and maintain the company's central Enterprise Data Warehouse to support Reporting, Analysis, Dimensional Modeling, and Data Development for all functional teams\n- With the **Data Governance and Quality Team**:"
+            },
+            {
+                "source": "enterprise-data/organization/_index.md",
+                "content": "1. **Data Science Team:** **Center of Excellence** for advanced analytics, including delivery of data science projects to the business\n1. **Data Governance and Data Quality Team:** Help build robust data governance practices and establish data quality frameworks for data quality monitoring and data quality improvement."
+            },
+            {
+                "source": "enterprise-data/data-governance/data-stewardship-practices.md",
+                "content": "### **Stakeholder Collaboration**\n\n- Serve as liaison between business users and technical teams\n- Participate in data governance stewardship committee meetings\n- Provide training and support to data consumers\n- Help resolve data-related disputes and conflicts such as right metrics to use, aligning on metric definitions and calculataions etc.\n\n### **Process Improvement**\n\n- Identify opportunities for data process optimization\n- Drive automation of data stewardship activities\n\n---"
+            }
+        ]
+    },
+    "37": {
+        "question": "How does Database Excellence Stage overlap w/ Data Governance?",
+        "contexts": [
+            {
+                "source": "enterprise-data/platform/tableau/_index.md",
+                "content": "Governance is the combination of controls, roles, and repeatable processes that creates trust and confidence in data and analytics. Both IT and business stakeholders on the project team are responsible for defining data and content governance together. In a successful self-service environment, the appropriate levels of governance create accountability and enable, rather than restrict, access to trusted content for users at GitLab. Governance is a spectrum, different kinds of data and content"
+            },
+            {
+                "source": "enterprise-data/organization/analytics-engineering.md",
+                "content": "- With the **Data Governance and Quality Team**:\n  - Help define and champion Data Quality practices and programs for GitLab data systems\n- With the **Data Science and Enterprise Analytics Team**:\n  - Provide Self-Service Data capabilities to help everyone leverage data and analytics"
+            },
+            {
+                "source": "enterprise-data/organization/_index.md",
+                "content": "1. **Data Science Team:** **Center of Excellence** for advanced analytics, including delivery of data science projects to the business\n1. **Data Governance and Data Quality Team:** Help build robust data governance practices and establish data quality frameworks for data quality monitoring and data quality improvement."
+            },
+            {
+                "source": "enterprise-data/data-governance/data-stewardship-practices.md",
+                "content": "As the data governance team works towards defining and establishing data stewardship practices, roles and responsbilities, we also recognise the need to create some excitement and gamification around this. We plan to :"
+            },
+            {
+                "source": "enterprise-data/how-we-work/_index.md",
+                "content": "and drive innovation. It acts as a governing body to establish policies, standards, and best practices for data governance, data quality, data privacy, and data security."
+            }
+        ]
+    },
+    "38": {
+        "question": "How do the responsibilites of the Databse Excellence Stage in Engineering intersect with Data Governance policies?",
+        "contexts": [
+            {
+                "source": "people-group/people-ops-tech-analytics/people-analytics/data-governance.md",
+                "content": "Data governance in people analytics is essential for several reasons. First, it ensures that data is accurate and reliable. Accurate data is critical to making informed decisions about hiring planning, recruitment, retention, and engagement. Second, data governance ensures that data is consistent across different systems and platforms, making it easier to analyze and compare data. Third, data governance ensures that data is secure and confidential, protecting the privacy of team members."
+            },
+            {
+                "source": "enterprise-data/data-governance/data-stewardship-practices.md",
+                "content": "As the data governance team works towards defining and establishing data stewardship practices, roles and responsbilities, we also recognise the need to create some excitement and gamification around this. We plan to :"
+            },
+            {
+                "source": "enterprise-data/how-we-work/_index.md",
+                "content": "and drive innovation. It acts as a governing body to establish policies, standards, and best practices for data governance, data quality, data privacy, and data security."
+            },
+            {
+                "source": "enterprise-data/organization/_index.md",
+                "content": "1. **Data Science Team:** **Center of Excellence** for advanced analytics, including delivery of data science projects to the business\n1. **Data Governance and Data Quality Team:** Help build robust data governance practices and establish data quality frameworks for data quality monitoring and data quality improvement."
+            },
+            {
+                "source": "enterprise-data/data-governance/data-stewardship-practices.md",
+                "content": "### **Evolution of Data Governance**\n\nModern data governance has evolved from traditional, centralized approaches to more collaborative, federated models that recognize the distributed nature of contemporary data landscapes. Data stewardship serves as the operational foundation of these governance frameworks, translating high-level policies into day-to-day practices.\n\n### **Integration with Modern Technologies**"
+            }
+        ]
+    },
+    "39": {
+        "question": "What is the connection between Engineering's Database Excellence Stage and Enterprise Data's Governance policies?",
+        "contexts": [
+            {
+                "source": "people-group/people-ops-tech-analytics/people-analytics/data-governance.md",
+                "content": "Data governance in people analytics is essential for several reasons. First, it ensures that data is accurate and reliable. Accurate data is critical to making informed decisions about hiring planning, recruitment, retention, and engagement. Second, data governance ensures that data is consistent across different systems and platforms, making it easier to analyze and compare data. Third, data governance ensures that data is secure and confidential, protecting the privacy of team members."
+            },
+            {
+                "source": "enterprise-data/data-governance/data-management.md",
+                "content": "## Purpose\n\nData Management covers practices and policies around managing, securing, and governing the Enterprise Data Platform and activities related to it. The technical components of the Enterprise Data Platform are listed in the GitLab Tech Stack.\n\n## Scope\n\n### Data Security Practices"
+            },
+            {
+                "source": "enterprise-data/platform/tableau/_index.md",
+                "content": "Governance is the combination of controls, roles, and repeatable processes that creates trust and confidence in data and analytics. Both IT and business stakeholders on the project team are responsible for defining data and content governance together. In a successful self-service environment, the appropriate levels of governance create accountability and enable, rather than restrict, access to trusted content for users at GitLab. Governance is a spectrum, different kinds of data and content"
+            },
+            {
+                "source": "enterprise-data/organization/data-steering.md",
+                "content": "- Define, approve and communicate enterprise data strategies, data policies, data standards, procedures and metrics.\n- Tracks and enforces regulatory compliance and conformance to data policies, standards and procedures\n- Understand and promote the value of data assets\n- Initiate, track and oversee the delivery of committed quarterly KRs\n- Important decision making to bring consensus around data processes, enterprise metric definitions, data mastery or reference data and validation procedures"
+            },
+            {
+                "source": "enterprise-data/organization/data-steering.md",
+                "content": "## Data Steering Committee Purpose\n\nThe purpose of this Data Steering Committee is to oversee and drive the strategic direction of GitLab Enterprise data initiatives. The forum ensures that data is leveraged effectively to support business goals, improve decision-making processes, and drive innovation. It acts as a governing body to help establish policies, standards, and best practices for data governance, data quality, data privacy, data adoption, and data security."
+            }
+        ]
+    },
+    "40": {
+        "question": "How is incident communication handled cross-functionally between the Corporate Communications team and the Infrastructure Incident Management team?",
+        "contexts": [
+            {
+                "source": "security/security-operations/sirt/security-incident-communication-plan.md",
+                "content": "### \ud83d\udc81 Corporate incident response\n\nFor Support or Infrastructure managed incidents where external communication guidance is needed, please see the corporate communications incident response plan and engage that team via #external-comms in slack.\n\n### \ud83d\udc77 Infrastructure incident response\n\nFor Infrastructure incidents, please follow the infrastructure incident management and communication process.\n\n## Defining the scope/severity of an incident"
+            },
+            {
+                "source": "support/support-incident-response.md",
+                "content": "## Cross-Functional Coordination\n\nThese roles are described in further detail in various handbook pages. The definitions below provide summary context for Support Engineering team members.\n\n### Incident Manager On-Call (IMOC)\n\n- Coordinates overall incident response and technical aspects\n- Manages status.io updates and public communications\n- Facilitates cross-team collaboration during resolution\n- Determines incident severity and closure timing\n\n### Infrastructure Team"
+            },
+            {
+                "source": "marketing/corporate-communications/incident-communications-plan.md",
+                "content": "## Incident Communication Plan\n\nWe use our incident plan and communication escalation process enables the entire organization to understand actions/inactions to take when an incident occurs. Consider it like \"tiers\", where when a specific tier is communicated to the team members, all appropriate departments know what actions to take/not take.\n\n### What is an Incident?"
+            },
+            {
+                "source": "customer-success/csm/escalations/infrastructure.md",
+                "content": "## Infrastructure Engineering Team Process for Incident Management\n\nPlease reference Infrastructure's Incident Management Handbook Page\n for a definitive record of roles & responsibilities, communication and workflow\n around infrastructure incidents when they occur.\n\n## Customer Communications for Infrastructure Incidents"
+            },
+            {
+                "source": "security/responding-to-ransomware.md",
+                "content": "***Communications:***\n\nOnce we've determined that we need to communicate externally about an incident, the SIMOC should kick off our Security incident communications plan and key stakeholders will be engaged for collaboration, review and approval on any external-facing communications.  *Note:* if customer data is exposed, external communications may be required by law."
+            }
+        ]
+    },
+    "41": {
+        "question": "How do the localization strategies of the Digital Experience team impact the Developer Relations content workflows?",
+        "contexts": [
+            {
+                "source": "marketing/developer-relations/content-effectiveness.md",
+                "content": "The key measure of content effectiveness for the Developer Relations team is how the content we create or the campaigns we contribute to influence revenue. This is done by ensuring every content item we create has an impact on the experience of GitLab users and customers. Impact is achieved by listening to the community and creating content that meets the needs of the community with relevant calls to action. We also impact the experience of users by collaborating with other teams and"
+            },
+            {
+                "source": "marketing/developer-relations/_index.md",
+                "content": "Developer Relations (short: DevRel) operates at the intersection of technology, community, and advocacy, serving as the voice and ears of GitLab in the wider tech world. Their core mission revolves around nurturing and sustaining a vibrant, engaged community of developers, contributors, and users. This involves a multifaceted approach that includes creating educational content, organizing events and workshops, developing programs, and providing platforms for knowledge exchange and"
+            },
+            {
+                "source": "marketing/_index.md",
+                "content": "- `#developer-relations`: A channel for the developer relations team to collaborate.\n- `#dev-advocacy-team`: Discuss the latest tech in DevSecOps and Cloud-Native with the Developer Advocacy team. You can request speakers, customer consultancy and technical content collaboration and guidance.\n- `#digital-experience-team`: Channel for connecting with the website development and design teams\n- `#digital-marketing`: Channel for all advertising, website analytic and general digital programs."
+            },
+            {
+                "source": "marketing/developer-relations/workflows-tools/content-review.md",
+                "content": "The Developer Relations team provides ongoing support to a number of stakeholders who create content including Product Marketing, Brand, and numerous Sales teams. In order to ensure the technical accuracy of content being created across GitLab, we conduct regular reviews of top-performing content across GitLab's main public facing content channels, notably about.gitlab.com and Highspot.\n\n## Fix Fridays"
+            },
+            {
+                "source": "company/esg.md",
+                "content": "The Developer Relations team supports GitLab\u2019s mission by working with our community to ensure they receive support and recognition for contributing to GitLab. This involves a multifaceted approach that includes creating educational content, organizing events and workshops, developing programs, and providing platforms for knowledge exchange and collaboration. The team focuses not only on promoting GitLab\u2019s features and capabilities but also on actively listening to and incorporating feedback"
+            }
+        ]
+    },
+    "42": {
+        "question": "What is the operational overlap between the Support Team's Licensing & Renewals workflows and the Deal Desk's order management processes?",
+        "contexts": [
+            {
+                "source": "sales/field-operations/sales-operations/order-management.md",
+                "content": "#### Out of Scope\n\nOrder Management is focused on Opportunity Approvals, License Fulfillment and Subscription Management. The following tasks are outside the role and responsibility of our team. Please reach out to Deal Desk for assistance with the following:"
+            },
+            {
+                "source": "sales/field-operations/sales-operations/order-management.md",
+                "content": "### What We Do\n\nThe GitLab **Order Management** team is supported by several key internal teams, including **Deal Desk**, **Billing**, and **Fulfillment**:\n\n- **Deal Desk** is responsible for the *Opportunity Approval* and *Booking Process*.\n- **Fulfillment** manages the *Initial License Delivery* process.\n- **Billing** and **Deal Desk** collaborate on *Order* and *Subscription reconciliations*."
+            },
+            {
+                "source": "sales/field-operations/sales-systems/_index.md",
+                "content": "Channel Operations and Deal Desk will work closely on all updates related to the quoting process. The purpose is to ensure that a proposed change does not contradict with an existing process that a team member may not be aware of."
+            },
+            {
+                "source": "support/license-and-renewals/workflows/working_internal_requests.md",
+                "content": "The Order Management team determines whether a license has been fulfilled automatically after opportunity closure, and if not, work with Support Engineering to ensure manual fulfillment by filing an internal request with the `Order Management` option as defined in this issue.\n\nThe `Order Management` option is therefore used to request manual license fulfillment, specifically for scenarios where a license has not been generated or sent automatically."
+            },
+            {
+                "source": "sales/commercial/renewals-faq.md",
+                "content": "A: Reach out to Deal Desk for guidance as early as possible. If all the relevant Subscriptions are co-termed (have the same end dates) and the consolidation is occurring at the time of Renewal then build the quote with all the consolidating products on the Renewal Opportunity that is associated to the namespace that will remain active. Once the Order Form is signed, Submit the Opportunity for Booking. For the remaining Renewal Opportunities reach out to Deal Desk via chatter and request they be"
+            }
+        ]
+    },
+    "43": {
+        "question": "How does the Financial Planning & Analysis team's headcount metrics influence the hiring processes within the Talent Acquisition handbook?",
+        "contexts": [
+            {
+                "source": "engineering/workflow/hiring.md",
+                "content": "The process for both new headcount and backfill processes can be found in the Talent Acquisition handbook section. Please note that we no longer require a Backfill Issue to be created and approved before we can start recruiting. Backfills are first reviewed on a weekly basis by the CTO and Engineering Leadership and a business decision is made to either open, close or repurpose the position. Your assigned recruiter will be in touch to Kickoff the role once a decision has been made. All"
+            },
+            {
+                "source": "finance/financial-planning-and-analysis/_index.md",
+                "content": "Financial Planning & Analysis (FP&A) team is the owner of SSOT for GitLab's **Hiring Plan** which contributes to our Headcount Forecast.\n\n- Headcount Forecast is a live forecast in Workday Adaptive (a financial planning software)"
+            },
+            {
+                "source": "finance/financial-planning-and-analysis/_index.md",
+                "content": "The FP&A team and Talent Acquisition Managers collaborate to ensure understanding and implementation of the most up-to-date view of forecasted headcount-related expenses. This interlock enables GitLab to respond quickly and make live decisions through a weekly P&L forecast and the rolling list of asks (RLOA) process. This process also ensures alignment and accuracy of headcount forecasts when FP&A locks its annual plan and monthly rolling forecasts. This process also tracks company metrics"
+            },
+            {
+                "source": "people-group/people-ops-tech-analytics/people-analytics/people-tableau.md",
+                "content": "- Talent Acquisition Productivity Dashboard - This dashboard is used by the Talent Acquisition department to track internal team metrics by recruiting teams and business area relative to quarterly goals."
+            },
+            {
+                "source": "finance/financial-planning-and-analysis/_index.md",
+                "content": "- Headcount Forecast includes all approved positions in AOP (i.e. Active, Planned and Backfill positions)\n  - Hiring Plan is subset of Headcount Forecast (i.e.Planned and Backfill positions only)\n- Hiring Plan is maintained by the Finance Business Partners (FBPs) and shared with Talent Acquisition (TA) team and Business Partners (BPs)\n- Finance owns the Hiring Plan to ensure there is only one Headcount Forecast and Hiring Plan for the business"
+            }
+        ]
+    },
+    "44": {
+        "question": "What collaboration exists between the Application Security Testing group and the CI/CD Pipeline Support Pod when troubleshooting vulnerability scans?",
+        "contexts": [
+            {
+                "source": "engineering/development/sec/secure/_index.md",
+                "content": "The features provided by the Application Security Testing Team are mostly present at the pipeline level, and mostly available as container images.\nThis particularity shapes our processes and QA, which differs a bit from the other stages.\n\n### Security Products\n\nWe still refer to \"*Security Products*\" as the tools developed by the Application Security Testing Team. Hence the home of our projects in GitLab: https://gitlab.com/gitlab-org/security-products/."
+            },
+            {
+                "source": "engineering/architecture/design-documents/dependency_scanning_analyzer/_index.md",
+                "content": "### Vulnerability Scanning\n\nThe analyzer integrates vulnerability scanning directly into the CI pipeline, providing immediate security feedback to developers. After generating CycloneDX SBOMs from detected dependencies, the analyzer:"
+            },
+            {
+                "source": "marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/devsecops/_index.md",
+                "content": "- What application security scans are most important to you? (SAST, DAST, IAST, dependency scanning, container scanning, secrets detection, license compliance? Mobile app testing? Fuzz testing?) Would you like to be able to run multiple types of scans for defense in depth? If you are not today, what prevents it?\n- What steps have you taken to enable developers to find and fix vulnerabilities themselves? Are the scan results in the CI pipeline?"
+            },
+            {
+                "source": "marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/devsecops/_index.md",
+                "content": "- Which of your security scans are able to provide vulnerability findings directly to the developer? Can you scan a feature branch? (before code is merged) Are you able to see the line of code and which developer created the vulnerability? Do vulnerabilities automatically initiate a work ticket/issue creation?\n- Have your teams run into roadblocks or hurdles automating security tests within the CI pipelines at scale?"
+            },
+            {
+                "source": "marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/devsecops/_index.md",
+                "content": "- Dynamic Application Security Testing - analyze review applications to identify potential security issues.\n- Dependency Scanning - evaluate third-party dependencies to identify potential security issues.\n- Container Scanning - analyze Docker images and check for potential security issues.\n- Security Dashboard - visualize security status for projects.\n- Vulnerability Management"
+            }
+        ]
+    },
+    "45": {
+        "question": "How does the Data Privacy Addendum policy managed by Legal affect the Support Team's Account Deletion workflows?",
+        "contexts": [
+            {
+                "source": "support/workflows/account_deletion_access_request_workflows.md",
+                "content": "As additional automation is added to the system, a deletion request submitted by an authorized agent or Designated Account Successor will be placed on hold until the Privacy Team validates that the legal requirements have been met. Once this validation is complete, the request will resume and should follow the Individual User Deletion workflow.\n\nThe system will automatically send the requestor a message to inform them that their request has been fulfilled once all tasks are completed."
+            },
+            {
+                "source": "support/workflows/personal_data_access_account_deletion.md",
+                "content": "{{}}\n\n## Purpose\n\nThis document provides an overview of what account deletion and data access requests are and who is responsible for processing the different aspects of each request. To learn how to process each type of request as a Support Engineer, refer to the workflows page."
+            },
+            {
+                "source": "support/workflows/personal_data_access_account_deletion.md",
+                "content": "| Role | Responsibility|\n| ---- | ------ |\n| Support Team | Maintaining this deletion process handbook page and related deletion request project and issue templates |\n| Support and Legal Team | Responsible for approving significant changes to this standard |\n| Support and Legal Team | Responsible for approving exceptions to this standard |\n| Support Global Readiness | Responsible for resourcing, namely that there are enough Support Engineers to complete requests in a timely manner |"
+            },
+            {
+                "source": "business-technology/tech-stack-applications.md",
+                "content": "As part of this process, the Business Owner must collaborate with Legal and IT Compliance to ensure that all data deletion and contractual requirements are completed according to the vendor agreement. Once all steps are validated, the system will be removed from the Tech Stack through the HelpLab workflow.\n\n## Other Related Processes\n\n### Access Requests"
+            },
+            {
+                "source": "legal/customer-negotiations.md",
+                "content": "### Data Privacy, Security and the GitLab Data Processing Addendum"
+            }
+        ]
+    },
+    "46": {
+        "question": "What is the exact hourly billing rate for a Senior Consultant engaged through the Professional Services Delivery Methodology?",
+        "contexts": [
+            {
+                "source": "customer-success/professional-services-engineering/project-mgmt/_index.md",
+                "content": "_Billable vs NonBillable information_, please refer to Team Metrics page.\n\n## Deliver, Train, and Monitor\n\n### Professional Services Delivery Methodology\n\nWe follow the PSDM (Professional Services Delivery Methodology) for all our Professional Service Engagements. The PSDM is a comprehensive framework that covers:"
+            },
+            {
+                "source": "customer-success/professional-services-engineering/professional-services-operations/_index.md",
+                "content": "- Data entry convention - Training:\n        - Standard Course Delivery: Fixed Price\n        - Pre-Configured Course Delivery:  Hourly Rate\n      - Custom Course Delivery:  Hourly Rate\n      - Example (standard course): $### per course\n      - Example (pre-config or custom): $###/hour\n    - Submit the purchase request for approval.\n    - Follow up with internal approvers as needed.\n- After submitting the Professional Services Request Form, it will apply to your Cart."
+            },
+            {
+                "source": "sales/field-operations/sales-systems/gtm-technical-documentation/_index.md",
+                "content": "then run for any Quote Rate Plan Charges related to Professional Services products."
+            },
+            {
+                "source": "customer-success/professional-services-engineering/selling.md",
+                "content": "## FAQ\n\n### Do we have set SKUs I can use?\n\nYes - for off the shelf items, we have SKUs.\n\n### What are our daily or hourly rates?\n\nWe do not currently have an hourly or daily rate.  Nor do we plan to have an hourly rate.  Just as with GitLab support, the mission of our Professional Service group is not to bill hours, but to achieve success for our Customers.  So just as we don't offer support by the call or by the hour, we do not offer Professional Services by the day or the hour."
+            },
+            {
+                "source": "customer-success/customer-success-vision/index.md",
+                "content": "## Professional Services Standard Cost\n\nWe use a standard cost estimate to project margin on PS Statements of Work. The standard rate is calculated by dividing the average annual OTE plus benefits by the estimated annual billable hours. For this calculation, we assume 1,880 billable hours annually. We update the standard cost estimate on a quarterly basis."
+            }
+        ]
+    },
+    "47": {
+        "question": "Which specific third-party vendor was selected for providing the catering services at the most recent E-Group Offsite meeting?",
+        "contexts": [
+            {
+                "source": "company/offsite/_index.md",
+                "content": "Since most of the E-Group is in the San Francisco Bay Area, we most often go to a location close to a member of the E-Group that is drivable or a short direct flight from San Francisco.\nThe E-Group offsite can also be hosted at the house of the CEO.\nThe EBA to the CEO is responsible for booking the hotel and meeting rooms for the people attending in person."
+            },
+            {
+                "source": "company/offsite/_index.md",
+                "content": "1. Ensuring the AV setup is available for use\n1. Meals and catering\n1. Schedule including arrival time and departure times\n1. Attendee count and details\n1. Share a summarized agenda detailing when meetings are taking place, which room will be used for each meeting, and the count of people in each room. If a room will be used by the Directs-Group while they are not in the E-Group Offsite meeting, note this as well."
+            },
+            {
+                "source": "company/offsite/_index.md",
+                "content": "- Logitech GROUP Video Conferencing System\n  - This is powered by a Mac Mini using Zoom Rooms and an iPad as the controller\n  - Logitech GROUP Expansion Mics are being ordered for future offsites, and will need to be connected at the October, 2022 E-Group Offsite\n- Anker 655 USB-C Hub\n- Additional 20' HDMI Cable\n- Power Strips\n- 2x MacBook Pro Chargers"
+            },
+            {
+                "source": "company/offsite/_index.md",
+                "content": "### Location: House of the CEO\n\nWe hosted the June 2022 E-Group Offsite meetings at the house of the CEO in San Francisco. When hosting at this location, the following guidelines apply.\n\nThe EBA to the CEO will coordinate with on-site contact of the house and collaborate on all details taking place at the house. This includes:"
+            },
+            {
+                "source": "marketing/field-marketing/_index.md",
+                "content": "When souring and selecting a new third-party vendor, there are a few things that should be considered:"
+            }
+        ]
+    },
+    "48": {
+        "question": "How many total lines of code are currently stored in the gitlab.com SaaS primary production database?",
+        "contexts": [
+            {
+                "source": "engineering/architecture/design-documents/modular_monolith/_index.md",
+                "content": "{{}}\n\n## Summary\n\nThe main GitLab Rails\nproject has been implemented as a large monolithic application, using\nRuby on Rails framework. It has over 2.2 million\nlines of Ruby code and hundreds of engineers contributing to it every day.\n\nThe application has been growing in complexity for more than a decade. The\nmonolithic architecture has served us well during this time, making it possible\nto keep high development velocity and great engineering productivity."
+            },
+            {
+                "source": "company/history.md",
+                "content": "This year we celebrated 10 years of GitLab, marking a decade since the first commit was made! Our focus on community contributions remained strong, averaging more than 650 code contributions a month from over 2500 wider community contributors. Thanks to our DevOps Platform, we grew to more than 1 million active license users and 30+ million estimated registered users as of August 2021. GitLab, the company, grew to over 1400 team members in 65 countries and regions around the world. We continued"
+            },
+            {
+                "source": "engineering/data-engineering/database-excellence/database-frameworks/doc/root-namespace-sharding/index.md",
+                "content": "#### Database schema\n\nGitLab's current database schema contains roughly 80 (out of 350) tables that do not have any notion of a namespace. This is a result from statically analyzing the database schema and basically checking for columns that (perhaps transitively) relate to a namespace. A summary for this analysis can be found in \"A Note on the Technical Complexities with Sharding by Namespace\" (GitLab-internal link)."
+            },
+            {
+                "source": "engineering/architecture/design-documents/cells/infrastructure/postgresql.md",
+                "content": "#### Decomposition\n\nThe application data for GitLab.com is currently decomposed into two separate database clusters, `Main` and `CI`.\nWe are evaluating if we can further decompose the `Main` database with decomposing `Secure- and Software Supply Chain Security-related tables to a separate Postgres DB to gain more headroom and scalability for the current platform."
+            },
+            {
+                "source": "engineering/architecture/guidelines/database.md",
+                "content": "This directive drives GitLab's product development: while GitLab is *SaaS first*, it is not *SaaS only*. In terms of databases, GitLab supports self-managed configurations with a single database cluster, generally through the use of logical databases. Only at scale do we contemplate unfolding the single cluster into multiple ones, as GitLab.com does. This implies that the code base stays stable and can leverage flexible backend strategies to address scalability. Self-managed and GitLab.com will"
+            }
+        ]
+    },
+    "49": {
+        "question": "What is the exact monetary budget allocated for the Marketing Department's Search Engine Optimization campaigns for FY24?",
+        "contexts": [
+            {
+                "source": "marketing/demand-generation/campaigns/_index.md",
+                "content": "#### FY24 Marketing Milestones\n\n- To be added\n\n**Campaigns Team Backlog Milestones:**"
+            },
+            {
+                "source": "marketing/marketing-operations/_index.md",
+                "content": "Align with Procurement and Finance:\n\n- Work with Procurement to structure and negotiate the contract. As well, look to do an RFP with multiple vendors for competitive pricing.\n- Align with Finance to confirm budget is accounted for in FY24.\n\nMarketing Operations role:\n\n- Marketing Operations will help to define requirements and be a trusted advisor.\n- Submit an issue (example) for new software evaluations.\n\n## MarTech Change Management\n\n### New Tool Purchase Process"
+            },
+            {
+                "source": "marketing/channel-marketing/channel-marketing-epics/_index.md",
+                "content": "* **Estimated pipeline created (USD):**  {{estimatedPipelineCreated}}\n* **Budgeted costs:** `Insert the budgeted cost`\n* **Total cost of campaign:** `Insert cost of campaign`\n* **Budget holder:** Channel Marketing\n* **Region:** {{partnerRegion}}\n* **Sub-Region**: {{geo}}\n* **Sales Territory (if specific):** `Insert the sales territory`\n* **Sales Segment:** Assumes both Large & MM unless otherwise explicitly noted."
+            },
+            {
+                "source": "marketing/developer-relations/utm-strategy.md",
+                "content": "| Campaign Budget   | utm_budget     |  cmty | Indicates which budget is used for the campaign promotion. |"
+            },
+            {
+                "source": "marketing/developer-relations/content-effectiveness.md",
+                "content": "The Marketing Campaigns Dashboard uses `utm_budget` to track campaigns and how they lead to touchpoints, lead, MQL (Qualified Leads) and eventually ARRs. This makes it very important to ensure the right `utm_budget` is used for CTAs. If you use the CommunityApps Campaign Manager, the appropriate `utm_budget` is automatically added for you by putting the link under the right team. You can access the Developer Relations team page with this link."
+            }
+        ]
+    },
+    "50": {
+        "question": "Does GitLab's Anti-Retaliation Policy guarantee that an underperforming employee cannot be fired if they file a complaint against their manager?",
+        "contexts": [
+            {
+                "source": "legal/ethics-compliance-program/_index.md",
+                "content": "### Investigations\n\nGitLab takes allegations of misconduct very seriously and want an opportunity to resolve them. Reports submitted through any avenue described above will be reviewed promptly and addressed in accordance with GitLab's Whistleblower Policy and Anti-Retaliation Policy. Potential instances of non-compliance are taken seriously, and unethical behavior and/or violations of GitLab policies may lead to termination of employment.\n\n## Ethics and Compliance Program Charter\n\n### Purpose"
+            },
+            {
+                "source": "people-policies/ireland-ltd/right-to-disconnect-policy.md",
+                "content": "The effectiveness of the Policy will be reviewed as required and we encourage team members to speak with their manager or a member of Team Member Relations if they have any concerns regarding this Policy including potential violation by others. If a team member believes that their manager is not complying with the Policy, or otherwise is not comfortable raising an issue regarding the Policy with their manager, the team member may contact Team Member Relations at teammemberrelations@gitlab.com."
+            },
+            {
+                "source": "legal/anti-corruption-policy.md",
+                "content": "**GitLab will not allow any retaliation against any Team Members and Partners who act in good faith in reporting any violation of this Policy.  The Company encourages and highly values reporting of conduct that may violate the Anti-Corruption Laws.** Per the Company's Whistleblower Policy, the Company will investigate reported violations and will determine an appropriate response, including corrective action and preventive measures as appropriate.  For further information regarding the manner"
+            },
+            {
+                "source": "legal/anti-retaliation-policy.md",
+                "content": "This Policy does not exempt Team Members from the consequences of their own misconduct, and self-reporting such issues is not Protected Activity. This Policy also does not prevent GitLab from managing Team Member performance and/or addressing conduct issues after a Team Member has engaged in Protected Activity, so long as Protected Activity is not the reason for the performance management or disciplinary action.\n\n## Reporting Procedure"
+            },
+            {
+                "source": "people-policies/india-ltd/_index.md",
+                "content": "Any individual who believes that they are experiencing retaliation, by way of intimidation, pressure to withdraw the case or threats for reporting, testifying or otherwise participating in the proceedings, should report this to the Internal Committee or following the reporting procedure set out in the GitLab Anti-Retaliation Policy. GitLab will then address the concerns raised. Any person who is found to be guilty of retaliation may be subject to appropriate disciplinary action up to and"
+            }
+        ]
+    }
+}

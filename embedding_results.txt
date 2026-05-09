@@ -1,0 +1,104 @@
+\n==================================================\nAnalyzing Set 1 (Typos - Simple)\n==================================================
+Base Question (1): What teams are structured under the Database Excellence Stage?
+Variation (2): Which teams r in Database Excellence Stage?
+  -> Cosine Similarity to Base: 0.9027
+Variation (3): What teans are structured under the Databse Excellence Stage?
+  -> Cosine Similarity to Base: 0.8945
+\n--- Context Relevancy ---
+Question (1): What teams are structured under the Database Excellence Stage?
+  Context 1 Similarity: 0.6136 | Preview: ## Mission
+
+Keep GitLab's databases running reliably through proactive health ma...
+  Context 2 Similarity: 0.5604 | Preview: DE --> DBF[Database Frameworks]
+    click DBF "/handbook/engineering/data-engine...
+  Context 3 Similarity: 0.5533 | Preview: | Databases                        | team::Database Reliability        | Bluepri...
+Question (2): Which teams r in Database Excellence Stage?
+  Context 1 Similarity: 0.5505 | Preview: ## Mission
+
+Keep GitLab's databases running reliably through proactive health ma...
+  Context 2 Similarity: 0.5030 | Preview: DE --> DBF[Database Frameworks]
+    click DBF "/handbook/engineering/data-engine...
+  Context 3 Similarity: 0.4969 | Preview: | Databases                        | team::Database Reliability        | Bluepri...
+Question (3): What teans are structured under the Databse Excellence Stage?
+  Context 1 Similarity: 0.5618 | Preview: ## Mission
+
+Keep GitLab's databases running reliably through proactive health ma...
+  Context 2 Similarity: 0.5590 | Preview: DE --> DBF[Database Frameworks]
+    click DBF "/handbook/engineering/data-engine...
+  Context 3 Similarity: 0.5481 | Preview: Data Customers expect Data Teams to provide data they can trust to make their im...
+\n==================================================\nAnalyzing Set 2 (Typos - Procedural)\n==================================================
+Base Question (21): What are the various components of the laptop security configuration standards mandated during IT onboarding?
+Variation (22): Whats included in laptop sec config standards for IT onboarding?
+  -> Cosine Similarity to Base: 0.8576
+Variation (23): What are the varous componets of the laptop secrity configuration standards?
+  -> Cosine Similarity to Base: 0.8396
+\n--- Context Relevancy ---
+Question (21): What are the various components of the laptop security configuration standards mandated during IT onboarding?
+  Context 1 Similarity: 0.6403 | Preview: All laptops should be configured with security in mind. See the linked configura...
+  Context 2 Similarity: 0.5976 | Preview: For the use case of laptop usage in untrusted environments, such as coffee shops...
+  Context 3 Similarity: 0.5978 | Preview: - EPM-12: Laptops are configured by default to prevent the use of portable stora...
+Question (22): Whats included in laptop sec config standards for IT onboarding?
+  Context 1 Similarity: 0.5889 | Preview: All laptops should be configured with security in mind. See the linked configura...
+  Context 2 Similarity: 0.5671 | Preview: - Recycle/Return Guide
+      - **Laptop Policies**
+        - Procurement Guide a...
+  Context 3 Similarity: 0.5595 | Preview: ## Basic Setup
+
+Outside of the basics listed here for all laptop and desktop sys...
+Question (23): What are the varous componets of the laptop secrity configuration standards?
+  Context 1 Similarity: 0.6333 | Preview: All laptops should be configured with security in mind. See the linked configura...
+  Context 2 Similarity: 0.5734 | Preview: - Security Standards
+  - Application Security
+  - Infrastructure Security
+- Tuto...
+  Context 3 Similarity: 0.5548 | Preview: For the use case of laptop usage in untrusted environments, such as coffee shops...
+\n==================================================\nAnalyzing Set 3 (Rephrasing - Complex)\n==================================================
+Base Question (36): How do the responsibilities of the Database Excellence Stage in Engineering intersect with the Data Governance policies in the Enterprise Data Team?
+Variation (37): How does Database Excellence Stage overlap w/ Data Governance?
+  -> Cosine Similarity to Base: 0.8350
+Variation (38): How do the responsibilites of the Databse Excellence Stage in Engineering intersect with Data Governance policies?
+  -> Cosine Similarity to Base: 0.9374
+Variation (39): What is the connection between Engineering's Database Excellence Stage and Enterprise Data's Governance policies?
+  -> Cosine Similarity to Base: 0.8858
+\n--- Context Relevancy ---
+Question (36): How do the responsibilities of the Database Excellence Stage in Engineering intersect with the Data Governance policies in the Enterprise Data Team?
+  Context 1 Similarity: 0.5852 | Preview: 1. **Data Science Team:** **Center of Excellence** for advanced analytics, inclu...
+  Context 2 Similarity: 0.5849 | Preview: ### **Evolution of Data Governance**
+
+Modern data governance has evolved from tr...
+  Context 3 Similarity: 0.5835 | Preview: - Define, approve and communicate enterprise data strategies, data policies, dat...
+Question (37): How does Database Excellence Stage overlap w/ Data Governance?
+  Context 1 Similarity: 0.5575 | Preview: - Data Governance and Quality Program _(internal only)_
+- Data Guides
+- Data Qua...
+  Context 2 Similarity: 0.5520 | Preview: ### **Evolution of Data Governance**
+
+Modern data governance has evolved from tr...
+  Context 3 Similarity: 0.5512 | Preview: ##  Data Intelligence and Governance Defined
+
+**Data Governance**
+
+At GitLab, ma...
+Question (38): How do the responsibilites of the Databse Excellence Stage in Engineering intersect with Data Governance policies?
+  Context 1 Similarity: 0.6031 | Preview: **Data Stewardship**
+
+Data stewardship formalizes the accountability for managin...
+  Context 2 Similarity: 0.5876 | Preview: ##  Data Intelligence and Governance Defined
+
+**Data Governance**
+
+At GitLab, ma...
+  Context 3 Similarity: 0.5816 | Preview: 1. Data Strategy
+1. Data Quality Management
+1. Data Security
+1. Data Lifecycle M...
+Question (39): What is the connection between Engineering's Database Excellence Stage and Enterprise Data's Governance policies?
+  Context 1 Similarity: 0.5618 | Preview: ### **Evolution of Data Governance**
+
+Modern data governance has evolved from tr...
+  Context 2 Similarity: 0.5455 | Preview: ##  Data Intelligence and Governance Defined
+
+**Data Governance**
+
+At GitLab, ma...
+  Context 3 Similarity: 0.5356 | Preview: and drive innovation. It acts as a governing body to establish policies, standar...
