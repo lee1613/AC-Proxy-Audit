@@ -1,0 +1,502 @@
+[
+    {
+        "input": "What teans are structured under the Databse Excellence Stage?",
+        "metrics": {
+            "Faithfulness": 1.0,
+            "Answer Relevancy": 1.0,
+            "Contextual Precision": 0.8333333333333333,
+            "Contextual Recall": 0.0,
+            "Contextual Relevancy": 0.23076923076923078
+        }
+    },
+    {
+        "input": "Which teams r in Database Excellence Stage?",
+        "metrics": {
+            "Faithfulness": 1.0,
+            "Answer Relevancy": 1.0,
+            "Contextual Precision": 1.0,
+            "Contextual Recall": 0.0,
+            "Contextual Relevancy": 0.11538461538461539
+        }
+    },
+    {
+        "input": "What teams are structured under the Database Excellence Stage?",
+        "metrics": {
+            "Faithfulness": 1.0,
+            "Answer Relevancy": 1.0,
+            "Contextual Precision": 1.0,
+            "Contextual Recall": 0.0,
+            "Contextual Relevancy": 0.1111111111111111
+        }
+    },
+    {
+        "input": "What distinct strategies are outlined for mitigating risk in customer accounts by Customer Success Managers?",
+        "metrics": {
+            "Faithfulness": 1.0,
+            "Answer Relevancy": 1.0,
+            "Contextual Precision": 0.5,
+            "Contextual Recall": 0.5,
+            "Contextual Relevancy": 0.3076923076923077
+        }
+    },
+    {
+        "input": "Which teams are classified under the Create Stage for source code?",
+        "metrics": {
+            "Faithfulness": 1.0,
+            "Answer Relevancy": 1.0,
+            "Contextual Precision": 0.9166666666666666,
+            "Contextual Recall": 0.5,
+            "Contextual Relevancy": 0.5
+        }
+    },
+    {
+        "input": "What are the specific stages of the Professional Services delivery methodology?",
+        "metrics": {
+            "Faithfulness": 1.0,
+            "Answer Relevancy": 0.0,
+            "Contextual Precision": 0.25,
+            "Contextual Recall": 1.0,
+            "Contextual Relevancy": 0.8571428571428571
+        }
+    },
+    {
+        "input": "What functional roles are associated with the Dev Career Framework for Frontend Engineers?",
+        "metrics": {
+            "Faithfulness": 1.0,
+            "Answer Relevancy": 1.0,
+            "Contextual Precision": 1.0,
+            "Contextual Recall": 1.0,
+            "Contextual Relevancy": 0.8888888888888888
+        }
+    },
+    {
+        "input": "What specific data guides are maintained by the Enterprise Data Team?",
+        "metrics": {
+            "Faithfulness": 1.0,
+            "Answer Relevancy": 1.0,
+            "Contextual Precision": 0.8055555555555555,
+            "Contextual Recall": 0.0,
+            "Contextual Relevancy": 0.25
+        }
+    },
+    {
+        "input": "What components are included in the Production Engineering Networking and Incident Management team's procedures?",
+        "metrics": {
+            "Faithfulness": 1.0,
+            "Answer Relevancy": 0.0,
+            "Contextual Precision": 0.5333333333333333,
+            "Contextual Recall": 0.0,
+            "Contextual Relevancy": 0.625
+        }
+    },
+    {
+        "input": "What are the core topics included in the Channel Partner Program for developing a GitLab practice?",
+        "metrics": {
+            "Faithfulness": 1.0,
+            "Answer Relevancy": 0.0,
+            "Contextual Precision": 1.0,
+            "Contextual Recall": 0.0,
+            "Contextual Relevancy": 0.8666666666666667
+        }
+    },
+    {
+        "input": "Which regions have specific entity-specific employment policies documented?",
+        "metrics": {
+            "Faithfulness": 1.0,
+            "Answer Relevancy": 0.0,
+            "Contextual Precision": 0.5,
+            "Contextual Recall": 0.5,
+            "Contextual Relevancy": 0.625
+        }
+    },
+    {
+        "input": "What areas of specialization exist within the Developer Relations Engineering team?",
+        "metrics": {
+            "Faithfulness": 1.0,
+            "Answer Relevancy": 1.0,
+            "Contextual Precision": 0.0,
+            "Contextual Recall": 0.0,
+            "Contextual Relevancy": 0.29411764705882354
+        }
+    },
+    {
+        "input": "What specific email processes are governed under Lifecycle Marketing?",
+        "metrics": {
+            "Faithfulness": 1.0,
+            "Answer Relevancy": 1.0,
+            "Contextual Precision": 0.95,
+            "Contextual Recall": 1.0,
+            "Contextual Relevancy": 0.6923076923076923
+        }
+    },
+    {
+        "input": "What metrics and processes are managed by Financial Planning & Analysis?",
+        "metrics": {
+            "Faithfulness": 0.8333333333333334,
+            "Answer Relevancy": 0.7272727272727273,
+            "Contextual Precision": 0.4777777777777777,
+            "Contextual Recall": 0.0,
+            "Contextual Relevancy": 0.4
+        }
+    },
+    {
+        "input": "What are the designated tiers in the Marketing Technology Tiering System?",
+        "metrics": {
+            "Faithfulness": 1.0,
+            "Answer Relevancy": 1.0,
+            "Contextual Precision": 0.7000000000000001,
+            "Contextual Recall": 0.5,
+            "Contextual Relevancy": 0.6896551724137931
+        }
+    },
+    {
+        "input": "What onboarding structures are available for new hires via the People Group?",
+        "metrics": {
+            "Faithfulness": 1.0,
+            "Answer Relevancy": 1.0,
+            "Contextual Precision": 0.0,
+            "Contextual Recall": 0.5,
+            "Contextual Relevancy": 0.9473684210526315
+        }
+    },
+    {
+        "input": "What specialized capabilities are required for the UX Department's Experience Research methods?",
+        "metrics": {
+            "Faithfulness": 1.0,
+            "Answer Relevancy": 1.0,
+            "Contextual Precision": 0.5,
+            "Contextual Recall": 0.0,
+            "Contextual Relevancy": 0.5833333333333334
+        }
+    },
+    {
+        "input": "What specific device trust checks are mandated by Okta Security Policies?",
+        "metrics": {
+            "Faithfulness": 1.0,
+            "Answer Relevancy": 1.0,
+            "Contextual Precision": 0.8055555555555555,
+            "Contextual Recall": 0.0,
+            "Contextual Relevancy": 0.23809523809523808
+        }
+    },
+    {
+        "input": "What types of sales plays are utilized for CI/CD Go-To-Market strategies?",
+        "metrics": {
+            "Faithfulness": 1.0,
+            "Answer Relevancy": 1.0,
+            "Contextual Precision": 0.7,
+            "Contextual Recall": 0.75,
+            "Contextual Relevancy": 0.9375
+        }
+    },
+    {
+        "input": "Which support pods specialize in specific GitLab product areas?",
+        "metrics": {
+            "Faithfulness": 1.0,
+            "Answer Relevancy": 0.0,
+            "Contextual Precision": 0.75,
+            "Contextual Recall": 1.0,
+            "Contextual Relevancy": 0.16666666666666666
+        }
+    },
+    {
+        "input": "What are the various components of the laptop security configuration standards mandated during IT onboarding?",
+        "metrics": {
+            "Faithfulness": 1.0,
+            "Answer Relevancy": 0.0,
+            "Contextual Precision": 0.8666666666666667,
+            "Contextual Recall": 0.375,
+            "Contextual Relevancy": 0.6111111111111112
+        }
+    },
+    {
+        "input": "What are the varous componets of the laptop secrity configuration standards?",
+        "metrics": {
+            "Faithfulness": 0.4,
+            "Answer Relevancy": 0.4,
+            "Contextual Precision": 0.75,
+            "Contextual Recall": 0.5333333333333333,
+            "Contextual Relevancy": 0.64
+        }
+    },
+    {
+        "input": "Whats included in laptop sec config standards for IT onboarding?",
+        "metrics": {
+            "Faithfulness": 0.75,
+            "Answer Relevancy": 1.0,
+            "Contextual Precision": 0.8055555555555555,
+            "Contextual Recall": 0.4666666666666667,
+            "Contextual Relevancy": 0.5
+        }
+    },
+    {
+        "input": "How is the Snowflake data platform governed and optimized by the Enterprise Data Team?",
+        "metrics": {
+            "Faithfulness": 1.0,
+            "Answer Relevancy": 0.0,
+            "Contextual Precision": 0.5833333333333333,
+            "Contextual Recall": 0.0,
+            "Contextual Relevancy": 0.7368421052631579
+        }
+    },
+    {
+        "input": "What guidelines and rules govern the use and integration of AI functionalities from a legal perspective?",
+        "metrics": {
+            "Faithfulness": 1.0,
+            "Answer Relevancy": 1.0,
+            "Contextual Precision": 0.8875,
+            "Contextual Recall": 0.0,
+            "Contextual Relevancy": 0.7647058823529411
+        }
+    },
+    {
+        "input": "What frameworks and tools are utilized by the Corporate Security End User Services for application provisioning?",
+        "metrics": {
+            "Faithfulness": 1.0,
+            "Answer Relevancy": 1.0,
+            "Contextual Precision": 0.0,
+            "Contextual Recall": 0.3333333333333333,
+            "Contextual Relevancy": 0.3
+        }
+    },
+    {
+        "input": "What are the required security configuration standards for corporate laptops managed by IT?",
+        "metrics": {
+            "Faithfulness": 1.0,
+            "Answer Relevancy": 0.7272727272727273,
+            "Contextual Precision": 0.8666666666666667,
+            "Contextual Recall": 0.5,
+            "Contextual Relevancy": 0.7333333333333333
+        }
+    },
+    {
+        "input": "What operational responsibilities fall under the Vulnerability Management Team's standard procedures?",
+        "metrics": {
+            "Faithfulness": 1.0,
+            "Answer Relevancy": 1.0,
+            "Contextual Precision": 0.5,
+            "Contextual Recall": 0.5,
+            "Contextual Relevancy": 0.7142857142857143
+        }
+    },
+    {
+        "input": "How does the Solutions Architecture Center of Excellence structure its technical discovery and proof of value initiatives?",
+        "metrics": {
+            "Faithfulness": 1.0,
+            "Answer Relevancy": 1.0,
+            "Contextual Precision": 1.0,
+            "Contextual Recall": 0.0,
+            "Contextual Relevancy": 0.5384615384615384
+        }
+    },
+    {
+        "input": "What processes dictate the handling of software licensing and renewals for Self-Managed environments?",
+        "metrics": {
+            "Faithfulness": 1.0,
+            "Answer Relevancy": 1.0,
+            "Contextual Precision": 0.8875,
+            "Contextual Recall": 0.0,
+            "Contextual Relevancy": 0.7
+        }
+    },
+    {
+        "input": "What are the key stages of the Product Development Flow utilized by Product Management?",
+        "metrics": {
+            "Faithfulness": 1.0,
+            "Answer Relevancy": 0.0,
+            "Contextual Precision": 0.25,
+            "Contextual Recall": 0.0,
+            "Contextual Relevancy": 0.8888888888888888
+        }
+    },
+    {
+        "input": "How is Field Operations structured to support Sales strategy and GTM enablement?",
+        "metrics": {
+            "Faithfulness": 1.0,
+            "Answer Relevancy": 0.0,
+            "Contextual Precision": 0.6791666666666667,
+            "Contextual Recall": 0.0,
+            "Contextual Relevancy": 0.6470588235294118
+        }
+    },
+    {
+        "input": "What are the foundational elements of the Engineering Career Framework across different seniority levels?",
+        "metrics": {
+            "Faithfulness": 1.0,
+            "Answer Relevancy": 0.5,
+            "Contextual Precision": 0.4777777777777777,
+            "Contextual Recall": 0.0,
+            "Contextual Relevancy": 0.8571428571428571
+        }
+    },
+    {
+        "input": "What strategies are employed by the Threat Management and Security Incident Response teams?",
+        "metrics": {
+            "Faithfulness": 1.0,
+            "Answer Relevancy": 1.0,
+            "Contextual Precision": 0.0,
+            "Contextual Recall": 0.0,
+            "Contextual Relevancy": 0.625
+        }
+    },
+    {
+        "input": "What structured learning and development programs are available through the People Group's Talent Development initiatives?",
+        "metrics": {
+            "Faithfulness": 1.0,
+            "Answer Relevancy": 1.0,
+            "Contextual Precision": 0.0,
+            "Contextual Recall": 0.0,
+            "Contextual Relevancy": 0.8888888888888888
+        }
+    },
+    {
+        "input": "How does Database Excellence Stage overlap w/ Data Governance?",
+        "metrics": {
+            "Faithfulness": 1.0,
+            "Answer Relevancy": 0.0,
+            "Contextual Precision": 0.6791666666666667,
+            "Contextual Recall": 0.0,
+            "Contextual Relevancy": 0.8333333333333334
+        }
+    },
+    {
+        "input": "How do the responsibilities of the Database Excellence Stage in Engineering intersect with the Data Governance policies in the Enterprise Data Team?",
+        "metrics": {
+            "Faithfulness": 1.0,
+            "Answer Relevancy": 1.0,
+            "Contextual Precision": 0.325,
+            "Contextual Recall": 0.0,
+            "Contextual Relevancy": 0.5333333333333333
+        }
+    },
+    {
+        "input": "How do the responsibilites of the Databse Excellence Stage in Engineering intersect with Data Governance policies?",
+        "metrics": {
+            "Faithfulness": 1.0,
+            "Answer Relevancy": 1.0,
+            "Contextual Precision": 0.0,
+            "Contextual Recall": 0.5,
+            "Contextual Relevancy": 0.4166666666666667
+        }
+    },
+    {
+        "input": "What is the connection between Engineering's Database Excellence Stage and Enterprise Data's Governance policies?",
+        "metrics": {
+            "Faithfulness": 1.0,
+            "Answer Relevancy": 1.0,
+            "Contextual Precision": 0.6791666666666667,
+            "Contextual Recall": 0.0,
+            "Contextual Relevancy": 0.625
+        }
+    },
+    {
+        "input": "How do the localization strategies of the Digital Experience team impact the Developer Relations content workflows?",
+        "metrics": {
+            "Faithfulness": 1.0,
+            "Answer Relevancy": 1.0,
+            "Contextual Precision": 0.3333333333333333,
+            "Contextual Recall": 1.0,
+            "Contextual Relevancy": 0.35714285714285715
+        }
+    },
+    {
+        "input": "How is incident communication handled cross-functionally between the Corporate Communications team and the Infrastructure Incident Management team?",
+        "metrics": {
+            "Faithfulness": 1.0,
+            "Answer Relevancy": 0.6666666666666666,
+            "Contextual Precision": 0.95,
+            "Contextual Recall": 1.0,
+            "Contextual Relevancy": 0.5833333333333334
+        }
+    },
+    {
+        "input": "What is the operational overlap between the Support Team's Licensing & Renewals workflows and the Deal Desk's order management processes?",
+        "metrics": {
+            "Faithfulness": 1.0,
+            "Answer Relevancy": 1.0,
+            "Contextual Precision": 0.3666666666666667,
+            "Contextual Recall": 0.6666666666666666,
+            "Contextual Relevancy": 0.5
+        }
+    },
+    {
+        "input": "How does the Financial Planning & Analysis team's headcount metrics influence the hiring processes within the Talent Acquisition handbook?",
+        "metrics": {
+            "Faithfulness": 1.0,
+            "Answer Relevancy": 1.0,
+            "Contextual Precision": 1.0,
+            "Contextual Recall": 0.0,
+            "Contextual Relevancy": 0.6666666666666666
+        }
+    },
+    {
+        "input": "How does the Data Privacy Addendum policy managed by Legal affect the Support Team's Account Deletion workflows?",
+        "metrics": {
+            "Faithfulness": 1.0,
+            "Answer Relevancy": 1.0,
+            "Contextual Precision": 1.0,
+            "Contextual Recall": 1.0,
+            "Contextual Relevancy": 0.38461538461538464
+        }
+    },
+    {
+        "input": "What is the exact hourly billing rate for a Senior Consultant engaged through the Professional Services Delivery Methodology?",
+        "metrics": {
+            "Faithfulness": 1.0,
+            "Answer Relevancy": 0.0,
+            "Contextual Precision": 0.0,
+            "Contextual Recall": 1.0,
+            "Contextual Relevancy": 0.17647058823529413
+        }
+    },
+    {
+        "input": "What collaboration exists between the Application Security Testing group and the CI/CD Pipeline Support Pod when troubleshooting vulnerability scans?",
+        "metrics": {
+            "Faithfulness": 1.0,
+            "Answer Relevancy": 1.0,
+            "Contextual Precision": 1.0,
+            "Contextual Recall": 1.0,
+            "Contextual Relevancy": 0.2
+        }
+    },
+    {
+        "input": "Which specific third-party vendor was selected for providing the catering services at the most recent E-Group Offsite meeting?",
+        "metrics": {
+            "Faithfulness": 1.0,
+            "Answer Relevancy": 1.0,
+            "Contextual Precision": 0.0,
+            "Contextual Recall": 0.6666666666666666,
+            "Contextual Relevancy": 0.0
+        }
+    },
+    {
+        "input": "How many total lines of code are currently stored in the gitlab.com SaaS primary production database?",
+        "metrics": {
+            "Faithfulness": 1.0,
+            "Answer Relevancy": 1.0,
+            "Contextual Precision": 0.0,
+            "Contextual Recall": 0.3333333333333333,
+            "Contextual Relevancy": 0.0
+        }
+    },
+    {
+        "input": "What is the exact monetary budget allocated for the Marketing Department's Search Engine Optimization campaigns for FY24?",
+        "metrics": {
+            "Faithfulness": 1.0,
+            "Answer Relevancy": 1.0,
+            "Contextual Precision": 0.0,
+            "Contextual Recall": 0.5,
+            "Contextual Relevancy": 0.0
+        }
+    },
+    {
+        "input": "Does GitLab's Anti-Retaliation Policy guarantee that an underperforming employee cannot be fired if they file a complaint against their manager?",
+        "metrics": {
+            "Faithfulness": 1.0,
+            "Answer Relevancy": 1.0,
+            "Contextual Precision": 1.0,
+            "Contextual Recall": 0.5,
+            "Contextual Relevancy": 0.6153846153846154
+        }
+    }
+]
